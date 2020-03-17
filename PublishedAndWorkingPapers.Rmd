@@ -1,52 +1,5 @@
 ---
 ---
-<br>
-
-### Peer-Reviewed Publications
-
-----
-
-<br>
-
-#### Kirkpatrick, A. Justin, and Lori S. Bennear. “Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy.” Journal of Environmental Economics and Management 68, no. 2 (2014): 357-375.
-
-Abstract: From 2008 to 2010 a handful of Property-Assessed Clean Energy (PACE) programs offered property-secured loans to homeowners for residential clean energy investments. This analysis uses difference-in-differences models and synthetic counterfactual models to estimate the effect of three California PACE programs on residential photovoltaic installations. We find that PACE financing increases solar installations by approximately 3.8 watts per owner-occupied household per quarter, a 108\% increase over the mean watts per owner-occupied household. Because PACE financing carries equal or higher interest rates relative to alternative financing mechanism, we argue that PACE programs can address market barriers and help address the clean energy investment gap.
-
-Download [here.](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
-
-This paper was featured in [Research Highlights in Nature Climate Change, August 2014.](https://www.nature.com/articles/nclimate2366)
-
-<br>
-
-#### Martin D. Smith, Atle Oglend, A. Justin Kirkpatrick, Frank Asche, Lori S. Bennear, J. Craig, James Nance. “Seafood Prices Reveal Impacts of a Major Ecological Disturbance.” Proceedings of the National Academy of Sciences, January 30, 2017. DOI: 10.1073/pnas.1617948114.
-
-Abstract: Coastal hypoxia (dissolved oxygen ≤ 2 mg/L) is a growing problem worldwide that threatens marine ecosystem services, but little is known about economic effects on fisheries. Here, we provide evidence that hypoxia causes economic impacts on a major fishery. Ecological studies of hypoxia and marine fauna suggest multiple mechanisms through which hypoxia can skew a population’s size distribution toward smaller individuals. These mechanisms produce sharp predictions about changes in seafood markets. Hypoxia is hypothesized to decrease the quantity of large shrimp relative to small shrimp and increase the price of large shrimp relative to small shrimp. We test these hypotheses using time series of size-based prices. Naive quantity-based models using treatment/control comparisons in hypoxic and non-hypoxic areas produce null results, but we find strong evidence of the hypothesized effects in the relative prices: Hypoxia increases the relative price of large shrimp compared with small shrimp. The effects of fuel prices provide supporting evidence. Empirical models of fishing effort and bioeconomic simulations explain why quantifying effects of hypoxia on fisheries using quantity data has been inconclusive. Specifically, spatial-dynamic feedbacks across the natural system (the fish stock) and human system (the mobile fishing fleet) confound “treated” and “control” areas. Consequently, analyses of price data, which rely on a market counterfactual, are able to reveal effects of the ecological disturbance that are obscured in quantity data. Our results are an important step toward quantifying the economic value of reduced upstream nutrient loading in the Mississippi Basin and are broadly applicable to other coupled human-natural systems.
-
-Download [here.](http://www.pnas.org/content/pnas/early/2017/01/24/1617948114.full.pdf)
-
-This paper was awarded the AAEA “Quality of Research Discovery” Award for 2018.
-
- 
-<br>
-
-#### Sills, Erin O., Diego Herrera, A. Justin Kirkpatrick, Amintas Brandão Jr, Rebecca Dickson, Simon Hall, Subhrendu Pattanayak et al. “Estimating the Impacts of Local Policy Innovation: The Synthetic Control Method Applied to Tropical Deforestation.” PLoS One 10, no. 7 (2015).
-
-Abstract: Quasi-experimental methods increasingly are used to evaluate the impacts of conservation interventions by generating credible estimates of counterfactual baselines. These methods generally require large samples for statistical comparisons, presenting a challenge for evaluating innovative policies implemented within a few pioneering jurisdictions. Single jurisdictions often are studied using comparative methods, which rely on analysts’ selection of best case comparisons. The synthetic control method (SCM) offers one systematic and transparent way to select cases for comparison, from a sizeable pool, by focusing upon similarity in outcomes before the intervention. We explain SCM, then apply it to one local initiative to limit deforestation in the Brazilian Amazon. The municipality of Paragominas launched a multi-pronged local initiative in 2008 to maintain low deforestation while restoring economic production. This was a response to having been placed, due to high deforestation, on a federal “blacklist” that increased enforcement of forest regulations and restricted access to credit and output markets. The local initiative included mapping and monitoring of rural land plus promotion of economic alternatives compatible with low deforestation. The key motivation for the program may have been to reduce the costs of blacklisting. However its stated purpose was to limit deforestation, and thus we apply SCM to estimate what deforestation would have been in a (counterfactual) scenario of no local initiative. We obtain a plausible estimate, in that deforestation patterns before the intervention were similar in Paragominas and the synthetic control, which suggests that after several years, the initiative did lower deforestation (significantly below the synthetic control in 2012). This demonstrates that SCM can yield helpful land-use counterfactuals for single units, with opportunities to integrate local and expert knowledge and to test innovations and permutations on policies that are implemented in just a few locations.
-
-Download [here.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132590)
-
- 
-<br>
-
-#### Sills, Erin, Alexander Pfaff, Luiza Andrade, Justin Kirkpatrick, and Rebecca Dickson. "Investing in local capacity to respond to a federal environmental mandate: Forest & economic impacts of the Green Municipality Program in the Brazilian Amazon." World Development 129 (2020): 104891.
-
-Abstract: For the past decade, the Brazilian federal government has offered a strong collective incentive for municipalities in the Amazon to reduce deforestation through its policy of ‘blacklisting’ municipalities where the most deforestation is occurring. We evaluate a state program to improve the capacity of local governments to respond to this incentive. The Green Municipality Program, or Programa Municípios Verdes (PMV), is voluntary: municipal governments in the state of Pará choose whether to participate in the program. To control for any differences in outcomes due solely to which municipal governments chose to participate, we employ two quasi-experimental methods: two-way fixed effects regression within a matched sample of municipalities; and the synthetic control method that compares each municipality to a synthetic match that followed a similar outcome trajectory prior to the program. We hypothesize that the PMV helped municipalities ameliorate the costs of complying with federal deforestation mandates, and we find that participation in the program increased total value added in blacklisted municipalities, with substantial heterogeneity as revealed through the synthetic control method. We show that this effect is not likely due to intensification in the agricultural sector, and we identify other possible mechanisms that would require additional data to test. By reducing the local costs of controlling deforestation, the PMV could make forest conservation more socially and politically sustainable in the long run.
-
-Download [here.](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
-
- 
-<br>
-
 ----
 
 ### Working Papers
@@ -92,6 +45,52 @@ Abstract: Net Energy Metering policies common to 41 U.S. states and parts of Eur
 Working paper available on request.
 
 
+----
+
+
+### Peer-Reviewed Publications
+
+----
+
+<br>
+
+#### Kirkpatrick, A. Justin, and Lori S. Bennear. “Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy.” Journal of Environmental Economics and Management 68, no. 2 (2014): 357-375.
+
+Abstract: From 2008 to 2010 a handful of Property-Assessed Clean Energy (PACE) programs offered property-secured loans to homeowners for residential clean energy investments. This analysis uses difference-in-differences models and synthetic counterfactual models to estimate the effect of three California PACE programs on residential photovoltaic installations. We find that PACE financing increases solar installations by approximately 3.8 watts per owner-occupied household per quarter, a 108\% increase over the mean watts per owner-occupied household. Because PACE financing carries equal or higher interest rates relative to alternative financing mechanism, we argue that PACE programs can address market barriers and help address the clean energy investment gap.
+
+Download [here.](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
+
+This paper was featured in [Research Highlights in Nature Climate Change, August 2014.](https://www.nature.com/articles/nclimate2366)
+
+<br>
+
+#### Martin D. Smith, Atle Oglend, A. Justin Kirkpatrick, Frank Asche, Lori S. Bennear, J. Craig, James Nance. “Seafood Prices Reveal Impacts of a Major Ecological Disturbance.” Proceedings of the National Academy of Sciences, January 30, 2017. DOI: 10.1073/pnas.1617948114.
+
+Abstract: Coastal hypoxia (dissolved oxygen ≤ 2 mg/L) is a growing problem worldwide that threatens marine ecosystem services, but little is known about economic effects on fisheries. Here, we provide evidence that hypoxia causes economic impacts on a major fishery. Ecological studies of hypoxia and marine fauna suggest multiple mechanisms through which hypoxia can skew a population’s size distribution toward smaller individuals. These mechanisms produce sharp predictions about changes in seafood markets. Hypoxia is hypothesized to decrease the quantity of large shrimp relative to small shrimp and increase the price of large shrimp relative to small shrimp. We test these hypotheses using time series of size-based prices. Naive quantity-based models using treatment/control comparisons in hypoxic and non-hypoxic areas produce null results, but we find strong evidence of the hypothesized effects in the relative prices: Hypoxia increases the relative price of large shrimp compared with small shrimp. The effects of fuel prices provide supporting evidence. Empirical models of fishing effort and bioeconomic simulations explain why quantifying effects of hypoxia on fisheries using quantity data has been inconclusive. Specifically, spatial-dynamic feedbacks across the natural system (the fish stock) and human system (the mobile fishing fleet) confound “treated” and “control” areas. Consequently, analyses of price data, which rely on a market counterfactual, are able to reveal effects of the ecological disturbance that are obscured in quantity data. Our results are an important step toward quantifying the economic value of reduced upstream nutrient loading in the Mississippi Basin and are broadly applicable to other coupled human-natural systems.
+
+Download [here.](http://www.pnas.org/content/pnas/early/2017/01/24/1617948114.full.pdf)
+
+This paper was awarded the AAEA “Quality of Research Discovery” Award for 2018.
+
+ 
+<br>
+
+#### Sills, Erin O., Diego Herrera, A. Justin Kirkpatrick, Amintas Brandão Jr, Rebecca Dickson, Simon Hall, Subhrendu Pattanayak et al. “Estimating the Impacts of Local Policy Innovation: The Synthetic Control Method Applied to Tropical Deforestation.” PLoS One 10, no. 7 (2015).
+
+Abstract: Quasi-experimental methods increasingly are used to evaluate the impacts of conservation interventions by generating credible estimates of counterfactual baselines. These methods generally require large samples for statistical comparisons, presenting a challenge for evaluating innovative policies implemented within a few pioneering jurisdictions. Single jurisdictions often are studied using comparative methods, which rely on analysts’ selection of best case comparisons. The synthetic control method (SCM) offers one systematic and transparent way to select cases for comparison, from a sizeable pool, by focusing upon similarity in outcomes before the intervention. We explain SCM, then apply it to one local initiative to limit deforestation in the Brazilian Amazon. The municipality of Paragominas launched a multi-pronged local initiative in 2008 to maintain low deforestation while restoring economic production. This was a response to having been placed, due to high deforestation, on a federal “blacklist” that increased enforcement of forest regulations and restricted access to credit and output markets. The local initiative included mapping and monitoring of rural land plus promotion of economic alternatives compatible with low deforestation. The key motivation for the program may have been to reduce the costs of blacklisting. However its stated purpose was to limit deforestation, and thus we apply SCM to estimate what deforestation would have been in a (counterfactual) scenario of no local initiative. We obtain a plausible estimate, in that deforestation patterns before the intervention were similar in Paragominas and the synthetic control, which suggests that after several years, the initiative did lower deforestation (significantly below the synthetic control in 2012). This demonstrates that SCM can yield helpful land-use counterfactuals for single units, with opportunities to integrate local and expert knowledge and to test innovations and permutations on policies that are implemented in just a few locations.
+
+Download [here.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132590)
+
+ 
+<br>
+
+#### Sills, Erin, Alexander Pfaff, Luiza Andrade, Justin Kirkpatrick, and Rebecca Dickson. "Investing in local capacity to respond to a federal environmental mandate: Forest & economic impacts of the Green Municipality Program in the Brazilian Amazon." World Development 129 (2020): 104891.
+
+Abstract: For the past decade, the Brazilian federal government has offered a strong collective incentive for municipalities in the Amazon to reduce deforestation through its policy of ‘blacklisting’ municipalities where the most deforestation is occurring. We evaluate a state program to improve the capacity of local governments to respond to this incentive. The Green Municipality Program, or Programa Municípios Verdes (PMV), is voluntary: municipal governments in the state of Pará choose whether to participate in the program. To control for any differences in outcomes due solely to which municipal governments chose to participate, we employ two quasi-experimental methods: two-way fixed effects regression within a matched sample of municipalities; and the synthetic control method that compares each municipality to a synthetic match that followed a similar outcome trajectory prior to the program. We hypothesize that the PMV helped municipalities ameliorate the costs of complying with federal deforestation mandates, and we find that participation in the program increased total value added in blacklisted municipalities, with substantial heterogeneity as revealed through the synthetic control method. We show that this effect is not likely due to intensification in the agricultural sector, and we identify other possible mechanisms that would require additional data to test. By reducing the local costs of controlling deforestation, the PMV could make forest conservation more socially and politically sustainable in the long run.
+
+Download [here.](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
+
+ 
 ----
 
 <br> 
