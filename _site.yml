@@ -1,0 +1,22 @@
+name: "Justin Kirkpatrick"
+output_dir: "."
+navbar:
+  title: "Justin Kirkpatrick"
+  left:
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "Code and data"
+      href: codeanddata.html
+
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-github fa-lg
+      href: http://github.com/ajkirkpatrick
+
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
