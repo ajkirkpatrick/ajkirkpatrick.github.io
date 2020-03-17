@@ -3,12 +3,12 @@ output_dir: "."
 navbar:
   title: "Justin Kirkpatrick"
   left:
-    - text: "Research"
-      href: research.html
-    - text: "Teaching"
-      href: teaching.html
-    - text: "Code and data"
-      href: codeanddata.html
+    - text: "Work-in-progress"
+      href: WorksInProgress.html
+    - text: "Research Statement"
+      href: ResearchStatement.html
+    - text: "Published and Working Papers"
+      href: PublishedAndWorkingPapers.html
 
   right:
     - icon: fa-envelope fa-lg
