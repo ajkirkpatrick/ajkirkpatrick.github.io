@@ -13,6 +13,8 @@ navbar:
         href: ResearchStatement.html
     - text: "Teaching"
       href: teaching.html
+    - text: "Google Scholar"
+      href: https://scholar.google.com/citations?user=UR8A7nIAAAAJ&hl=en
     - text: "Code and Data"
       href: codeanddata.html
 
