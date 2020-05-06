@@ -4,7 +4,7 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/justin.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/Justin.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
 
 I am an energy and environmental economist drawing from the fields of applied microeconomics, industrial organization, public economics, and consumer marketing. My research studies the drivers of the grid transition from fossil fuels to renewables in two contexts: First, by examining the economics of renewables on the grid and how wholesale electricity prices and environmental costs change as intermittent renewables and battery storage are integrated into the grid. Second, by examining household-level decisions about energy efficiency and the decision to install rooftop solar.
 
