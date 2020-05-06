@@ -13,10 +13,9 @@ navbar:
         href: ResearchStatement.html
     - text: "Teaching"
       href: teaching.html
-    - text: "Google Scholar"
+    - text: "Scholar"
       href: https://scholar.google.com/citations?user=UR8A7nIAAAAJ&hl=en
-    - text: "Code and Data"
-      href: codeanddata.html
+
 
   right:
     - icon: fa-envelope fa-lg
