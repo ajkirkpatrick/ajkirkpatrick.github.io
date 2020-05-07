@@ -14,7 +14,9 @@ title: "Justin Kirkpatrick: Research"
 
 <br>
 
-#### __Kirkpatrick, A. Justin, and Lori S. Bennear. “Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy.” Journal of Environmental Economics and Management 68, no. 2 (2014): 357-375.__
+#### [__Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy__](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
+
+Kirkpatrick, A. Justin, and Lori S. Bennear. __Journal of Environmental Economics and Management (2014)__
 
 Abstract: From 2008 to 2010 a handful of Property-Assessed Clean Energy (PACE) programs offered property-secured loans to homeowners for residential clean energy investments. This analysis uses difference-in-differences models and synthetic counterfactual models to estimate the effect of three California PACE programs on residential photovoltaic installations. We find that PACE financing increases solar installations by approximately 3.8 watts per owner-occupied household per quarter, a 108\% increase over the mean watts per owner-occupied household. Because PACE financing carries equal or higher interest rates relative to alternative financing mechanism, we argue that PACE programs can address market barriers and help address the clean energy investment gap.
 
@@ -24,7 +26,9 @@ This paper was featured in [Research Highlights in Nature Climate Change, August
 
 <br>
 
-#### __Martin D. Smith, Atle Oglend, A. Justin Kirkpatrick, Frank Asche, Lori S. Bennear, J. Craig, James Nance. “Seafood Prices Reveal Impacts of a Major Ecological Disturbance.” Proceedings of the National Academy of Sciences, January 30, 2017. DOI: 10.1073/pnas.1617948114.__
+#### [__Seafood Prices Reveal Impacts of a Major Ecological Disturbance__](http://www.pnas.org/content/pnas/early/2017/01/24/1617948114.full.pdf)
+
+Martin D. Smith, Atle Oglend, A. Justin Kirkpatrick, Frank Asche, Lori S. Bennear, J. Craig, James Nance. __Proceedings of the National Academy of Sciences (2017)__
 
 Abstract: Coastal hypoxia (dissolved oxygen ≤ 2 mg/L) is a growing problem worldwide that threatens marine ecosystem services, but little is known about economic effects on fisheries. Here, we provide evidence that hypoxia causes economic impacts on a major fishery. Ecological studies of hypoxia and marine fauna suggest multiple mechanisms through which hypoxia can skew a population’s size distribution toward smaller individuals. These mechanisms produce sharp predictions about changes in seafood markets. Hypoxia is hypothesized to decrease the quantity of large shrimp relative to small shrimp and increase the price of large shrimp relative to small shrimp. We test these hypotheses using time series of size-based prices. Naive quantity-based models using treatment/control comparisons in hypoxic and non-hypoxic areas produce null results, but we find strong evidence of the hypothesized effects in the relative prices: Hypoxia increases the relative price of large shrimp compared with small shrimp. The effects of fuel prices provide supporting evidence. Empirical models of fishing effort and bioeconomic simulations explain why quantifying effects of hypoxia on fisheries using quantity data has been inconclusive. Specifically, spatial-dynamic feedbacks across the natural system (the fish stock) and human system (the mobile fishing fleet) confound “treated” and “control” areas. Consequently, analyses of price data, which rely on a market counterfactual, are able to reveal effects of the ecological disturbance that are obscured in quantity data. Our results are an important step toward quantifying the economic value of reduced upstream nutrient loading in the Mississippi Basin and are broadly applicable to other coupled human-natural systems.
 
@@ -35,7 +39,9 @@ This paper was awarded the AAEA “Quality of Research Discovery” Award for 20
  
 <br>
 
-#### __Sills, Erin O., Diego Herrera, A. Justin Kirkpatrick, Amintas Brandão Jr, Rebecca Dickson, Simon Hall, Subhrendu Pattanayak et al. “Estimating the Impacts of Local Policy Innovation: The Synthetic Control Method Applied to Tropical Deforestation.” PLoS One 10, no. 7 (2015).__
+#### [__Estimating the Impacts of Local Policy Innovation: The Synthetic Control Method Applied to Tropical Deforestation__](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132590)
+
+Sills, Erin O., Diego Herrera, A. Justin Kirkpatrick, Amintas Brandão Jr, Rebecca Dickson, Simon Hall, Subhrendu Pattanayak et al. __PLoS One (2015)__
 
 Abstract: Quasi-experimental methods increasingly are used to evaluate the impacts of conservation interventions by generating credible estimates of counterfactual baselines. These methods generally require large samples for statistical comparisons, presenting a challenge for evaluating innovative policies implemented within a few pioneering jurisdictions. Single jurisdictions often are studied using comparative methods, which rely on analysts’ selection of best case comparisons. The synthetic control method (SCM) offers one systematic and transparent way to select cases for comparison, from a sizeable pool, by focusing upon similarity in outcomes before the intervention. We explain SCM, then apply it to one local initiative to limit deforestation in the Brazilian Amazon. The municipality of Paragominas launched a multi-pronged local initiative in 2008 to maintain low deforestation while restoring economic production. This was a response to having been placed, due to high deforestation, on a federal “blacklist” that increased enforcement of forest regulations and restricted access to credit and output markets. The local initiative included mapping and monitoring of rural land plus promotion of economic alternatives compatible with low deforestation. The key motivation for the program may have been to reduce the costs of blacklisting. However its stated purpose was to limit deforestation, and thus we apply SCM to estimate what deforestation would have been in a (counterfactual) scenario of no local initiative. We obtain a plausible estimate, in that deforestation patterns before the intervention were similar in Paragominas and the synthetic control, which suggests that after several years, the initiative did lower deforestation (significantly below the synthetic control in 2012). This demonstrates that SCM can yield helpful land-use counterfactuals for single units, with opportunities to integrate local and expert knowledge and to test innovations and permutations on policies that are implemented in just a few locations.
 
@@ -44,7 +50,9 @@ Download [here.](http://journals.plos.org/plosone/article?id=10.1371/journal.pon
  
 <br>
 
-#### __Sills, Erin, Alexander Pfaff, Luiza Andrade, Justin Kirkpatrick, and Rebecca Dickson. "Investing in local capacity to respond to a federal environmental mandate: Forest & economic impacts of the Green Municipality Program in the Brazilian Amazon." World Development 129 (2020): 104891.__
+#### [__Investing in local capacity to respond to a federal environmental mandate: Forest & economic impacts of the Green Municipality Program in the Brazilian Amazon__](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
+
+Sills, Erin, Alexander Pfaff, Luiza Andrade, Justin Kirkpatrick, and Rebecca Dickson. __World Development (2020)__
 
 Abstract: For the past decade, the Brazilian federal government has offered a strong collective incentive for municipalities in the Amazon to reduce deforestation through its policy of ‘blacklisting’ municipalities where the most deforestation is occurring. We evaluate a state program to improve the capacity of local governments to respond to this incentive. The Green Municipality Program, or Programa Municípios Verdes (PMV), is voluntary: municipal governments in the state of Pará choose whether to participate in the program. To control for any differences in outcomes due solely to which municipal governments chose to participate, we employ two quasi-experimental methods: two-way fixed effects regression within a matched sample of municipalities; and the synthetic control method that compares each municipality to a synthetic match that followed a similar outcome trajectory prior to the program. We hypothesize that the PMV helped municipalities ameliorate the costs of complying with federal deforestation mandates, and we find that participation in the program increased total value added in blacklisted municipalities, with substantial heterogeneity as revealed through the synthetic control method. We show that this effect is not likely due to intensification in the agricultural sector, and we identify other possible mechanisms that would require additional data to test. By reducing the local costs of controlling deforestation, the PMV could make forest conservation more socially and politically sustainable in the long run.
 
@@ -59,7 +67,9 @@ Download [here.](https://www.sciencedirect.com/science/article/abs/pii/S0305750X
 
 <br>
 
-#### __National Oceanic and Atmospheric Administration. National Marine Fisheries Service, Northeast Fisheries Science Center. “Socio-economic Impact of Outer Continental Shelf Wind Energy Development on Fishing in the U.S. Atlantic.” By A. Justin Kirkpatrick, Sharon Benjamin, Geret DePiper, Tammy Murphy, Scott Steinback, and Chad Demarest. OCS Study BOEM 2017-012. Woods Hole, MA, 2017.__
+#### [__Socio-economic Impact of Outer Continental Shelf Wind Energy Development on Fishing in the U.S. Atlantic.__](https://tethys.pnnl.gov/publications/socio-economic-impact-outer-continental-shelf-wind-energy-development-fisheries-us)
+
+A. Justin Kirkpatrick, Sharon Benjamin, Geret DePiper, Tammy Murphy, Scott Steinback, and Chad Demarest. __OCS Study BOEM 2017-012. National Oceanic and Atmospheric Administration. National Marine Fisheries Service, Northeast Fisheries Science Center. (2017)__
 
 Abstract: Commercial and recreational fisheries play a significant part in the U.S. economy and food supply. In 2011, U.S. landings by U.S. commercial fishermen totaled $5.3 billion in revenue and 4.5 million metric tons. Commercial harvesting alone employed over 186,000 individuals across the U. S. In 2011, 11 million recreational saltwater anglers caught an estimated 345 million fish during over 69 million trips nationwide. The nation’s fisheries operate alongside a variety of other ocean uses including transportation, natural resource extraction, and energy production. This report assesses the potential impacts to these fisheries and their shoreside dependents from wind energy development on the Atlantic Outer Continental Shelf (OCS).
 
@@ -77,16 +87,20 @@ All papers are available in the most recent version below
 <br>
 
 
-#### __Kirkpatrick, A. Justin. “Estimating Congestion Benefits of Batteries for Unobserved Networks: A Machine Learning Approach”.__
+#### [__Estimating Congestion Benefits of Batteries for Unobserved Networks: A Machine Learning Approach__](http://people.duke.edu/~ajk41/kirkpatrick-jmp.pdf)
 
-Abstract: Energy storage investment in the U.S. is forecast to reach $2.5B annually by 2020 largely due to state-level mandates and subsidies. The justification for these policies is that energy storage facilitates grid integration of renewable generation by smoothing out the frequency and severity of price spikes due to intermittent renewable supply. While operators of energy storage generate private returns through arbitrage of diurnal price differences, public benefits are derived from decreases in these price spikes. The result is a transfer from infra-marginal generators to retail utilities and consumers. This paper presents empirical estimates of energy storage price effects in California where the locations and hourly prices for 372MW of energy storage are observed. Results suggest that one megawatt of energy storage decreases afternoon peak prices by up to 2.2% at the pricing node where the storage is installed, a benefit to ratepayers of $62,467 per year. This effect coincides with the late-afternoon increase in electricity prices associated with intermittent solar generation. A double post-pooled LASSO-based estimator is used to uncover the unobserved network structure in order to estimate the cross-node price effects of storage. The results suggest that energy storage mandates in California are partially justified by public benefits.
+Kirkpatrick, A. Justin
+
+Abstract: Energy storage investment in the U.S. is forecast to reach \$2.5B annually by 2020 largely due to state-level mandates and subsidies. The justification for these policies is that energy storage facilitates grid integration of renewable generation by smoothing out the frequency and severity of price spikes due to intermittent renewable supply. While operators of energy storage generate private returns through arbitrage of diurnal price differences, public benefits are derived from decreases in these price spikes. The result is a transfer from infra-marginal generators to retail utilities and consumers. This paper presents empirical estimates of energy storage price effects in California where the locations and hourly prices for 372MW of energy storage are observed. Results suggest that one megawatt of energy storage decreases afternoon peak prices by up to 2.2% at the pricing node where the storage is installed, a benefit to ratepayers of $62,467 per year. This effect coincides with the late-afternoon increase in electricity prices associated with intermittent solar generation. A double post-pooled LASSO-based estimator is used to uncover the unobserved network structure in order to estimate the cross-node price effects of storage. The results suggest that energy storage mandates in California are partially justified by public benefits.
 
 Download most recent version [here.](http://people.duke.edu/~ajk41/kirkpatrick-jmp.pdf)
 
  
 <br>
 
-#### __Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. “Heterogeneous Environmental and Grid Benefits from Rooftop Solar and the Costs of Inefficient Siting Decisions” NBER Working Paper (November 2018).__
+#### [__Heterogeneous Environmental and Grid Benefits from Rooftop Solar and the Costs of Inefficient Siting Decisions__](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
+
+Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __NBER Working Paper (2018)__, in submission (April 2020)
 
 Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
 
@@ -97,7 +111,9 @@ Download [here.](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
  
 <br>
 
-#### __A. Justin Kirkpatrick, T. Robert Fetter. “Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking” (last updated October 2018)__
+#### [__Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking__](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
+
+A. Justin Kirkpatrick, T. Robert Fetter (last updated January 2020)
 
 Abstract: Environmental conditions such as new industrial activity or drinking water quality violations may affect perceived water quality and cause individuals to invest in averting or defensive expenditures. Some recent papers use household expenditures on bottled water to measure the welfare effect of changes in water quality, arguing that these averting expenditures are a lower bound on compensating variation. We offer a new perspective and argue that when consumers choose averting behaviors such as substituting bottled water for tap water, their willingness to pay incorporates other characteristics of the good. If consumers get positive utility from these characteristics, then expenditures on bottled water do not actually represent a lower bound on the compensating variation for a change in water quality. Rather, the observed expenditures should be adjusted downward to account for consumers’ increased utility due to other desirable characteristics. We develop a structural model of demand for bottled water and estimate it using fine-resolution supermarket scanner data, and compare the resulting estimates to averting expenditures from a reduced-form model. We use a horizontal discrete choice demand framework, drawing upon literature in empirical industrial organization and allowing for individual heterogeneity. Our structural results value the disamenity of fracking for groundwater-reliant homes at $4.14 per household per quarter, while our reduced form results estimate $3.24.
 
@@ -106,14 +122,21 @@ Download [here.](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
  
 <br>
 
-#### __Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. “Visibility and Peer Influence in Durable Good Adoption” (in review, May 2020)__
+#### [__Visibility and Peer Influence in Durable Good Adoption__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
+
+Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. (In review, May 2020)
 
 Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers' solar installations increase a household's probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.
 
 Download [here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
+
+
+<br>
 <br>
 
-#### __Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. “Household Discount Rates and Net Energy Metering Incentives for Rooftop Solar Adoption” for NBER Economics of Energy Markets 2017 (last updated June 2017)__
+#### __Household Discount Rates and Net Energy Metering Incentives for Rooftop Solar Adoption__
+
+Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. __For NBER Economics of Energy Markets 2017__ (last updated June 2017)
 
 Abstract: Net Energy Metering policies common to 41 U.S. states and parts of Europe subsidize distributed solar electricity generation by affording the generator displacement of grid electricity and export sales at retail electricity rates that value the electricity at greater than wholesale prices. This subsidy has engendered criticism on equity grounds because it affects cost shifting from relatively wealthy households who adopt solar photovoltaic capacity to poor households who bear greater shares of electric grid supply costs. This paper explores the efficiency implications of NEM policies that subsidize a future stream of electricity generation that may be highly discounted by households relative to market rates. We estimate an implied discount rate of NEM subsidies equal to 10.9-13.7% in preferred specifications, far greater than prevailing market rates, suggesting that planners could arbitrage discount rates to achieve greater solar generation per public dollar expenditure.
 
