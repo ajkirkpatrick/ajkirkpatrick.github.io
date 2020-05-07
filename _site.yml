@@ -7,7 +7,7 @@ navbar:
     - text: "Research"
       href: Research.html
     - text: "Teaching"
-      href: teaching.html
+      href: Teaching.html
     - text: "Scholar"
       href: https://scholar.google.com/citations?user=UR8A7nIAAAAJ&hl=en
 
@@ -21,4 +21,5 @@ navbar:
 output:
   html_document:
     theme: readable
-    css: ajksitecss.css
+    
+    

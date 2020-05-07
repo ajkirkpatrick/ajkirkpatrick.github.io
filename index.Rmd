@@ -2,8 +2,20 @@
 title: "Justin Kirkpatrick"
 ---
 
+```{css, echo=FALSE, include=FALSE}
 
-<link rel="stylesheet" href="styles.css" type="text/css">
+.navbar-default .navbar-brand { /* can change the first part but nothe rest*/
+  color: #18453b;
+}
+
+.nav-item .nav-link {
+  color: #18453b;
+}
+
+```
+
+
+<link rel="stylesheet" href="ajksitecss.css" type="text/css">
 
 <img src="images/Justin.jpg" style="width:25%; border:0px solid; margin-right: 25px" align="left">
 
