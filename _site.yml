@@ -2,15 +2,10 @@ name: "Justin Kirkpatrick"
 output_dir: "."
 navbar:
   title: "Justin Kirkpatrick"
+  type: 
   left:
     - text: "Research"
-      menu:
-      - text: "Published and Working Papers"
-        href: PublishedAndWorkingPapers.html
-      - text: "Works-in-progress"
-        href: WorksInProgress.html
-      - text: "Research Statement"
-        href: ResearchStatement.html
+      href: Research.html
     - text: "Teaching"
       href: teaching.html
     - text: "Scholar"
@@ -25,5 +20,5 @@ navbar:
 
 output:
   html_document:
-    theme: paper
-    css: 'styles.css'
+    theme: readable
+    css: ajksitecss.css

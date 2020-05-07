@@ -1,13 +1,20 @@
 ---
+title: "Teaching"
 ---
+
+<br>
 
 ## Michigan State University
 Department of Economics
 
 ### EC420 (Undergraduate Econometrics)
 Fall 2020
+
 Spring 2020
+
 Spring 2021 (planned)
+
+----
 
 ### SSC220 (Undergraduate Data Science)
 Spring 2021 (planned)

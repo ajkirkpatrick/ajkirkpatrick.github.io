@@ -1,0 +1,171 @@
+---
+title: "Justin Kirkpatrick: Research"
+---
+
+<br>
+
+# {.tabset .tabset-fade}
+
+## Published
+
+<br>
+
+### Peer-reviewed Publications
+
+<br>
+
+#### __Kirkpatrick, A. Justin, and Lori S. Bennear. “Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy.” Journal of Environmental Economics and Management 68, no. 2 (2014): 357-375.__
+
+Abstract: From 2008 to 2010 a handful of Property-Assessed Clean Energy (PACE) programs offered property-secured loans to homeowners for residential clean energy investments. This analysis uses difference-in-differences models and synthetic counterfactual models to estimate the effect of three California PACE programs on residential photovoltaic installations. We find that PACE financing increases solar installations by approximately 3.8 watts per owner-occupied household per quarter, a 108\% increase over the mean watts per owner-occupied household. Because PACE financing carries equal or higher interest rates relative to alternative financing mechanism, we argue that PACE programs can address market barriers and help address the clean energy investment gap.
+
+Download [here.](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
+
+This paper was featured in [Research Highlights in Nature Climate Change, August 2014.](https://www.nature.com/articles/nclimate2366)
+
+<br>
+
+#### __Martin D. Smith, Atle Oglend, A. Justin Kirkpatrick, Frank Asche, Lori S. Bennear, J. Craig, James Nance. “Seafood Prices Reveal Impacts of a Major Ecological Disturbance.” Proceedings of the National Academy of Sciences, January 30, 2017. DOI: 10.1073/pnas.1617948114.__
+
+Abstract: Coastal hypoxia (dissolved oxygen ≤ 2 mg/L) is a growing problem worldwide that threatens marine ecosystem services, but little is known about economic effects on fisheries. Here, we provide evidence that hypoxia causes economic impacts on a major fishery. Ecological studies of hypoxia and marine fauna suggest multiple mechanisms through which hypoxia can skew a population’s size distribution toward smaller individuals. These mechanisms produce sharp predictions about changes in seafood markets. Hypoxia is hypothesized to decrease the quantity of large shrimp relative to small shrimp and increase the price of large shrimp relative to small shrimp. We test these hypotheses using time series of size-based prices. Naive quantity-based models using treatment/control comparisons in hypoxic and non-hypoxic areas produce null results, but we find strong evidence of the hypothesized effects in the relative prices: Hypoxia increases the relative price of large shrimp compared with small shrimp. The effects of fuel prices provide supporting evidence. Empirical models of fishing effort and bioeconomic simulations explain why quantifying effects of hypoxia on fisheries using quantity data has been inconclusive. Specifically, spatial-dynamic feedbacks across the natural system (the fish stock) and human system (the mobile fishing fleet) confound “treated” and “control” areas. Consequently, analyses of price data, which rely on a market counterfactual, are able to reveal effects of the ecological disturbance that are obscured in quantity data. Our results are an important step toward quantifying the economic value of reduced upstream nutrient loading in the Mississippi Basin and are broadly applicable to other coupled human-natural systems.
+
+Download [here.](http://www.pnas.org/content/pnas/early/2017/01/24/1617948114.full.pdf)
+
+This paper was awarded the AAEA “Quality of Research Discovery” Award for 2018.
+
+ 
+<br>
+
+#### __Sills, Erin O., Diego Herrera, A. Justin Kirkpatrick, Amintas Brandão Jr, Rebecca Dickson, Simon Hall, Subhrendu Pattanayak et al. “Estimating the Impacts of Local Policy Innovation: The Synthetic Control Method Applied to Tropical Deforestation.” PLoS One 10, no. 7 (2015).__
+
+Abstract: Quasi-experimental methods increasingly are used to evaluate the impacts of conservation interventions by generating credible estimates of counterfactual baselines. These methods generally require large samples for statistical comparisons, presenting a challenge for evaluating innovative policies implemented within a few pioneering jurisdictions. Single jurisdictions often are studied using comparative methods, which rely on analysts’ selection of best case comparisons. The synthetic control method (SCM) offers one systematic and transparent way to select cases for comparison, from a sizeable pool, by focusing upon similarity in outcomes before the intervention. We explain SCM, then apply it to one local initiative to limit deforestation in the Brazilian Amazon. The municipality of Paragominas launched a multi-pronged local initiative in 2008 to maintain low deforestation while restoring economic production. This was a response to having been placed, due to high deforestation, on a federal “blacklist” that increased enforcement of forest regulations and restricted access to credit and output markets. The local initiative included mapping and monitoring of rural land plus promotion of economic alternatives compatible with low deforestation. The key motivation for the program may have been to reduce the costs of blacklisting. However its stated purpose was to limit deforestation, and thus we apply SCM to estimate what deforestation would have been in a (counterfactual) scenario of no local initiative. We obtain a plausible estimate, in that deforestation patterns before the intervention were similar in Paragominas and the synthetic control, which suggests that after several years, the initiative did lower deforestation (significantly below the synthetic control in 2012). This demonstrates that SCM can yield helpful land-use counterfactuals for single units, with opportunities to integrate local and expert knowledge and to test innovations and permutations on policies that are implemented in just a few locations.
+
+Download [here.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132590)
+
+ 
+<br>
+
+#### __Sills, Erin, Alexander Pfaff, Luiza Andrade, Justin Kirkpatrick, and Rebecca Dickson. "Investing in local capacity to respond to a federal environmental mandate: Forest & economic impacts of the Green Municipality Program in the Brazilian Amazon." World Development 129 (2020): 104891.__
+
+Abstract: For the past decade, the Brazilian federal government has offered a strong collective incentive for municipalities in the Amazon to reduce deforestation through its policy of ‘blacklisting’ municipalities where the most deforestation is occurring. We evaluate a state program to improve the capacity of local governments to respond to this incentive. The Green Municipality Program, or Programa Municípios Verdes (PMV), is voluntary: municipal governments in the state of Pará choose whether to participate in the program. To control for any differences in outcomes due solely to which municipal governments chose to participate, we employ two quasi-experimental methods: two-way fixed effects regression within a matched sample of municipalities; and the synthetic control method that compares each municipality to a synthetic match that followed a similar outcome trajectory prior to the program. We hypothesize that the PMV helped municipalities ameliorate the costs of complying with federal deforestation mandates, and we find that participation in the program increased total value added in blacklisted municipalities, with substantial heterogeneity as revealed through the synthetic control method. We show that this effect is not likely due to intensification in the agricultural sector, and we identify other possible mechanisms that would require additional data to test. By reducing the local costs of controlling deforestation, the PMV could make forest conservation more socially and politically sustainable in the long run.
+
+Download [here.](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
+
+ 
+----
+
+<br> 
+
+### Other Publications
+
+<br>
+
+#### __National Oceanic and Atmospheric Administration. National Marine Fisheries Service, Northeast Fisheries Science Center. “Socio-economic Impact of Outer Continental Shelf Wind Energy Development on Fishing in the U.S. Atlantic.” By A. Justin Kirkpatrick, Sharon Benjamin, Geret DePiper, Tammy Murphy, Scott Steinback, and Chad Demarest. OCS Study BOEM 2017-012. Woods Hole, MA, 2017.__
+
+Abstract: Commercial and recreational fisheries play a significant part in the U.S. economy and food supply. In 2011, U.S. landings by U.S. commercial fishermen totaled $5.3 billion in revenue and 4.5 million metric tons. Commercial harvesting alone employed over 186,000 individuals across the U. S. In 2011, 11 million recreational saltwater anglers caught an estimated 345 million fish during over 69 million trips nationwide. The nation’s fisheries operate alongside a variety of other ocean uses including transportation, natural resource extraction, and energy production. This report assesses the potential impacts to these fisheries and their shoreside dependents from wind energy development on the Atlantic Outer Continental Shelf (OCS).
+
+This analysis was conducted by the National Oceanic and Atmospheric Administration (NOAA) National Marine Fisheries Service (NMFS) for the Bureau of Ocean Energy Management (BOEM). BOEM is responsible for managing activities associated with development of Wind Energy Areas (WEAs) on the OCS. Under the National Environmental Policy Act (NEPA) and other legislation, regulations, and executive orders, BOEM is required to assess the potential impacts of WEA development. BOEM will use this report to inform decision-making related to leases on the North and Mid-Atlantic OCS; help interested stakeholders understand how the report data were developed and what they say; identify areas that require refined data analysis; and conduct an environmental assessment under NEPA.
+
+The area covered in this report extends from Massachusetts to North Carolina and includes eight wind energy planning areas, some of which were leased and some of which were still in earlier planning stages at the time of this analysis in 2013. All eight areas are generally referred to as WEAs in this report. Both exposure to WEA development and the potential associated impacts are assessed for individual WEAs and cumulatively across all eight WEAs. Exposure identifies the individuals and groups likely to be affected by WEA development, while impact analysis estimates the magnitude and direction (gain or loss) of the WEA’s impact on those potentially affected individuals and groups.
+
+Download Vol. 1 & Vol. 2 [here.](https://tethys.pnnl.gov/publications/socio-economic-impact-outer-continental-shelf-wind-energy-development-fisheries-us)
+
+
+
+## Working Papers
+All papers are available in the most recent version below
+
+<br>
+
+
+#### __Kirkpatrick, A. Justin. “Estimating Congestion Benefits of Batteries for Unobserved Networks: A Machine Learning Approach”.__
+
+Abstract: Energy storage investment in the U.S. is forecast to reach $2.5B annually by 2020 largely due to state-level mandates and subsidies. The justification for these policies is that energy storage facilitates grid integration of renewable generation by smoothing out the frequency and severity of price spikes due to intermittent renewable supply. While operators of energy storage generate private returns through arbitrage of diurnal price differences, public benefits are derived from decreases in these price spikes. The result is a transfer from infra-marginal generators to retail utilities and consumers. This paper presents empirical estimates of energy storage price effects in California where the locations and hourly prices for 372MW of energy storage are observed. Results suggest that one megawatt of energy storage decreases afternoon peak prices by up to 2.2% at the pricing node where the storage is installed, a benefit to ratepayers of $62,467 per year. This effect coincides with the late-afternoon increase in electricity prices associated with intermittent solar generation. A double post-pooled LASSO-based estimator is used to uncover the unobserved network structure in order to estimate the cross-node price effects of storage. The results suggest that energy storage mandates in California are partially justified by public benefits.
+
+Download most recent version [here.](http://people.duke.edu/~ajk41/kirkpatrick-jmp.pdf)
+
+ 
+<br>
+
+#### __Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. “Heterogeneous Environmental and Grid Benefits from Rooftop Solar and the Costs of Inefficient Siting Decisions” NBER Working Paper (November 2018).__
+
+Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
+
+Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.
+
+Download [here.](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
+
+ 
+<br>
+
+#### __A. Justin Kirkpatrick, T. Robert Fetter. “Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking” (last updated October 2018)__
+
+Abstract: Environmental conditions such as new industrial activity or drinking water quality violations may affect perceived water quality and cause individuals to invest in averting or defensive expenditures. Some recent papers use household expenditures on bottled water to measure the welfare effect of changes in water quality, arguing that these averting expenditures are a lower bound on compensating variation. We offer a new perspective and argue that when consumers choose averting behaviors such as substituting bottled water for tap water, their willingness to pay incorporates other characteristics of the good. If consumers get positive utility from these characteristics, then expenditures on bottled water do not actually represent a lower bound on the compensating variation for a change in water quality. Rather, the observed expenditures should be adjusted downward to account for consumers’ increased utility due to other desirable characteristics. We develop a structural model of demand for bottled water and estimate it using fine-resolution supermarket scanner data, and compare the resulting estimates to averting expenditures from a reduced-form model. We use a horizontal discrete choice demand framework, drawing upon literature in empirical industrial organization and allowing for individual heterogeneity. Our structural results value the disamenity of fracking for groundwater-reliant homes at $4.14 per household per quarter, while our reduced form results estimate $3.24.
+
+Download [here.](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
+
+ 
+<br>
+
+#### __Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. “Visibility and Peer Influence in Durable Good Adoption” (in review, May 2020)__
+
+Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers' solar installations increase a household's probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.
+
+Download [here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
+<br>
+
+#### __Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. “Household Discount Rates and Net Energy Metering Incentives for Rooftop Solar Adoption” for NBER Economics of Energy Markets 2017 (last updated June 2017)__
+
+Abstract: Net Energy Metering policies common to 41 U.S. states and parts of Europe subsidize distributed solar electricity generation by affording the generator displacement of grid electricity and export sales at retail electricity rates that value the electricity at greater than wholesale prices. This subsidy has engendered criticism on equity grounds because it affects cost shifting from relatively wealthy households who adopt solar photovoltaic capacity to poor households who bear greater shares of electric grid supply costs. This paper explores the efficiency implications of NEM policies that subsidize a future stream of electricity generation that may be highly discounted by households relative to market rates. We estimate an implied discount rate of NEM subsidies equal to 10.9-13.7% in preferred specifications, far greater than prevailing market rates, suggesting that planners could arbitrage discount rates to achieve greater solar generation per public dollar expenditure.
+
+Working paper available on request.
+
+
+## Work-in-progress
+
+<br>
+
+
+#### __Energy Insecurity and Redlined America__
+Solo-authored
+
+Working abstract: Low-income households frequently face excessive energy bills, despite their income limitations, that initially seem counter-intuitive. Some of this insecurity is attributable to the housing stock, which is less energy efficient in minority neighborhoods, even conditional on current income (Reames, 2016 in Energy Policy). I link this phenomenon to historic housing discrimination policy known as “redlining” which, in the 1930’s, designated tracts of urban areas as “minority appropriate” and subsequently limited lending to minorities outside of those areas. I control for endogenous selection of “redlined” areas by leveraging variation in the original survey data to identify redlined areas that originally had characteristics identical to nearby non-redlined areas, forming a quasi-experiment. Conditional on minority presence and income in both 1932 and 2010, current “redlined” areas have lower-efficiency housing stock and lower mobility of residents – a “hysteresis” effect from historic discrimination.
+
+<br>
+ 
+
+#### __Environmental Impacts of Energy Storage__
+Solo-authored
+
+Working Abstract: The environmental and health externalities of electricity demand vary through space and time as cost-minimizing dispatch varies the “marginal responding plant,’’ the plant that increases output to meet an increase in electricity demanded at some hour, in some location on the grid. Over the US and a typical year, the variation may be as much as a factor of 10, but no policy mechanism exists to price this externality into electricity rates. Energy storage allows for temporal shifting of electricity supply, charging when demand is low (overnight) and discharging when demand is high. Thus, energy storage use has important but ambiguous ramifications for externalities from local pollutants (NOx, SO2, PM2.5) and global pollutants like CO2. California, in particular, has wrestled with the net CO2 effect of energy storage, with some estimates suggesting storage increases CO2 output by drawing on high-emission sources to charge, then displacing lower-emission resources to discharge. This paper uses a highly detailed model of the marginal responding plant with increased spatial and temporal resolution relative to prior work, paired with a model of storage operation that accounts for local congestion costs to derive the net externality effects of energy storage. Preliminary results suggest that storage decreases net CO2 emissions, suggesting storage is an important part of reducing electricity-sector CO2 emissions.
+
+<br>
+
+#### __Locational Market Power: The Effect of Battery Storage in California__
+Solo-authored
+
+Working Abstract: Locational market power occurs in spatial electricity markets when physical constraints on transmission and distribution lines preclude “cheap’’ electricity from flowing to areas of high demand. This results in less elastic supply during congested hours in congested locations. Electricity generators located in these congested areas may leverage this power by shading bids upwards, extracting rents from ratepayers. This paper examines generator behavior at electricity pricing locations (“nodes”) using the arrival of grid-scale energy storage as a quasi-experiment, finding that generators increase output during the hours of highest demand. This suggests that generators are exercising market power by withholding production during very high demand periods and that energy storage may alter the incentive structure, moving existing generators into a competitive equilibrium. A model of residual demand and generator bidding is introduced and applied in California’s wholesale market over the period 2009-2016.
+
+<br>
+
+#### __Out to Sea: The Environmental Dimensions of Offshore Wind__
+Solo-authored
+
+Working abstract: Debate over the environmental impact of offshore wind relative to terrestrial wind has often overlooked the externalities produced or avoided by variation in the timing of offshore versus terrestial wind generation. Wind is produced at zero marginal cost, and thus generation displaces dispatchable fossil fuel generation in many markets, and at many hours of the day. The environmental and health externalities of electricity demand vary through space and time as cost-minimizing dispatch varies the “marginal responding plant,’’ the plant that increases output to meet an increase in electricity demanded at some hour, in some location on the grid. Since the environmental and health externalities of the displaced generation determine much of the welfare benefits from wind generation, it is important to consider the timing of offshore versus terrestrial wind, rather than simply the total amount or market value generated. This paper uses a highly detailed model of the marginal responding plant with increased spatial and temporal resolution relative to prior work, paired with data on offshore and terrestrial wind generation to derive the change in environmental and health externalities associated with offshore siting decisions. Results will inform important decisions on offshore wind siting currently being made in the US Atlantic.
+
+<br>
+
+#### __Peer Effects and Conspicuous Conservation in Rooftop Solar Adoptions__
+With Ken Gillingham, Bryan Bollinger, Steven Sexton
+
+Working abstract: Efforts to reduce negative externalities from electricity generation have emphasized distributed clean energy for well over two decades, primarily in the form of subsidies to adopters. However, non-pecuniary incentives may play a significant role in driving household adoption of clean energy generation. Previous work has established that additional solar panel installations increase the probability of subsequent adoption within a zip code (Bollinger and Gillingham, 2012 in Marketing Science). This paper seeks to disentangle one of the mechanisms of diffusion of these peer effects by leveraging exogenous variation in the visibility of a solar panel. Furthermore, we also generate a LiDAR (satellite) based method for determining the visibility of an installed solar panel accounting for nearby road alignment and intervening vegetation. In our empirical application, we construct a household panel consisting of ~90% of all households in Connecticut and estimate a model of household adoption probabilities. Results will inform policymakers about the effects of non-pecuniary incentives for residential solar installations.
+
+<br>
+
+
+#### __Valuing Solar Subsidies__
+With Ken Gillingham, Bryan Bollinger, Steven Sexton
+
+Working abstract: Existing rooftop solar subsidy regimes have generated additional solar capacity and generation at relatively high cost partly due to take-up by infra-marginal adopters, i.e., free-riders who would have adopted solar in the absence of subsidies. We consider how households trade off upfront solar PV system costs and future savings on grid electricity by exploiting exogenous variation in upfront capacity rebates in California and discrete changes in future energy savings across administrative borders. We also incorporate a unique source of exogenous variation in household solar decisions by including data from Google Sunroof, which models the rooftops of over 50 million households across the U.S., providing household-level variation in expected payoffs from solar investment even within utility rate and state incentive boundaries. We evaluate the efficiency of upfront capacity incentives that include a federal investment tax credit and state and local rebates relative to NEM policies common to 43 U.S. states. NEM policies subsidize a future stream of electricity generated over the 20-25-year lifetimes of solar PV systems. The stream of subsidies may be highly discounted by impatient households who are observed to under-invest in energy-saving durables in a phenomenon termed the “Energy Paradox” that is believed to yield an “Energy Efficiency Gap.” If households exhibit discount rates higher than market rates, then policymakers interested in increasing solar electricity generation could redeploy public resources embodied in NEM policies in the form of upfront capacity rebates or expected generation rebates that effectively arbitrage household impatience.
+
+<br>
+

@@ -1,13 +1,21 @@
 ---
+title: "Justin Kirkpatrick"
 ---
 
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-<img src="images/Justin.jpg" style="width:25%; border:10px solid; margin-right: 20px" align="left">
+<img src="images/Justin.jpg" style="width:25%; border:0px solid; margin-right: 25px" align="left">
 
-I am an energy and environmental economist drawing from the fields of applied microeconomics, industrial organization, public economics, and consumer marketing. My research studies the drivers of the grid transition from fossil fuels to renewables in two contexts: First, by examining the economics of renewables on the grid and how wholesale electricity prices and environmental costs change as intermittent renewables and battery storage are integrated into the grid. Second, by examining household-level decisions about energy efficiency and the decision to install rooftop solar.
+<h3>Assistant Professor of Economics
+<br>
+<span style="color: #18453b;">Michigan State University</span>
+</h3>
 
-I have published work in Proceedings of the National Academy of Sciences, Journal of Environmental Economics and Management, PLoS One, and World Development. I am currently a Ph.D. Candidate at Duke University and am a Sloan Foundation Pre-Doctoral Fellow in Energy Economics at the National Bureau of Economic Research (NBER). I formerly held the position of Economist with the National Marine Fisheries Service where I authored a joint BOEM/NMFS report on the economic impact of offshore wind on the US Atlantic fisheries.
+I am an energy and environmental economist in the Department of Economics at Michigan State University. I draw from the fields of applied microeconomics, industrial organization, public economics, and consumer marketing.<br>
 
-https://web.archive.org/web/20190201213203/https://sites.duke.edu/ajustinkirkpatrick/
+My research studies the drivers of the grid transition from fossil fuels to renewables in two contexts: First, by examining the economics of renewables on the grid and how wholesale electricity prices and environmental costs change as intermittent renewables and battery storage are integrated into the grid. Second, by examining household-level decisions about energy efficiency and the decision to install rooftop solar.
+
+
+
+<!--- https://web.archive.org/web/20190201213203/https://sites.duke.edu/ajustinkirkpatrick/ -->
