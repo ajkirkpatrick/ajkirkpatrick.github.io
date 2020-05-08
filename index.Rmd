@@ -17,7 +17,7 @@ title: "Justin Kirkpatrick"
 
 <link rel="stylesheet" href="ajksitecss.css" type="text/css">
 
-<img src="images/Justin.jpg" style="width:25%; border:0px solid; margin-right: 25px" align="left">
+<img src="images/JustinSmall.jpg" style="width:25%; border:0px solid; margin-right: 25px" align="left">
 
 <h3>Assistant Professor of Economics
 <br>
