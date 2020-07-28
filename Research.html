@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -85,7 +85,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -234,6 +233,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -245,18 +245,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -349,7 +337,7 @@ $(document).ready(function () {
 </div>
 <div id="estimating-the-impacts-of-local-policy-innovation-the-synthetic-control-method-applied-to-tropical-deforestation" class="section level4">
 <h4><a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132590"><strong>Estimating the Impacts of Local Policy Innovation: The Synthetic Control Method Applied to Tropical Deforestation</strong></a></h4>
-<p>Sills, Erin O., Diego Herrera, A. Justin Kirkpatrick, Amintas Brandão Jr, Rebecca Dickson, Simon Hall, Subhrendu Pattanayak et al. <strong>PLoS One (2015)</strong></p>
+<p>Sills, Erin O., Diego Herrera, A. Justin Kirkpatrick, Amintas Brandão Jr, Rebecca Dickson, Simon Hall, Subhrendu Pattanayak et al. <strong>PLoS One (2015)</strong></p>
 <p>Abstract: Quasi-experimental methods increasingly are used to evaluate the impacts of conservation interventions by generating credible estimates of counterfactual baselines. These methods generally require large samples for statistical comparisons, presenting a challenge for evaluating innovative policies implemented within a few pioneering jurisdictions. Single jurisdictions often are studied using comparative methods, which rely on analysts’ selection of best case comparisons. The synthetic control method (SCM) offers one systematic and transparent way to select cases for comparison, from a sizeable pool, by focusing upon similarity in outcomes before the intervention. We explain SCM, then apply it to one local initiative to limit deforestation in the Brazilian Amazon. The municipality of Paragominas launched a multi-pronged local initiative in 2008 to maintain low deforestation while restoring economic production. This was a response to having been placed, due to high deforestation, on a federal “blacklist” that increased enforcement of forest regulations and restricted access to credit and output markets. The local initiative included mapping and monitoring of rural land plus promotion of economic alternatives compatible with low deforestation. The key motivation for the program may have been to reduce the costs of blacklisting. However its stated purpose was to limit deforestation, and thus we apply SCM to estimate what deforestation would have been in a (counterfactual) scenario of no local initiative. We obtain a plausible estimate, in that deforestation patterns before the intervention were similar in Paragominas and the synthetic control, which suggests that after several years, the initiative did lower deforestation (significantly below the synthetic control in 2012). This demonstrates that SCM can yield helpful land-use counterfactuals for single units, with opportunities to integrate local and expert knowledge and to test innovations and permutations on policies that are implemented in just a few locations.</p>
 <p>Download <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132590">here.</a></p>
 <p><br></p>
@@ -389,7 +377,7 @@ $(document).ready(function () {
 </div>
 <div id="heterogeneous-environmental-and-grid-benefits-from-rooftop-solar-and-the-costs-of-inefficient-siting-decisions" class="section level4">
 <h4><a href="http://people.duke.edu/~ajk41/Solar_Siting.pdf"><strong>Heterogeneous Environmental and Grid Benefits from Rooftop Solar and the Costs of Inefficient Siting Decisions</strong></a></h4>
-<p>Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. <strong>NBER Working Paper (2018)</strong>, in submission (April 2020)</p>
+<p>Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. <strong>NBER Working Paper (2018)</strong>, Revise and Resubmit <em>Journal of the Assoc. of Environmental and Resource Economists</em> (July 2020)</p>
 <p>Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”</p>
 <p>Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.</p>
 <p>Download <a href="http://people.duke.edu/~ajk41/Solar_Siting.pdf">here.</a></p>
@@ -397,14 +385,14 @@ $(document).ready(function () {
 </div>
 <div id="averting-expenditures-and-desirable-goods-consumer-demand-for-bottled-water-in-the-presence-of-fracking" class="section level4">
 <h4><a href="http://people.duke.edu/~ajk41/averting_expenditures.pdf"><strong>Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking</strong></a></h4>
-<p>A. Justin Kirkpatrick, T. Robert Fetter (last updated January 2020)</p>
+<p>A. Justin Kirkpatrick, T. Robert Fetter (last updated July 2020)</p>
 <p>Abstract: Environmental conditions such as new industrial activity or drinking water quality violations may affect perceived water quality and cause individuals to invest in averting or defensive expenditures. Some recent papers use household expenditures on bottled water to measure the welfare effect of changes in water quality, arguing that these averting expenditures are a lower bound on compensating variation. We offer a new perspective and argue that when consumers choose averting behaviors such as substituting bottled water for tap water, their willingness to pay incorporates other characteristics of the good. If consumers get positive utility from these characteristics, then expenditures on bottled water do not actually represent a lower bound on the compensating variation for a change in water quality. Rather, the observed expenditures should be adjusted downward to account for consumers’ increased utility due to other desirable characteristics. We develop a structural model of demand for bottled water and estimate it using fine-resolution supermarket scanner data, and compare the resulting estimates to averting expenditures from a reduced-form model. We use a horizontal discrete choice demand framework, drawing upon literature in empirical industrial organization and allowing for individual heterogeneity. Our structural results value the disamenity of fracking for groundwater-reliant homes at $4.14 per household per quarter, while our reduced form results estimate $3.24.</p>
 <p>Download <a href="http://people.duke.edu/~ajk41/averting_expenditures.pdf">here.</a></p>
 <p><br></p>
 </div>
 <div id="visibility-and-peer-influence-in-durable-good-adoption" class="section level4">
 <h4><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420"><strong>Visibility and Peer Influence in Durable Good Adoption</strong></a></h4>
-<p>Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. (In review, May 2020)</p>
+<p>Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Revise and Resubmit <em>Marketing Science</em> (July 2020)</p>
 <p>Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers’ solar installations increase a household’s probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.</p>
 <p>Download <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420">here.</a></p>
 <p><br> <br></p>
@@ -429,6 +417,7 @@ $(document).ready(function () {
 <h4><strong>Environmental Impacts of Energy Storage</strong></h4>
 <p>Solo-authored</p>
 <p>Working Abstract: The environmental and health externalities of electricity demand vary through space and time as cost-minimizing dispatch varies the “marginal responding plant,’’ the plant that increases output to meet an increase in electricity demanded at some hour, in some location on the grid. Over the US and a typical year, the variation may be as much as a factor of 10, but no policy mechanism exists to price this externality into electricity rates. Energy storage allows for temporal shifting of electricity supply, charging when demand is low (overnight) and discharging when demand is high. Thus, energy storage use has important but ambiguous ramifications for externalities from local pollutants (NOx, SO2, PM2.5) and global pollutants like CO2. California, in particular, has wrestled with the net CO2 effect of energy storage, with some estimates suggesting storage increases CO2 output by drawing on high-emission sources to charge, then displacing lower-emission resources to discharge. This paper uses a highly detailed model of the marginal responding plant with increased spatial and temporal resolution relative to prior work, paired with a model of storage operation that accounts for local congestion costs to derive the net externality effects of energy storage. Preliminary results suggest that storage decreases net CO2 emissions, suggesting storage is an important part of reducing electricity-sector CO2 emissions.</p>
+<p>Presented at <strong>AERE 2020</strong>. Slides available on request.</p>
 <p><br></p>
 </div>
 <div id="locational-market-power-the-effect-of-battery-storage-in-california" class="section level4">
@@ -475,6 +464,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
