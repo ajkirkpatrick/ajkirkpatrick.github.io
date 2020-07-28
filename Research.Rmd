@@ -100,7 +100,7 @@ Download most recent version [here.](http://people.duke.edu/~ajk41/kirkpatrick-j
 
 #### [__Heterogeneous Environmental and Grid Benefits from Rooftop Solar and the Costs of Inefficient Siting Decisions__](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
 
-Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __NBER Working Paper (2018)__, in submission (April 2020)
+Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __NBER Working Paper (2018)__, Revise and Resubmit *Journal of the Assoc. of Environmental and Resource Economists* (July 2020)
 
 Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
 
@@ -113,7 +113,7 @@ Download [here.](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
 
 #### [__Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking__](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
 
-A. Justin Kirkpatrick, T. Robert Fetter (last updated January 2020)
+A. Justin Kirkpatrick, T. Robert Fetter (last updated July 2020)
 
 Abstract: Environmental conditions such as new industrial activity or drinking water quality violations may affect perceived water quality and cause individuals to invest in averting or defensive expenditures. Some recent papers use household expenditures on bottled water to measure the welfare effect of changes in water quality, arguing that these averting expenditures are a lower bound on compensating variation. We offer a new perspective and argue that when consumers choose averting behaviors such as substituting bottled water for tap water, their willingness to pay incorporates other characteristics of the good. If consumers get positive utility from these characteristics, then expenditures on bottled water do not actually represent a lower bound on the compensating variation for a change in water quality. Rather, the observed expenditures should be adjusted downward to account for consumers’ increased utility due to other desirable characteristics. We develop a structural model of demand for bottled water and estimate it using fine-resolution supermarket scanner data, and compare the resulting estimates to averting expenditures from a reduced-form model. We use a horizontal discrete choice demand framework, drawing upon literature in empirical industrial organization and allowing for individual heterogeneity. Our structural results value the disamenity of fracking for groundwater-reliant homes at $4.14 per household per quarter, while our reduced form results estimate $3.24.
 
@@ -124,7 +124,7 @@ Download [here.](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
 
 #### [__Visibility and Peer Influence in Durable Good Adoption__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
 
-Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. (In review, May 2020)
+Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Revise and Resubmit *Marketing Science* (July 2020)
 
 Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers' solar installations increase a household's probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.
 
@@ -160,6 +160,8 @@ Working abstract: Low-income households frequently face excessive energy bills, 
 Solo-authored
 
 Working Abstract: The environmental and health externalities of electricity demand vary through space and time as cost-minimizing dispatch varies the “marginal responding plant,’’ the plant that increases output to meet an increase in electricity demanded at some hour, in some location on the grid. Over the US and a typical year, the variation may be as much as a factor of 10, but no policy mechanism exists to price this externality into electricity rates. Energy storage allows for temporal shifting of electricity supply, charging when demand is low (overnight) and discharging when demand is high. Thus, energy storage use has important but ambiguous ramifications for externalities from local pollutants (NOx, SO2, PM2.5) and global pollutants like CO2. California, in particular, has wrestled with the net CO2 effect of energy storage, with some estimates suggesting storage increases CO2 output by drawing on high-emission sources to charge, then displacing lower-emission resources to discharge. This paper uses a highly detailed model of the marginal responding plant with increased spatial and temporal resolution relative to prior work, paired with a model of storage operation that accounts for local congestion costs to derive the net externality effects of energy storage. Preliminary results suggest that storage decreases net CO2 emissions, suggesting storage is an important part of reducing electricity-sector CO2 emissions.
+
+Presented at __AERE 2020__. Slides available on request.
 
 <br>
 
