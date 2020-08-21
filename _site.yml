@@ -11,7 +11,7 @@ navbar:
     - text: "Scholar"
       href: https://scholar.google.com/citations?user=UR8A7nIAAAAJ&hl=en
     - text: "CV"
-      href: CV_Kirkpatrick_current.pdf
+      href: CV/CV_Kirkpatrick_current.pdf
 
 
   right:
