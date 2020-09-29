@@ -93,7 +93,7 @@ Kirkpatrick, A. Justin
 
 Abstract: Energy storage investment in the U.S. is forecast to reach \$2.5B annually by 2020 largely due to state-level mandates and subsidies. The justification for these policies is that energy storage facilitates grid integration of renewable generation by smoothing out the frequency and severity of price spikes due to intermittent renewable supply. While operators of energy storage generate private returns through arbitrage of diurnal price differences, public benefits are derived from decreases in these price spikes. The result is a transfer from infra-marginal generators to retail utilities and consumers. This paper presents empirical estimates of energy storage price effects in California where the locations and hourly prices for 372MW of energy storage are observed. Results suggest that one megawatt of energy storage decreases afternoon peak prices by up to 2.2% at the pricing node where the storage is installed, a benefit to ratepayers of $62,467 per year. This effect coincides with the late-afternoon increase in electricity prices associated with intermittent solar generation. A double post-pooled LASSO-based estimator is used to uncover the unobserved network structure in order to estimate the cross-node price effects of storage. The results suggest that energy storage mandates in California are partially justified by public benefits.
 
-Download most recent version [here.](http://people.duke.edu/~ajk41/kirkpatrick-jmp.pdf)
+Download most recent version [here.](Papers/kirkpatrickEnergyStorageJan2020.pdf)
 
  
 <br>
