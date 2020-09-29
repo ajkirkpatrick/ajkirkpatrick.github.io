@@ -87,7 +87,7 @@ All papers are available in the most recent version below
 <br>
 
 
-#### [__Estimating Congestion Benefits of Batteries for Unobserved Networks: A Machine Learning Approach__](http://people.duke.edu/~ajk41/kirkpatrick-jmp.pdf)
+#### [__Estimating Congestion Benefits of Batteries for Unobserved Networks: A Machine Learning Approach__](Papers/kirkpatrickEnergyStorageJan2020.pdf)
 
 Kirkpatrick, A. Justin
 
