@@ -12,10 +12,24 @@ Fall 2020
 
 Spring 2020
 
-Spring 2021 (planned)
+Spring 2021
 
 ----
 
-### SSC220 (Undergraduate Data Science)
+### SSC442 (Undergraduate Data Analytics)
+Spring 2021
+
+Spring 2022 (planned)
+
+---
+
+### EC950/951 (Graduate Research Seminar)
+
+Fall 2020
+
+Spring 2021
+
+Fall 2021 (planned)
+
 Spring 2021 (planned)
 
