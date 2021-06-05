@@ -16,7 +16,7 @@ title: "Justin Kirkpatrick: Research"
 
 #### [__Heterogeneous Solar Capacity Benefits, Appropriability, and the Costs of Suboptimal Siting__](https://www.journals.uchicago.edu/doi/10.1086/714970)
 
-Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __NBER Working Paper (2018)__, Accepted *Journal of the Assoc. of Environmental and Resource Economists* (April 2021)
+Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. Accepted __Journal of the Assoc. of Environmental and Resource Economists (April 2021)__
 
 Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
 
@@ -27,6 +27,18 @@ Available [here](https://www.journals.uchicago.edu/doi/10.1086/714970)
 Download [NBER working paper (2018) here.](http://www.justinkirkpatrick.com/Papers/kirkpatrickSolar_Siting_wp.pdf)
 
  
+<br>
+
+
+#### [__Visibility and Peer Influence in Durable Good Adoption__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
+
+Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Accepted __Marketing Science (May 2021)__
+
+Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers' solar installations increase a household's probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.
+
+Download [here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
+
+
 <br>
 
 #### [__Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy__](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
@@ -125,16 +137,6 @@ Download [here.](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
  
 <br>
 
-#### [__Visibility and Peer Influence in Durable Good Adoption__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
-
-Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Revise and Resubmit *Marketing Science* (July 2020)
-
-Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers' solar installations increase a household's probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.
-
-Download [here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
-
-
-<br>
 <br>
 
 #### __Household Discount Rates and Net Energy Metering Incentives for Rooftop Solar Adoption__
@@ -155,6 +157,8 @@ Working paper available on request.
 Solo-authored
 
 Working abstract: Low-income households frequently face excessive energy bills, despite their income limitations, that initially seem counter-intuitive. Some of this insecurity is attributable to the housing stock, which is less energy efficient in minority neighborhoods, even conditional on current income (Reames, 2016 in Energy Policy). I link this phenomenon to historic housing discrimination policy known as “redlining” which, in the 1930’s, designated tracts of urban areas as “minority appropriate” and subsequently limited lending to minorities outside of those areas. I control for endogenous selection of “redlined” areas by leveraging variation in the original survey data to identify redlined areas that originally had characteristics identical to nearby non-redlined areas, forming a quasi-experiment. Conditional on minority presence and income in both 1932 and 2010, current “redlined” areas have lower-efficiency housing stock and lower mobility of residents – a “hysteresis” effect from historic discrimination.
+
+Presented at __AERE 2021__. Slides available on request.
 
 <br>
  

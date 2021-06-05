@@ -14,6 +14,8 @@ Spring 2020
 
 Spring 2021
 
+Spring 2022 (async. planned)
+
 ----
 
 ### SSC442 (Undergraduate Data Analytics)
