@@ -14,6 +14,20 @@ title: "Justin Kirkpatrick: Research"
 
 <br>
 
+#### [__Heterogeneous Solar Capacity Benefits, Appropriability, and the Costs of Suboptimal Siting__](https://www.journals.uchicago.edu/doi/10.1086/714970)
+
+Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __NBER Working Paper (2018)__, Accepted *Journal of the Assoc. of Environmental and Resource Economists* (April 2021)
+
+Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
+
+Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.
+
+Available [here](https://www.journals.uchicago.edu/doi/10.1086/714970)
+Download [NBER working paper here.](/Papers/kirkpatrickSolar_Siting_wp.pdf)
+
+ 
+<br>
+
 #### [__Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy__](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
 
 Kirkpatrick, A. Justin, and Lori S. Bennear. __Journal of Environmental Economics and Management (2014)__
@@ -98,18 +112,6 @@ Download most recent version [here.](Papers/kirkpatrickEnergyStorageJan2020.pdf)
  
 <br>
 
-#### [__Heterogeneous Environmental and Grid Benefits from Rooftop Solar and the Costs of Inefficient Siting Decisions__](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
-
-Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __NBER Working Paper (2018)__, Revise and Resubmit *Journal of the Assoc. of Environmental and Resource Economists* (July 2020)
-
-Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
-
-Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.
-
-Download [here.](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
-
- 
-<br>
 
 #### [__Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking__](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
 
