@@ -23,7 +23,8 @@ Formerly titled â€œSiting Solar PV Capacity to Maximize Environmental Benefitsâ€
 Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.
 
 Available [here](https://www.journals.uchicago.edu/doi/10.1086/714970)
-Download [NBER working paper here.](/Papers/kirkpatrickSolar_Siting_wp.pdf)
+
+Download [NBER working paper (2018) here.](http://www.justinkirkpatrick.com/Papers/kirkpatrickSolar_Siting_wp.pdf)
 
  
 <br>
