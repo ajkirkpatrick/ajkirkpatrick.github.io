@@ -18,16 +18,7 @@ Download most recent version [here.](http://people.duke.edu/~ajk41/kirkpatrick-j
  
 <br>
 
-#### Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. “Heterogeneous Environmental and Grid Benefits from Rooftop Solar and the Costs of Inefficient Siting Decisions” Forthcoming as NBER Working Paper (November 2018).
 
-Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
-
-Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.
-
-Download [here.](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
-
- 
-<br>
 
 #### A. Justin Kirkpatrick, T. Robert Fetter. “Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking” (last updated October 2018)
 
@@ -90,6 +81,22 @@ Abstract: For the past decade, the Brazilian federal government has offered a st
 
 Download [here.](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
 
+
+<br>
+
+
+#### Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. “Heterogeneous Solar Capacity Benefits, Appropriability, and the Costs of Suboptimal Siting” Journal of the Association of Environmental and Resource Economists 8 (September 2021)
+
+Formerly titled “Heterogeneous Environmental and Grid Benefits from Rooftop Solar and the Costs of Inefficient Siting Decisions” NBER Working Paper (November 2018)
+
+Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.
+
+Published copy [here.](https://www.journals.uchicago.edu/doi/abs/10.1086/714970)
+
+Ungated working paper [here.](http://people.duke.edu/~ajk41/Solar_Siting.pdf)
+
+ 
+<br>
  
 ----
 

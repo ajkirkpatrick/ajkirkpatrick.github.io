@@ -16,7 +16,7 @@ title: "Justin Kirkpatrick: Research"
 
 #### [__Heterogeneous Solar Capacity Benefits, Appropriability, and the Costs of Suboptimal Siting__](https://www.journals.uchicago.edu/doi/10.1086/714970)
 
-Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. Accepted __Journal of the Assoc. of Environmental and Resource Economists (2021)__
+Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __Journal of the Assoc. of Environmental and Resource Economists (September 2021)__
 
 Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
 
@@ -32,7 +32,7 @@ Download [NBER working paper (2018) here.](http://www.justinkirkpatrick.com/Pape
 
 #### [__Visibility and Peer Influence in Durable Good Adoption__](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
 
-Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Accepted __Marketing Science (2021)__
+Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Forthcoming __Marketing Science (2022)__
 
 Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers' solar installations increase a household's probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.
 
