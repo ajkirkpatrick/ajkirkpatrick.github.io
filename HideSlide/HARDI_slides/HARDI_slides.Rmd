@@ -1,8 +1,8 @@
 ---
 title: "What drives demand for heat pumps?"
-subtitle: "In four slides"
-author: "Justin Kirkpatrick, Soren Anderson, Michigan State University"
-date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
+subtitle: "in four slides"
+author: "Justin Kirkpatrick & Soren Anderson, Michigan State University.<br>Slides at: .orange[bit.ly/MSU_HARDI]"
+date: ".font50[Last updated `r format(Sys.Date(), '%B %d, %Y')`]"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -188,7 +188,7 @@ name: DataNeeds
 ### Optimal data
 - We know national level monthly [shipments](#AnnualShipments), but to really answer the questions, we need **product x market x time** data with price and quantity.
 
-  - Product: Model, rating, fuel type
+  - Product: Model, size, rating, fuel type, CCHP
 
   - Market: County, metro area, or state
   
