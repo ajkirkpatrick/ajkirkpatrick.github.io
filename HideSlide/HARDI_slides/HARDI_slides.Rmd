@@ -203,6 +203,18 @@ name: DataNeeds
 
 
 ---
+class: inverseMSU
+count: false
+
+.font400[Thanks!]
+
+Justin:
+[jkirk@msu.edu](mailto:jkirk@msu.edu)
+
+Soren:
+[sta@msu.edu](mailto:sta@msu.edu)
+
+---
 class: MSU
 name: PriceDistortions
 count: false
@@ -227,7 +239,7 @@ count: false
 include_graphics('./img/plot-RECS-1-1.png')
 ```
 
-.font50[.center[Author's calculations from RECS 2009 and 2015]]
+.font50[.center[Author's calculations from [EIA RECS](https://www.eia.gov/consumption/residential/) 2009 and 2015]]
 
 ---
 class: MSU
@@ -243,7 +255,7 @@ count: false
 ```{r, out.width = '80%'}
 include_graphics('./img/PlotAnnualShipments-1.png')
 ```
-.font50[.center[Author's calculations AHRI public data]]
+.font50[.center[Author's calculations [AHRI public data](https://www.ahrinet.org/statistics)]]
 
 
 
@@ -259,19 +271,10 @@ count: false
 ```{r, out.width = '80%'}
 include_graphics('./img/PlotAnnualShares-1.png')
 ```
-.font50[.center[Author's calculations AHRI public data]]
+
+.font50[.center[Author's calculations [AHRI public data](https://www.ahrinet.org/statistics)]]
 
 
----
-class: MSU
-name: AnnualSharesX
-count: false
 
-# Supplemental
-
-### Annual shares of air-source heat pumps by service
-
-![](img/PlotAnnualShares-1.png)
-.font50[.center[Author's calculations AHRI public data]]
 
 
