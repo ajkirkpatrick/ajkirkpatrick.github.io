@@ -1,7 +1,7 @@
 ---
-title: "Heat Pump Demand Research"
+title: "What drives demand for heat pumps?"
 subtitle: "In four slides"
-author: "Justin Kirkpatrick, Soren Anderson"
+author: "Justin Kirkpatrick, Soren Anderson, Michigan State University"
 date: "Last updated `r format(Sys.Date(), '%B %d, %Y')`"
 output:
   xaringan::moon_reader:
@@ -130,7 +130,7 @@ count:false
 
 - These artificially high electricity prices are a barrier to adopting heat pumps. 
 
-  - Especially important for [propane users](#HeatExpenditure), who tend to spend more on heating, have lower-income, and face volatile propane prices.
+  - Especially important for [propane users](#HeatExpenditure), who tend to spend more on heating, have lower income, and face volatile propane prices.
   
 --
   
@@ -145,7 +145,7 @@ name: DataNeeds
 # Data Needs
 
 
-### The key to answering these questions is understanding how consumers weigh their current fuel prices in deciding to switch fuels.
+### Key: How important are energy prices for fuel switching?
 
 - If electricity prices go up in a region, are fewer heat pumps installed relative to a region where electricity prices did not increase?
 
@@ -155,24 +155,29 @@ name: DataNeeds
 
 ### Your data can help answer this question
 
-- We can measure the amount of switching taking place in a market over time using the *quantities and fuel types of heaters and air conditioners shipped to each market over time.*
+- We can measure fuel switching using the *quantities, prices, and fuel types of heaters and air conditioners shipped to each market over time.*
 
 - We can combine that with utility rates and propane prices in each market over time.
 
 ---
 class: MSU
 name: Synergies
-# How can we help you?
+# How can our research help you?
 
 
-### Answering our research questions also:
-- Provides insight into consumer demand under different electricity prices
-  - And under different subsidy schemes
+### We will show how consumer demand depends on:
+
+  - Different energy prices
+
+  - Different subsidy schemes
   
-- Shows whether or not propane-to-heat pump switching is likely to increase significantly when propane prices increase or become more volatile
-  - Helpful for demand forecasting, planning
+  - Different retail prices
+  
+### We will show whether propane-to-heat pump switching increases when propane prices increase or become more volatile
 
-- We are open to other overlapping benefits, just ask.
+  - Helpful for demand trend forecasting, planning
+
+### We are open to other overlapping questions, just ask.
 
 
 ---
@@ -181,10 +186,13 @@ name: DataNeeds
 # Data Requests
 
 ### Optimal data
-- Optimal data would be market x quarter sales (qty, price) by type
-  - We know national level monthly [shipments](#AnnualShipments), but market-level opens the door to understanding role of electricity and propane prices.
+- We know national level monthly [shipments](#AnnualShipments), but to really answer the questions, we need **product x market x time** data with price and quantity.
 
-- We understand stakeholder/member concerns and can work well with less-than-optimal data.
+  - Product: Model, rating, fuel type
+
+  - Market: County, metro area, or state
+  
+  - Time: Month or quarter
 
 ### Data security
 - Experienced at handling confidential data
