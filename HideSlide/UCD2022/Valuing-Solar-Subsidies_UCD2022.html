@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Valuing Solar Subsidies</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Bryan Bollinger (NYU), Ken Gillingham (Yale), Justin Kirkpatrick (Michigan State), Steve Sexton (Duke)" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/ajk_css-Apr2022.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Valuing Solar Subsidies
+## UC Davis - April 2022
+### Bryan Bollinger (NYU), Ken Gillingham (Yale), Justin Kirkpatrick (Michigan State), Steve Sexton (Duke)
+### Last updated April 12, 2022
+
+---
+
+
+
+
+
+
+layout: true
+
+
+&lt;div class="msu-header"&gt;&lt;/div&gt; 
+
+
+&lt;!-- --- --&gt;
+&lt;!-- class: inverseMSU --&gt;
+&lt;!-- # Context --&gt;
+
+&lt;!-- ### Net metering incentive --&gt;
+
+&lt;!-- - Solar self-generation offsets consumption within a month, regardless of when the kWh is produced. --&gt;
+
+
+&lt;!-- -- --&gt;
+
+&lt;!-- - Effect on bill --&gt;
+&lt;!--   - Allows consumer to reduce amount paid to utility by the retail rate per kWh generated during month --&gt;
+&lt;!--   - Under **block-tier pricing**, bill reduction starts at highest rate. --&gt;
+&lt;!--   - If each kWh reduces bill by retail rate, but utility could acquire that kWh at wholesale rate, net metering is a **flow (monthly) subsidy** --&gt;
+&lt;!--   - While not from government accounts, this **is** a transfer from non-solar to solar customers --&gt;
+
+
+
+---
+class: inverseMSU
+# Context
+
+### Focus on Net metering incentive
+
+- During sunny periods, "spin the meter backwards"
+  - Offsets consumption after sunset, lowering total amount billed.
+  - Depending on "true-up period", can bank net-negative months
+  - Utility acts like a *battery*, banking during day, offseting at night.
+--
+
+- Effect on bill
+  - Under **block-tier pricing**, net metering allows consumer to sell power to utility at highest retail rate
+  - Because retail marginal rate is increasing, the first kilowatt-hours (kWh) "rolled back" are the *most expensive*.
+  - If each kWh reduces bill by top tier rate, but utility could acquire that kWh at wholesale rate, net metering is a **flow (monthly) subsidy**
+--
+
+- Solar households pay far less, even when depending on grid electricity.
+  - Fixed costs are included in per-kWh retail prices `\(\rightarrow\)` increases cost on non-solar households.
+ 
+
+---
+class: MSU
+# Context
+
+### Net metering has been controversial
+
+
+
+
+
+---
+class: MSU
+count: true
+# Context
+
+### Solar Net Metering provides a flow benefit to solar adopters
+- May be rationalized by reduction in externalities
+  - Probably not: Sexton et al. (2021)
+- Learn-by-doing: 
+  - Probably not: Bollinger and Gillingham (2019)
+- Nevertheless, it continues
+
+--
+
+### Value of flow payoff depends on household discount rate `\(\delta\)`
+&lt;!-- - Under high household discount rates and low government borrowing rates, a budget-neutral up-front subsidy policy may be more effective --&gt;
+
+--
+
+### Household **heterogeneity** in `\(\delta\)` `\(\rightarrow\)` different NPV for flow
+- Especially if low-wealth households have higher `\(\delta\)`
+
+---
+class: MSU
+# Context
+
+### `\(\delta\)` may explain differences in solar adoption across wealth and income
+- Bednar, Reames, and Keoleian (2017) show lower-wealth households tend to spend *more* on electricity per sq ft
+  - Borenstein and Davis (2016) top quintile of income received 60% of all federal tax benefits
+  - O'Shaughnessy et al (2020) on income inequity in solar adoption
+  - O'Shaughnessy (2022) and Borenstein (2022) in *Nature Energy*
+  
+
+
+
+
+---
+class: MSU
+# Research Questions
+
+### Q1: How do households discount future payoffs from solar?
+
+This speaks to economic efficiency of any similar flow subsidy for an up-front cost
+
+--
+
+### Q2: Do discount rates vary systematically over wealth?
+
+This speaks to whether or not the choice to use a potentially inefficient flow incentive (like net metering) exacerbates distributional differences.
+
+--
+
+### Policy lever: put the subsidy up front 
+- Increase efficiency with up-front subsidies
+- If discount rates vary systematically `\(\rightarrow\)` less disparity in solar uptake.
+- Many states working on new versions of net metering
+- Any proposed reform requires understanding effect of flow vs. up-front subsidies by wealth or income
+
+
+---
+class: MSU
+# Literature
+
+### Discount rates in energy investments: Energy-Efficiency Gap
+- Large literature finding implicit discount rates between 10% and 30+%
+  - .font70[Hausman (1979); Busse, Knittel, and Zettelmeyer (2013); Bollinger (2015); see Train (1985) for early summary]
+
+### Discount rates in solar panel adoption
+- de Groote and Verboven (2019) find 15% implicit discount rates
+  - Identified using dynamic model of installation shares in Belgium with time variation in per-kWh-produced subsidy, panel costs
+  - Abstracts away from household variation in cost, potential generation.
+  
+### Discount rates over wealth
+- Lawrance (1991) - 12-20% using PSID
+- Houde and Myers (2021) find heterogeneity in valuation of flow energy costs relative to up-front costs
+  - Uses zip-level aggregate purchases and wealth; county-year level variation in energy costs
+
+
+---
+class: MSU
+# Overview
+
+&lt;!-- ### This paper leverages variation across time and household in the "solar payoff" to estimate discount rates (Q1), allowing for heterogeneity by wealth (Q2). --&gt;
+
+
+### This paper
+- Household-level variation allows for credible estimates of heterogeneous `\(\delta\)`
+
+
+--
+
+Estimating discount rates requires variation that changes expected discounted future utilities without affecting current period utility (Magnac and Thesmar (2002))
+
+- Household variation in flow incentives (payoff) comes from:
+  - Variation in electricity rates over *location*
+  - Variation in electricity rates over *time*
+  - Variation in consumption levels over *household*
+  - **Variation in potential generation over household**
+  
+---
+class: MSU
+# Overview
+
+### Empirical Setting
+- California under NEM 1.0 (2014-2016)
+  - Post-expiration of CSI subsidies
+
+--
+
+### Roadmap
+1. Sources of identifying variation &amp; data
+2. Model
+  - Optimal sizing
+  - Adoption
+  - Quasi-unobserved heterogeneity in consumption
+3. Estimation
+4. Results
+
+
+
+---
+class: heading-slide
+name: idvar
+
+Sources of Identifying Variation
+
+---
+class: MSU
+name: backData
+# Identifying Variation
+
+
+&lt;img src="./Images/Climate_zones_CaEnergyComm.png" width="45%" style="display: block; margin: auto;" /&gt;
+
+**Climate zones** allow different thresholds for block pricing steps.
+&lt;!-- **Climate zones** allow different thresholds for block pricing steps. .font70[[Show boundaries](#Boundaries)] --&gt;
+- Two identical households with identical consumption on each side will face different marginal prices, different average prices, different payoff from solar.
+&lt;!-- - Rates (at each of 4 tiers) change over time. .font70[[Show rates](#RATES)] --&gt;
+- Rates (at each of 4 tiers) change over time.
+
+
+---
+class: MSU
+# Identifying Variation
+
+Rate zone boundaries .font70[from Bollinger, Gillingham, Kirkpatrick, and Sexton (2017)]
+&lt;img src="./Images/All_used_CA_zips_color_by_IOU_boundary_zone_outline_v2CROP.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: MSU
+# Identifying Variation
+
+### Rates: California has 4 (later 3) tiers of pricing during study window.
+
+&lt;img src="./Images/Rates_over_time.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: MSU
+# Identifying Variation
+
+### Variation in cost per kWh of solar generation using Google Project Sunroof
+
+&lt;img src="./Images/JustinHouse.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+--
+&lt;img src="./Images/SorenHouse.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+class: MSU
+name: backSize
+# Identifying Variation
+
+### Google Sunroof roof irradiance
+- Marginal generation of each 250w panel (weakly decreasing-ish)
+- Converting generation to marginal cost requires fixing `\(\delta\)`
+- Roof irradiance affects optimal size and flow payoff
+
+&lt;!-- - Optimal size depends on this curve, household consumption `\(q^0\)`, and electricity price tier structure. .font70[[Optimal sizing model](#OptimalSize)] --&gt;
+
+
+&lt;img src="./Images/GS_example.png" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+class: heading-slide
+
+Optimal Sizing Model
+
+---
+class: MSU
+# Optimal sizing
+
+### Optimal sizing
+.more-left[
+.center[![](./Images/Fig3_v5.png)]
+]
+  
+  
+.less-right[.font70[
+1. Dark blue is a shady roof
+2. Yellow-orange is a sunny roof with few high-irradiance segments
+3. Purple is a sunny roof with moderate high-irradiance segments
+4. Green is a sunny roof with many high-irradiance segments
+5. Light blue is a sunny roof on a flat, south-oriented roof.
+
+Example is two-tier pricing with step at `\(\tau\)`.
+
+Increasing `\(q^0\)` slides steps to right.
+]]
+  
+
+
+---
+class: MSU
+# Optimal sizing
+
+### Optimal sizing
+.more-left[
+.center[![](./Images/Fig3_v5.png)]
+]
+  
+  
+.less-right[.font70[
+Given consumption, rate structure, and Google Sunroof profile, find capacity `\(K^{*}\)` to install.
+1. Calculate marginal cost per kwh of solar generation
+  - Starts low
+  - Increases based on roof
+  - Reflects cost of panels
+2. Calculate marginal cost per kWh from the grid
+  - Based on annual consumption `\(q^0\)`
+  - Decreases as solar generation increases
+3. Optimal is when `\(MC_{grid}=MC_{solar}\)`
+  - May be "lumpy" due to steps
+  
+`\(K^*\)` is optimal size; `\(q^*\)` is optimal generation; `\(q^*\bar{p}\)` is annual value of generation]]
+  
+---
+class: MSU
+# Optimal sizing
+
+
+### Optimal sizing in data
+.pull-left[
+&lt;img src="./Images/Optimal_sizing_plot5.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.pull-right[
+- Location of steps from `\(q^0\)`
+- Height of steps from `\(p_t\)`
+- Width of steps from climate zone
+]
+
+---
+class: heading-slide
+
+Data &amp; Model Inputs
+
+---
+class: MSU
+# Data
+
+### Sample of households
+- 279k+ owner-occupied households in California 2014-2016 (CoreLogic)
+  - Square footage, stories, year built (CoreLogic)
+  - Lat-lon (rooftop) from geocoding address
+  - **Wealth** (from InfoUSA)
+  - Income (from InfoUSA)
+  - Lines of credit (from InfoUSA, not used)
+  - Owner or Renter (from InfoUSA)
+  - Age (from InfoUSA)
+  - Race (from InfoUSA)
+  - Presence of children (from InfoUSA)
+  - Length of residence (from InfoUSA)
+  - Voter registration (CA Sec. of State)
+- In PGE territory zip codes where
+  - All households are in one electricity rate
+  - *Border* another zip code where all households are in a different rate
+
+
+---
+class: MSU
+name: backConsBin
+# Data
+
+#### Electricity consumption (PGE)
+- Household-level electricity annual consumption (kWh) &amp; rates 2014-2016 with zipcode (PGE)
+
+
+#### Solar adopters (LBNL Tracking the Sun)
+- 9k+ Solar Adopters
+  - **Address**, cost, size, date
+  - Lease or purchase
+  - Match Interconnection ID to PGE
+  
+#### Google Project Sunroof
+- Roof profiles
+- Location (lat-lon) 
+  
+---
+class: MSU
+# Data
+
+### PGE Consumption Data
+For **Adopters**: we observe consumption, `\(q^0\)` exactly.
+- We can match to consumption bin `\(b\)`.
+
+
+For **Non-adopters**: we observe complete distribution of consumption at zip level
+- Calculate quintiles of consumption in each zip `\(b \in \{1,2,3,4,5\}\)` (1=lowest)
+  - After removing matched solar adopters
+  - .font70[[See consumption bins](#ConsBin)]
+  
+
+---
+class: MSU
+exclude: true
+
+# Data
+
+### Consumption and solar installation data
+
+.pull-left[Lawrence Berkeley Nat'l Laboratory
+- Tracking the Sun Dataset: all solar adopters
+  - Address (merge to CoreLogic)
+  - Size of installation
+  - Cost of installation
+  - **Date of installation**
+  - 3rd party lessee]
+
+.pull-right[PG&amp;E
+- Confidential consumption dataset
+  - Annual billed consumption for each individual residential customer in the "boundary" zip codes
+  - Rate data (from website) over time]
+
+----
+
+- Merge annual consumption to solar adopters exactly
+- Distribution of consumption `\(q^0\)` to zip code (excluding adopters)
+  - Quintiles of consumption by zip code, `\(b \in \{1,2,3,4,5\}\)` (1 = lowest)
+
+---
+class: MSU
+# Model Inputs
+
+### Unobserved Consumption
+For non-adopters, conditional on:
+- `\(b_z\)` (consumption level for bin `\(b\)` in zip `\(z\)`)
+- Roof profile
+- Rates and climate zone
+
+We can calculate:
+- `\(K^{*}\)`
+- `\(q^{*}\)`
+- `\(TC(K^{*})\)` (inclusive of 30% FTC)
+- `\(\bar{p}\)` (average value of offset electricity)
+- `\(q^{*}\bar{p}\)` (flow benefits of adopting solar)
+
+---
+class: MSU
+# Model Inputs
+
+### Observed Consumption
+For adopters, we observe `\(q^{0}\)`
+- Place in bin `\(b_z\)`
+- Calculate same as non-adopters
+
+
+---
+class: MSU
+# Model Inputs
+
+Model-free evidence of response to flow payoff of optimal-sized installation ( `\(q^* \bar{p}\)` )
+
+&lt;img src="./Images/Ex7_Prob_adopt_fixed_TC.png" width="55%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: MSU
+# Model Inputs
+
+### Dynamics: Expectations about future
+
+#### Panel generation declines by `\(\lambda =  .8\%\)` per year (LBNL)
+
+#### Electricity rate increase over time estimated AR(1) w/PGE rate data
+- Elec. rates increase `\(\zeta_{bz} \in [.026, .056]\)` per year
+- `\(\zeta_{bz}\)` is estimated using average price (Ito 2014)
+  - Average price is a function of consumption `\(b\)`, which varies by zipcode `\(z\)`
+  - Future `\(q^{*}\bar{p}\)` is equal to `\(q^{*}\bar{p}(1+\zeta_{bz})\)`
+
+#### Total panel cost declines over time estimated AR(1) w/ LBNL data
+- Annual price decline factor: `\(\eta = .988\)`
+- Fixed cost variation by zipcode `\(z\)` (but common `\(\eta\)`)
+
+
+---
+class: heading-slide
+count: false
+
+Model
+
+
+
+---
+class: MSU
+# Model
+
+Utility of adopting:
+
+`$$\begin{eqnarray}
+v_1 &amp;=&amp; \delta_1 + \sigma \epsilon_1 \nonumber \\
+\delta_1 &amp;=&amp; \underbrace{\color{green}{\int_{q_0-q^*}^{q_0}\sum_{t=1}^{T}\frac{1}{(1+\delta)^{t-1}} p_t(x)dx}}  &amp;-&amp;  VC(K^*) - FC  +X \beta  \nonumber \\
+\delta_1 &amp;=&amp; \overbrace{\color{green}{\theta q^*\bar{p}}}^{\text{Discounted value of offset electricity}} &amp;-&amp; VC(K^*) - FC + X\beta \nonumber \\
+\text{where} \quad \theta &amp;=&amp; \sum_{t=1}^T ((1+\zeta)(1-\lambda)\rho)^{(t-1)} &amp;
+\end{eqnarray}$$`
+
+.pull-left[
+- `\(p_t(x)\)` is price (step function)
+- `\(T\)` is lifetime of panels (25yr)
+- `\(VC(K^*)\)` is the variable cost of adopting
+- `\(FC\)` is the fixed cost of adopting
+- `\(\epsilon \sim T1EV\)`]
+
+.pull-right[
+- `\(X\beta\)` includes
+  - Age, race, children, voter reg
+  - Square footage of home
+  - Wealth bins: low/med/high
+  - Quarter FE
+  - Boundary zone FE]
+  
+  
+---
+class: MSU
+exclude: true
+
+# Model
+
+Consumers assume
+- electricity prices evolve `\(p'(x) = (1+\zeta)p(x)\)`
+- panel generation depreciates: `\(q' = (1-\lambda)q\)`
+
+Then:
+`$$\delta_1 = \theta q^*\bar{p} - VC(K^*) - FC + X\beta$$`
+`\(q^*\bar{p}\)` is the value of electricity *displaced by* solar in first year, and `\(\theta\)` converts this to the present:
+
+`$$\theta = \sum_{t=1}^T ((1+\zeta)(1-\lambda)\rho)^{(t-1)}$$`
+
+Discount factor `\(\rho = \frac{1}{1+\delta}\)`
+
+
+---
+class: MSU
+# Model
+
+Normalize outside option:
+
+`$$\delta_0 = 0 + \sigma \epsilon_0$$`
+Using Hotz and Miller (1993) Conditional Choice Probability (CCP) leads to:
+
+
+`$$\begin{eqnarray}
+\delta_1-\delta_0 &amp;=&amp;  (1-\rho(1+\zeta) )   \theta q^* \bar{p}    - (1-\rho \eta) VC(K^*) - (1-\rho) FC +\\
+&amp; &amp;(1-\rho)X \beta + \sigma \rho (\log(Pr'_1) - .5772)
+\end{eqnarray}$$`
+
+This produces the familiar logit form for the probability of adopting, and the likelihood function.
+
+---
+class: MSU
+# Model
+
+### Heterogeneity in discount rate by wealth
+
+`$$\rho_i = \alpha_0 + \alpha_1 1(\text{wealth}_i = \text{med}) + \alpha_2 1(\text{wealth}_i = high)$$`
+
+`\(\rho\)` is a function of observables (wealth) to allow for heterogeneity in discount rate by wealth.
+
+
+---
+class: MSU
+# Model
+
+### Three main issues
+- `\(Pr'_1\)` is household-specific
+  - Cannot subsume into intercept as different roof profiles will have different adoption probabilities
+  
+- A large number of adopters lease their systems
+
+- `\(q^0\)` (initial consumption) is not observed for non-adopters
+  - Do observe zipcode distribution (quintiles)
+
+
+---
+class: MSU
+# Model
+
+#### Flexible logit for `\(Pr'_1\)` (Arcidiacono and Miller, 2011)
+- Estimate a logit with `\(X\)`'s, flexibly interacted, including a time trend and boundary zone FE
+- Predict `\(Pr'_1\)` by advancing
+  - Rate by `\(\zeta^{b}\)`
+  - `\(VC\)` by `\(\eta\)`
+  - Time +1
+
+
+
+---
+class: MSU
+# Model
+
+### Lease vs. Own
+- We observe which installations are leased, but not the terms
+- We assume leaser/purchaser is a permanent, unobserved state
+- Write model conditional on state.
+  - Owner: same as before
+  - Leaser: incorporate payment to lessor
+  - Computationally, easiest to write as a change in up-front cost, possible when `\(\rho_i\)` is known or estimated
+  
+
+
+---
+class: MSU
+# Model
+
+### Lease model
+- Lease price: `\(p^{ppa} = \frac{TC(K^*)(1+\kappa^{TC})}{\theta^{I}} \frac{1}{q^*}\)`
+  - `\(\theta^I\)` is identical to `\(\theta\)`, but with installers discount rate `\(\sim 4\%\)`
+- Leasing can then be written as a multiplicative factor on cost:
+
+--
+
+
+`$$\begin{eqnarray}
+\delta_1^l-\delta_0^l &amp;=&amp;  (1-\rho(1+\zeta) )   \theta q^* \bar{p}    - \\
+&amp; &amp;\color{blue}{\frac{\theta^{ppa}}{\theta^I}(1+\kappa^{TC})}\left((1-\rho \eta) VC(K^*) + (1-\rho) FC \right) + \\
+&amp; &amp;(1-\rho)X \beta + \sigma \rho (\log(Pr'_1) - .5772)
+\end{eqnarray}$$`
+
+Where: `\(\frac{\theta^{ppa}}{\theta^{I}} = \frac{\sum_{t=1}^T ((1+\zeta^{ppa})(1-\lambda)\rho)^{(t-1)}}{\sum_{t=1}^T ((1+\zeta^{ppa})(1-\lambda)\rho^I)^{(t-1)}}\)`
+
+--
+
+The term in blue is unity for purchasers, simplifying computation.
+
+---
+class: MSU
+# Model
+
+### Lease model continued
+- A per-kWh markup `\(\kappa^{p}\)` can be accommodated:
+
+`$$\begin{eqnarray}
+\delta_1^l-\delta_0^l &amp;=&amp;  (1-\rho(1+\zeta) )  \left( \theta q^{*}\bar{p} \color{blue}{ -  \theta^{ppa} q^* \kappa^{p}} \right)   - \\
+&amp; &amp;\color{blue}{\frac{\theta^{ppa}}{\theta^I}(1+\kappa^{TC})}\left((1-\rho \eta) VC(K^*) + (1-\rho) FC \right) + \\
+&amp; &amp;(1-\rho)X \beta + \sigma \rho (\log(Pr'_1) - .5772)
+\end{eqnarray}$$`
+
+---
+class: MSU
+# Model             
+
+### Unobserved states: consumption and lease/purchase type
+- Unobserved heterogeneity using Arcidiacono and Miller (2011), 
+  - Integrate likelihood over 10 unobserved states: 5 bins `\(b\)` and 2 types `\(e\)`
+  - `\(w_{ibe}\)` is the probability that `\(i\)` is in consumption bin `\(b\)` and type `\(e\)`
+
+`$$\begin{eqnarray}
+\text{s.t.} \quad \sum_{e=1}^2 \sum_{b=1}^5 w_{ibe} &amp;=&amp; 1;\quad \sum_{i=1}^{N_z} \sum_{e=1}^2 w_{ibe} &amp;=&amp; \frac{N^{z}}{5}
+\end{eqnarray}$$`
+
+- Where `\(N^z\)` is the number of households in the zip code. 
+- Constraints are intuitive: within a household, must sum to 1. Within zipcode, must sum to `\(N^z\)`, the total number of households in that zip
+  - Constrains weights to match moments of `\(q^0\)`
+
+---
+class: MSU
+# Model
+
+### Calculating `\(w_{ibe}\)`
+Method for updating weights is given in AM2011:
+
+`$$\begin{eqnarray}
+w_{ibe}^{(1)} = \frac{\Pi_{z(i),be}\frac{1}{|B|}L_{ibe}}{\sum_i \Pi_{z(i),be}\frac{1}{|B|}L_{ibe}}
+\end{eqnarray}$$`
+
+where `\(|B|\)` is the number of consumption bins. `\(\Pi_{z(i),be}\)` is the average (over `\(i\)`) value of `\(w_{ibe}\)` within household `\(i\)`'s zip code:
+
+
+`$$\begin{eqnarray}
+\Pi_{z,be} = \frac{1}{N^z} \sum_{i\in \mathcal{Z}(i)} w_{ibe}
+\end{eqnarray}$$`
+
+---
+class: MSU
+# Model
+
+The zip-level constraint will not always be satisfied. Rescale `\(w_{ibe}^{(1)}\)` 
+
+`$$\begin{eqnarray*}
+w_{ibe}^{(1')} = \frac{N^z}{|B|}\frac{w_{ibe}^{(1)}}{\sum_i w_{ibe}^{(1)}}\\
+w_{ibe}^{(1'')} = \frac{w_{ibe}^{(1')}}{\sum_b \sum_e w_{ibe}^{(1')}}
+\end{eqnarray*}$$`
+
+Repeat until convergence. This ensures that the constraints are met, but preserves the within- and across-household likelihood.
+
+
+---
+class: MSU
+# Model
+
+### MLE - Expectation Max. to estimate model in 3 stages
+- Estimate parameters `\(\{\alpha^{(1)}, \beta^{(1)}, \sigma^{(1)} \}\)` via MLE, integrating over unobserved heterogeneity using `\(w_{ibe}\)`
+- Update `\(w_{ibe}^{(1)}\)` s.t. constraint using AM2011, rescaling
+- Update `\(log(Pr_1')^{(1)}\)` with flexible logit using new `\(w_{ibe}^{(1)}\)`
+- Repeat until converged
+
+--
+
+### Update discount rate
+- `\(K^{*}\)` was function of discount rate (used to calculate marginal levelized cost of solar)
+- Return to optimal sizing model and update `\(K^{*}_i\)`
+- Repeat 
+
+---
+class: heading-slide
+count: false
+
+Results
+
+---
+class: MSU
+name: backResults
+# Results
+
+### Main findings .font50[[full results](#fullResults)]
+
+#### **Q1**: To what degree do households discount the flow...?
+
+&lt;img src="Images/rates_avg_v2.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+
+--
+
+&lt;img src="Images/values_avg_v2.png" width="800px" style="display: block; margin: auto;" /&gt;
+
+
+--
+
+#### **Q2**: Do discount rates vary systematically...?
+
+&lt;img src="Images/rates_wealth_v2.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+class: MSU
+# Conclusion
+
+### Household discount rates exceed borrowing rate
+- Efficiency gains from up-front payments
+- Important for redesigning NEM
+- Applies to many flow subsidies for up-front investments
+
+### Heterogeneity across wealth in discount rates
+- Gain *distributional* equity from up-front payments
+- Explains disparity in adoption
+
+
+---
+class: MSU
+# Conclusion
+
+### Counterfactuals
+- Structural parameters permit estimation under any flow and up-front subsidies
+- NEM 3.0 components
+  - Two-channel billing: Expected net export (by time)
+  - Per-kW capacity subsidies: Per `\(K^{*}\)` subsidies over time (additional flow)
+  
+In progress, but not complete
+
+  
+
+---
+class: heading-slide
+count: false
+exclude: false
+
+Thanks!
+
+jkirk@msu.edu
+
+
+
+---
+class: MSU
+name: ConsBin
+count: false
+exclude: false
+# Data
+
+### Zip-level annual consumption bins
+&lt;img src="./Images/Zip_level_consumption.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+
+.font70[[Back](#backConsBin)]
+---
+
+class: MSU
+name: Boundaries
+count: false
+exclude: false
+
+# Data
+
+Rate zone boundaries .font70[from Bollinger, Gillingham, Kirkpatrick, and Sexton (2017)] [Back](#backData)
+&lt;img src="./Images/All_used_CA_zips_color_by_IOU_boundary_zone_outline_v2CROP.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: MSU
+name: RATES
+count:false
+exclude: false
+
+# Data
+
+### Rates: PG&amp;E has 4 (later 3) tiers of pricing. [Back](#backData)
+
+&lt;img src="./Images/Rates_over_time.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: MSU
+name: OptimalSize
+count:false 
+exclude: false
+
+# Data
+
+### Optimal sizing .font50[[Back](#backSize)]
+.more-left[
+.center[![](./Images/Fig3_v5.png)]
+]
+  
+  
+.less-right[.font70[
+Given consumption, rate structure, and Google Sunroof profile, find optimal capacity to install.
+1. Calculate marginal cost per kWh of solar generation
+  - Starts low
+  - Increases based on roof
+  - Reflects cost of panels
+2. Calculate marginal cost per kWh from the grid
+  - Based on annual consumption
+  - Decreases as solar generation increases
+3. Optimal is when `\(MC_{grid}=MC_{solar}\)`
+  - May be "lumpy" due to steps
+  
+`\(K^*\)` is optimal size; `\(q^*\)` is optimal generation; `\(q^*\bar{p}\)` is annual value of generation]] 
+  
+
+---
+class: MSU
+name: fullResults
+count: false
+exclude: false
+
+# Results
+
+.font50[[Back](#backResults)]
+&lt;img src="./Images/restabsubs_presentation_v2.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+class: MSU
+name: DDC
+count: false
+exclude: false
+
+# Model
+
+Following Hotz and Miller (1993) and treating solar adoption as an exit state: [Back](#backModel)
+
+`$$\begin{eqnarray}
+v_0 &amp;=&amp; \delta_0 + \sigma \epsilon_0 \nonumber \\
+\delta_0 &amp;=&amp; \rho\left(.5772 + \int \delta'_1 - ln(Pr'_1)dF(TC'|TC)\right)
+\end{eqnarray}$$`
+
+Using estimated change in: `\(VC' = \eta VC\)`:
+
+`$$\begin{eqnarray}
+\delta_1-\delta_0 &amp;=&amp;  (1-\rho(1+\zeta) )   \theta q^* \bar{p}    - (1-\rho \eta) VC(K^*) - (1-\rho) FC + \\
+&amp; &amp;(1-\rho)X \beta + \rho (\log(Pr'_1) - .5772)
+\end{eqnarray}$$`
+
+And
+
+`$$Pr_1 = \Lambda\left(\frac{1}{\sigma}(\delta_1 - \delta_0)\right)$$`
+
+---
+class: MSU
+count: false
+exclude: false
+
+# Model
+
+### Household heterogeneity in `\(\rho\)`: .footnote[[Back](#backModel)]
+
+`$$\rho_i = \rho + \alpha_{low} 1(\text{wealth}_i&lt;\tau^{wealth}_{33}) + \alpha_{med} 1(\tau^{wealth}_{33}&lt;\text{wealth}_i&lt;\tau^{wealth}_{67})$$`
+
+- Cross-sectional variation in `\(q^{*}\bar{p}\)` allows identification of `\(\alpha_{low}\)`, `\(\alpha_{med}\)`, `\(\rho\)`.
+- Both income and value dummies included in `\(X\)` as well.
+  - Main effect = information/inattention
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"self_contained": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
