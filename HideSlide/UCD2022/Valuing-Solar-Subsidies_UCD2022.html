@@ -64,22 +64,25 @@ class: inverseMSU
 --
 
 - Effect on bill
-  - Under **block-tier pricing**, net metering allows consumer to sell power to utility at highest retail rate
-  - Because retail marginal rate is increasing, the first kilowatt-hours (kWh) "rolled back" are the *most expensive*.
-  - If each kWh reduces bill by top tier rate, but utility could acquire that kWh at wholesale rate, net metering is a **flow (monthly) subsidy**
+  - Under **increasing block-tier pricing**, net metering allows consumer to sell power to the utility at the retail rate the consumer faces
+  - If each kWh reduces bill by higher tier rates that are above wholesale rates, then net metering is a **flow (monthly) subsidy**
 --
 
 - Solar households pay far less, even when depending on grid electricity.
-  - Fixed costs are included in per-kWh retail prices `\(\rightarrow\)` increases cost on non-solar households.
+  - Fixed costs are often included in per-kWh retail prices, thus there could be a cost-shift to non-solar households.
  
 
 ---
 class: MSU
+exclude: true
 # Context
 
 ### Net metering has been controversial
 
-
+&lt;div class="figure" style="text-align: center"&gt;
+&lt;img src="./Images/Screenshot1.png" alt="Source: Foley and Lardner, LLP" width="80%" /&gt;
+&lt;p class="caption"&gt;Source: Foley and Lardner, LLP&lt;/p&gt;
+&lt;/div&gt;
 
 
 
@@ -92,18 +95,20 @@ count: true
 - May be rationalized by reduction in externalities
   - Probably not: Sexton et al. (2021)
 - Learn-by-doing: 
-  - Probably not: Bollinger and Gillingham (2019)
+  - Only partly: Bollinger and Gillingham (2019)
+- Long-run innovation incentives:
+  - Some, but second-best approach Gerarden: (2017)
 - Nevertheless, it continues
 
 --
 
-### Value of flow payoff depends on household discount rate `\(\delta\)`
+### NPV of flow payoff depends on household discount rate `\(\delta\)`
 &lt;!-- - Under high household discount rates and low government borrowing rates, a budget-neutral up-front subsidy policy may be more effective --&gt;
 
 --
 
-### Household **heterogeneity** in `\(\delta\)` `\(\rightarrow\)` different NPV for flow
-- Especially if low-wealth households have higher `\(\delta\)`
+### Household **heterogeneity** in `\(\delta\)` `\(\rightarrow\)` different NPV for adoption
+
 
 ---
 class: MSU
@@ -112,9 +117,9 @@ class: MSU
 ### `\(\delta\)` may explain differences in solar adoption across wealth and income
 - Bednar, Reames, and Keoleian (2017) show lower-wealth households tend to spend *more* on electricity per sq ft
   - Borenstein and Davis (2016) top quintile of income received 60% of all federal tax benefits
+  - Sunter, Castellanos, and Kammen (2019)    
   - O'Shaughnessy et al (2020) on income inequity in solar adoption
   - O'Shaughnessy (2022) and Borenstein (2022) in *Nature Energy*
-  
 
 
 
@@ -125,7 +130,7 @@ class: MSU
 
 ### Q1: How do households discount future payoffs from solar?
 
-This speaks to economic efficiency of any similar flow subsidy for an up-front cost
+This speaks to economic efficiency of any similar flow subsidy
 
 --
 
@@ -365,7 +370,6 @@ class: MSU
 
 ---
 class: MSU
-name: backConsBin
 # Data
 
 #### Electricity consumption (PGE)
@@ -384,18 +388,18 @@ name: backConsBin
   
 ---
 class: MSU
+name: backConsBin
 # Data
 
 ### PGE Consumption Data
-For **Adopters**: we observe consumption, `\(q^0\)` exactly.
-- We can match to consumption bin `\(b\)`.
-
-
 For **Non-adopters**: we observe complete distribution of consumption at zip level
 - Calculate quintiles of consumption in each zip `\(b \in \{1,2,3,4,5\}\)` (1=lowest)
   - After removing matched solar adopters
   - .font70[[See consumption bins](#ConsBin)]
   
+For **Adopters**: we observe consumption, `\(q^0\)` exactly.
+- We can match to consumption bin `\(b\)`.
+
 
 ---
 class: MSU
@@ -428,7 +432,7 @@ exclude: true
 class: MSU
 # Model Inputs
 
-### Unobserved Consumption
+### Unobserved Consumption (non-adopters)
 For non-adopters, conditional on:
 - `\(b_z\)` (consumption level for bin `\(b\)` in zip `\(z\)`)
 - Roof profile
@@ -445,7 +449,7 @@ We can calculate:
 class: MSU
 # Model Inputs
 
-### Observed Consumption
+### Observed Consumption (adopters)
 For adopters, we observe `\(q^{0}\)`
 - Place in bin `\(b_z\)`
 - Calculate same as non-adopters
@@ -486,6 +490,34 @@ count: false
 Model
 
 
+---
+class: MSU
+# Model
+
+### Overview
+Modeling demand as consumers make dynamic decisions about whether to adopt. 
+
+--
+
+Consumers consider:
+- Discounted flow of offset electricity
+- Up-front cost
+
+
+Dynamics 
+- Value of waiting depends on state variables
+- Differs by rooftop irradiance
+
+Tradeoff between flow and up-front cost differs by:
+- Lease vs. own
+- Initial household consumption
+
+--
+
+Once we account for these, estimate discount rates as a function of household characteristics, primarily wealth.
+
+
+
 
 ---
 class: MSU
@@ -505,7 +537,7 @@ v_1 &amp;=&amp; \delta_1 + \sigma \epsilon_1 \nonumber \\
 - `\(T\)` is lifetime of panels (25yr)
 - `\(VC(K^*)\)` is the variable cost of adopting
 - `\(FC\)` is the fixed cost of adopting
-- `\(\epsilon \sim T1EV\)`]
+- `\(\epsilon \sim \text{Type 1 Extreme Value}\)`]
 
 .pull-right[
 - `\(X\beta\)` includes
@@ -558,7 +590,7 @@ class: MSU
 
 ### Heterogeneity in discount rate by wealth
 
-`$$\rho_i = \alpha_0 + \alpha_1 1(\text{wealth}_i = \text{med}) + \alpha_2 1(\text{wealth}_i = high)$$`
+`$$\rho_i = \alpha_0 + \alpha_1 1(\text{wealth}_i = med) + \alpha_2 1(\text{wealth}_i = high)$$`
 
 `\(\rho\)` is a function of observables (wealth) to allow for heterogeneity in discount rate by wealth.
 
@@ -611,6 +643,7 @@ class: MSU
 ### Lease model
 - Lease price: `\(p^{ppa} = \frac{TC(K^*)(1+\kappa^{TC})}{\theta^{I}} \frac{1}{q^*}\)`
   - `\(\theta^I\)` is identical to `\(\theta\)`, but with installers discount rate `\(\sim 4\%\)`
+  - `\(\kappa^{TC}\)` is markup on the cost of capital
 - Leasing can then be written as a multiplicative factor on cost:
 
 --
@@ -646,7 +679,8 @@ class: MSU
 # Model             
 
 ### Unobserved states: consumption and lease/purchase type
-- Unobserved heterogeneity using Arcidiacono and Miller (2011), 
+- Conditional on `\(b\)` and `\(e\)` (and given parameter vector), we can calculate `\(Pr(adopt)\)`
+- Unobserved heterogeneity in `\(b\)` and `\(e\)` using Arcidiacono and Miller (2011), 
   - Integrate likelihood over 10 unobserved states: 5 bins `\(b\)` and 2 types `\(e\)`
   - `\(w_{ibe}\)` is the probability that `\(i\)` is in consumption bin `\(b\)` and type `\(e\)`
 
@@ -666,7 +700,7 @@ class: MSU
 Method for updating weights is given in AM2011:
 
 `$$\begin{eqnarray}
-w_{ibe}^{(1)} = \frac{\Pi_{z(i),be}\frac{1}{|B|}L_{ibe}}{\sum_i \Pi_{z(i),be}\frac{1}{|B|}L_{ibe}}
+w_{ibe}^{(1)} = \frac{\Pi_{z(i),be}L_{ibe}}{\sum_i \Pi_{z(i),be}L_{ibe}}
 \end{eqnarray}$$`
 
 where `\(|B|\)` is the number of consumption bins. `\(\Pi_{z(i),be}\)` is the average (over `\(i\)`) value of `\(w_{ibe}\)` within household `\(i\)`'s zip code:
@@ -724,13 +758,23 @@ name: backResults
 
 &lt;img src="Images/rates_avg_v2.png" width="500px" style="display: block; margin: auto;" /&gt;
 
+`\(\theta\)` converts `\(q^{*}\bar{p}\)`, the per-period flow payoff, into a present value.
+
+`\(\delta=15.2%\)` implies `\(\theta=39.54\)`, or 2.41x the NPV at a government discount rate of 4%.
 
 --
 
 &lt;img src="Images/values_avg_v2.png" width="800px" style="display: block; margin: auto;" /&gt;
 
+The average present value of average flow `\(q^{*}\bar{p}\)` is $8,595. The same flow discounted at a government discount rate of 4% is $20,702.
 
---
+---
+class: MSU
+name: Q2res
+
+# Results
+
+### Main findings .font50[[full results](#fullResults)]
 
 #### **Q2**: Do discount rates vary systematically...?
 
@@ -742,14 +786,14 @@ name: backResults
 class: MSU
 # Conclusion
 
-### Household discount rates exceed borrowing rate
+### Household discount rates exceed government borrowing rate
 - Efficiency gains from up-front payments
 - Important for redesigning NEM
 - Applies to many flow subsidies for up-front investments
 
 ### Heterogeneity across wealth in discount rates
-- Gain *distributional* equity from up-front payments
 - Explains disparity in adoption
+- Suggests possible gains in distributional equity across wealth from upfront payments
 
 
 ---
