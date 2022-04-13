@@ -180,6 +180,10 @@ content: "";
 .more-right ~ * {
   clear: both;
 }
+/* Orange ("orange") text */
+.orange {
+  color: #FFA500 !important;
+}
 
 .red {
 color: red;
