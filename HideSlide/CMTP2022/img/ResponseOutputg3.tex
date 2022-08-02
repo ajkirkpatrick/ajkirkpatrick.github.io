@@ -1,0 +1,63 @@
+\documentclass[border=1mm, preview]{standalone}
+\usepackage[active,tightpage]{preview}
+\usepackage{varwidth}
+\usepackage{amssymb, amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e}
+\usepackage{polyglossia}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xltxtra,xunicode}
+\usepackage{xcolor}
+\begin{document}
+\begin{table}
+
+\caption{Regression of natural gas consumption on heating degree days, interacted with HOLC grade, ethnicity, and income, conditional on thermostat setpoint\label{tab:gasresponsethemset3}}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{lcccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{4}{c}{Dependent Variable: Energy consumption (therms)} \\
+\cmidrule(l{3pt}r{3pt}){2-5}
+  & Model 1 & Model 2 & Model 3 & Model 4\\
+\midrule
+hdd x Grade D (Red) & 0.111 & 0.089 & 0.108 & 0.101\\
+ & (0.219) & (0.211) & (0.215) & (0.208)\\
+hdd x Grade X (Ungraded) & 0.053 & 0.017 & 0.020 & 0.008\\
+ & (0.055) & (0.058) & (0.057) & (0.059)\\
+hdd:Asian & -0.066 & -0.055 & -0.058 & -0.055\\
+ & (0.044) & (0.046) & (0.044) & (0.047)\\
+hdd:Black & -0.003 & -0.010 & -0.006 & -0.004\\
+ & (0.033) & (0.036) & (0.034) & (0.035)\\
+hdd:Hispanic & -0.094* & -0.078** & -0.071* & -0.065*\\
+ & (0.038) & (0.030) & (0.034) & (0.029)\\
+hdd:Other & 0.057 & 0.061+ & 0.037 & 0.041\\
+ & (0.046) & (0.037) & (0.053) & (0.044)\\
+hdd:Mixed & -0.048 & -0.060 & -0.042 & -0.045\\
+ & (0.037) & (0.046) & (0.036) & (0.036)\\
+\midrule
+Num.Obs. & 5667 & 5667 & 5667 & 5667\\
+R2 Adj. & 0.587 & 0.586 & 0.586 & 0.586\\
+FE: CZT24 & X & X & X & X\\
+FE: IDENT & X & X & X & X\\
+\bottomrule
+\multicolumn{5}{l}{\textsuperscript{} + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\multicolumn{5}{l}{\textsuperscript{} Using only households with natural gas as primary heating fuel}\\
+\multicolumn{5}{l}{\textsuperscript{} Omitted grade is "C"}\\
+\end{tabular}}
+\end{table}
+\end{document}

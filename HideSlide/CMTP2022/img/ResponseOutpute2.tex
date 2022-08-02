@@ -1,0 +1,55 @@
+\documentclass[border=1mm, preview]{standalone}
+\usepackage[active,tightpage]{preview}
+\usepackage{varwidth}
+\usepackage{amssymb, amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e}
+\usepackage{polyglossia}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xltxtra,xunicode}
+\usepackage{xcolor}
+\begin{document}
+\begin{table}
+
+\caption{Regression of electricity consumption on heating degree days, interacted with HOLC grade and income, conditional on thermostat setpoint\label{tab:electricresponsethemset1}}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{lccccccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{7}{c}{Dependent Variable: Energy consumption (kWh)} \\
+\cmidrule(l{3pt}r{3pt}){2-8}
+  & Model 1 & Model 2 & Model 3 & Model 4 & Model 5 & Model 6 & Model 7\\
+\midrule
+hdd & 3.045* & -1.715 & -0.817 & 2.591** & 134.767*** &  & \\
+ & (1.278) & (1.196) & (1.842) & (0.865) & (1.082) &  & \\
+hdd x Grade D (Red) & 1.029* & 2.387* & 1.547 & 1.797* & -141.338*** & -141.338*** & -8.089***\\
+ & (0.454) & (1.096) & (1.941) & (0.637) & (1.275) & (1.424) & (1.552)\\
+hdd x Avg rent 37-39 & -0.142** &  &  & -0.165*** &  &  & -0.160***\\
+ & (0.046) &  &  & (0.036) &  &  & (0.030)\\
+\midrule
+Num.Obs. & 282 & 327 & 327 & 282 & 327 & 327 & 282\\
+R2 Adj. & 0.732 & 0.751 & 0.737 & 0.754 & 0.721 & 0.763 & 0.749\\
+FE: CZT24 &  &  &  &  &  & X & X\\
+FE: IDENT & X & X & X & X & X & X & X\\
+\bottomrule
+\multicolumn{8}{l}{\textsuperscript{} + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\multicolumn{8}{l}{\textsuperscript{} Using only households with elec. as primary heating fuel}\\
+\multicolumn{8}{l}{\textsuperscript{} Omitted grade is "C"}\\
+\end{tabular}}
+\end{table}
+\end{document}

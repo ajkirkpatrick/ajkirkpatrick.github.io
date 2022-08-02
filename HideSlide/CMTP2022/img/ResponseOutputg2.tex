@@ -1,0 +1,55 @@
+\documentclass[border=1mm, preview]{standalone}
+\usepackage[active,tightpage]{preview}
+\usepackage{varwidth}
+\usepackage{amssymb, amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e}
+\usepackage{polyglossia}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xltxtra,xunicode}
+\usepackage{xcolor}
+\begin{document}
+\begin{table}
+
+\caption{Regression of natural gas consumption on heating degree days, interacted with HOLC grade and income, conditional on thermostat setpoint\label{tab:electricresponsethemset1}}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{lcccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{3}{c}{Dependent Variable: Energy consumption (therms)} \\
+\cmidrule(l{3pt}r{3pt}){2-4}
+  & Model 1 & Model 2 & Model 3 & Model 4\\
+\midrule
+hdd x Grade D (Red) & 0.085 & 0.066 & 0.092 & 0.105\\
+ & (0.195) & (0.196) & (0.214) & (0.206)\\
+hdd x Avg rent 37-39 & 0.000 & -0.001 &  & 0.001\\
+ & (0.001) & (0.001) &  & (0.001)\\
+\midrule
+Num.Obs. & 5979 & 5979 & 9287 & 5979\\
+R2 Adj. & 0.524 & 0.523 & 0.532 & 0.517\\
+FE: CZT24 &  &  & X & X\\
+FE: IDENT & X & X & X & X\\
+FE: wave & X & X & X & X\\
+\bottomrule
+\multicolumn{5}{l}{\textsuperscript{} + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\multicolumn{5}{l}{\textsuperscript{} Using only households with natural gas as primary heating}\\
+\multicolumn{5}{l}{fuel}\\
+\multicolumn{5}{l}{\textsuperscript{} Omitted grade is "C"}\\
+\end{tabular}}
+\end{table}
+\end{document}

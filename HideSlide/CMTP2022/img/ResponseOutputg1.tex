@@ -1,0 +1,58 @@
+\documentclass[border=1mm, preview]{standalone}
+\usepackage[active,tightpage]{preview}
+\usepackage{varwidth}
+\usepackage{amssymb, amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e}
+\usepackage{polyglossia}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xltxtra,xunicode}
+\usepackage{xcolor}
+\begin{document}
+\begin{table}
+
+\caption{Regression of heating-degree day gas consumption response on HOLC grade and income \label{tab:responsegas1}}
+\centering
+\resizebox{\linewidth}{!}{
+\begin{tabular}[t]{lcccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{4}{c}{Dependent Variable: Coef. of HDD Response from Household Regression} \\
+\cmidrule(l{3pt}r{3pt}){2-5}
+  & Model 1 & Model 2 & Model 3 & Model 4\\
+\midrule
+Grade D (Red) & -1.461*** & -3.465* & -9.348 & -24.757\\
+ & (0.000) & (0.905) & (16.371) & \\
+Avg. Rent 1937 &  &  & -2.142 & -2.603\\
+ &  &  & (0.735) & \\
+Avg. Home Age 1937 &  &  & 0.721 & 1.532\\
+ &  &  & (0.963) & \\
+\midrule
+Num.Obs. & 22 & 22 & 20 & 19\\
+R2 Adj. & -0.896 & -0.251 & 0.295 & \\
+FE: CZT24 & X & X & X & X\\
+FE: CZT24\textasciicircum{}wave & X & X & X & X\\
+FE: STCO & X & X & X & X\\
+CZ-specific slopes for Sq. feet & X & X & X & X\\
+Controls for Hh income, home age, kids &  & X & X & X\\
+Controls for Hh ethnicity &  &  &  & X\\
+\bottomrule
+\multicolumn{5}{l}{\textsuperscript{} + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\multicolumn{5}{l}{\textsuperscript{} Using only households with gas as primary heating fuel}\\
+\end{tabular}}
+\end{table}
+\end{document}
