@@ -13,7 +13,7 @@
 
 <title>Justin Kirkpatrick: Research</title>
 
-<script src="site_libs/header-attrs-2.11/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.16/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/readable.min.css" rel="stylesheet" />
@@ -62,6 +62,7 @@ if (window.hljs) {
 
 
 
+
 <style type = "text/css">
 .main-container {
   max-width: 940px;
@@ -82,6 +83,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -139,11 +143,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -234,7 +242,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -296,10 +304,11 @@ $(document).ready(function () {
 <p><br></p>
 </div>
 <div id="visibility-and-peer-influence-in-durable-good-adoption" class="section level4">
-<h4><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420"><strong>Visibility and Peer Influence in Durable Good Adoption</strong></a></h4>
-<p>Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Forthcoming <strong>Marketing Science (2022)</strong></p>
+<h4><a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2021.1306"><strong>Visibility and Peer Influence in Durable Good Adoption</strong></a></h4>
+<p>Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Forthcoming <strong>Marketing Science (June 2022)</strong></p>
 <p>Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers’ solar installations increase a household’s probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.</p>
-<p>Download <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420">here.</a></p>
+<p>Available <a href="https://pubsonline.informs.org/doi/abs/10.1287/mksc.2021.1306">here</a></p>
+<p>Earlier ungated version <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420">here.</a></p>
 <p><br></p>
 </div>
 <div id="promoting-clean-energy-investment-an-empirical-analysis-of-property-assessed-clean-energy" class="section level4">
