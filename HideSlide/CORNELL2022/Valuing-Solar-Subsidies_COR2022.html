@@ -18,13 +18,13 @@ class: center, middle, inverse, title-slide
 # Valuing Solar Subsidies
 ]
 .subtitle[
-## Cornell University - October 27, 2022
+## Cornell SEERE Workshop - October 27, 2022
 ]
 .author[
 ### Bryan Bollinger (NYU), Ken Gillingham (Yale)<br>Justin Kirkpatrick (Michigan State)<br><br>Slides at: .orange[bit.ly/XXXX2022]
 ]
 .date[
-### <br><br><br><br>.font50[Last updated October 06, 2022]
+### <br><br><br><br>.font50[Last updated October 10, 2022]
 ]
 
 ---
@@ -686,36 +686,27 @@ class: MSU
 class: MSU
 # Model             
 
-## Unobserved states consumption and lease/purchase type
-- Conditional on consumption `\(b\)` and type `\(e\)` (and given parameter vector), we can calculate `\(Pr(adopt)\)` and the conditional likelihood.
-- Unobserved heterogeneity in `\(b\)` and `\(e\)` using Arcidiacono and Miller (2011), 
+### Unobserved states: consumption and lease/purchase type
+- Conditional on consumption `\(b\)` and type `\(e\)` (and given parameter vector), we can calculate `\(Pr(adopt)\)` and the conditional likelihood `\(L_{ibe}\)`.
+- Unobserved heterogeneity in `\(b\)` and `\(e\)`
   - Integrate likelihood over 10 unobserved states: 5 bins `\(b\)` and 2 types `\(e\)`
-  - `\(w_{ibe}\)` is the probability that `\(i\)` is in consumption bin `\(b\)` and type `\(e\)`
-  
-### Calculating `\(w_{ibe}\)`
-Method for updating weights is given in AM2011:
-
-`$$\begin{eqnarray}
-w_{ibe}^{(1)} = \frac{\Pi_{z(i),be}L_{ibe}}{\sum_i \Pi_{z(i),be}L_{ibe}}
-\end{eqnarray}$$`
-
-where `\(|B|\)` is the number of consumption bins. `\(\Pi_{z(i),be}\)` is the average (over `\(i\)`) value of `\(w_{ibe}\)` within household `\(i\)`'s zip code
+- **But** must constrain s.t. `\(w_{ibe}\)` sums over `\(b\)` within zip `\(z\)` to `\(\frac{N_{zip}}{5}\)`
+  - .red[Enforcing the constraint makes] `\(w_{ibe}\)` .red[depend on] `\(w_{jbe}\)`
+    - Rules out Arcidiacono and Miller (2011) method for unobserved consumption.
 
 ---
 class: MSU
 # Model
-
-### Consumption bin `\(b\)` is not independent
-- Must constrain s.t. `\(w_{ibe}\)` sums to `\(\frac{N_z}{5}\)`
-- Enforcing the constraint makes `\(w_{ibe}\)` depend on `\(w_{jbe}\)`
-
-
-### Solution:
-- Draw 1,000 random allocations of `\(b\)`
-- For each evaluation of the likelihood function, calculate conditional likelihoods for `\((i,b,e)\)`
-  1. Calculate `\(w_{i,e}\)` as `\(\frac{L_{i,b,purchaser}}{\left(L_{i,b,purchaser}+L_{i,b,leaser}\right)}\)`
-  2. Weight each **allocation** by it's total likelihood to get `\(w_{i,b}\)`
-  3. Calculate `\(L_{i}\)` by using consumption bin allocation weights and type weights
+  
+###Integrating `\(L\)` over `\(b,e\)`
+- Draw (once) `\(R = 1,000\)` random allocations of consumption `\(b\)`: `\(b^{(r)}\)`
+- For each evaluation of the likelihood function:
+  1. Evaluate at the parameters to get conditional likelihood `\(L_{ibe}\)`
+  2. Calculate weights for type `\(e\)` conditional on `\(b\)`: `\(w_{ie|b}\)` = `\(\frac{L_{ieb}}{L_{ieb}+L_{ie'b}}\)` following Arcidiacono and Miller (2011).
+  2. For each allocation, sum the `\(w_{ie|b}\)`-weighted `\(L_{ibe}\)` for `\(b = b^{(r)}\)` into `\(L_{ib^{(r)}}\)`
+  1. Calculate probability of observing each allocation conditional on `\(L\)` as `\(w^{(r)}_z = \frac{\Pi_{i\in z} L_{ib^{(r)}}}{\sum_r \Pi_{i\in z} L_{ib^{(r)}}}\)`
+  1. Calculate the log-likelihood `\(LL_i\)` by `\(LL_i = log\left(\sum_{(r)} w_z^{(r)} L_{ib^{(r)}}\right)\)`
+  1. Sum `\(LL = \sum_i LL_i\)`
 
 
 &lt;!-- --- --&gt;
