@@ -95,8 +95,8 @@
 }
 
 
-.title-slide > h1  {
-  color: #FAFAFA;
+.title-slide h1  {
+  color: white;
   font-size: 40px;
   text-shadow: none;
   font-weight: 400;
@@ -104,18 +104,18 @@
   margin-left: 15px;
   padding-top: 80px;
 }
-.title-slide > h2  {
+.title-slide h2  {
   margin-top: -25px;
   padding-bottom: -20px;
-  color: #C2C2C2;
+  color: #cccccc;
   text-shadow: none;
   font-weight: 300;
-  font-size: 35px;
+  font-size: 30px;
   text-align: left;
   margin-left: 15px;
 }
-.title-slide > h3  {
-  color: #C2C2C2;
+.title-slide h3  {
+  color: white;
   text-shadow: none;
   font-weight: 300;
   font-size: 25px;
@@ -149,12 +149,12 @@ div.msu-header {
 content: "";
     position: absolute;
     top: 10px;
-    right:   10px;
-    height: 40px;
-    width: 300px;
+    right:   5px;
+    height: 30px;
+    width: 210px;
     background-repeat: no-repeat;
     background-size: contain;
-    background-image: url("https://cdn.cabs.msu.edu/brand/images/masthead-helmet-white.svg");
+    background-image: url("https://www.stern.nyu.edu/sites/all/themes/stern/images/logo.nyu-stern.450.png");
 }
 
 .pseudocode, .pseudocode-small {
