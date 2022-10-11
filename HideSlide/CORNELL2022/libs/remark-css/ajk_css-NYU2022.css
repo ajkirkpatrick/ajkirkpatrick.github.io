@@ -19,7 +19,7 @@
 }
 
 .inverseMSU {
-  background-color: #18453B;
+  background-color: #56018D;
   color: white;
   text-shadow: 0 0 20px #333;
   border-top: 50px solid black;
@@ -48,7 +48,7 @@
 .MSU {
   background-color: white;
   color: black;
-  border-top: 50px solid #18453B;
+  border-top: 50px solid #56018D;
   text-shadow: 0 0 0 #333;
 }
 
@@ -60,7 +60,7 @@
 } 
 
 .MSU h2{
-  color: #18453B;}
+  color: #56018D;}
 
 .MSU h3{
   color: black;}
@@ -90,8 +90,8 @@
 
 
 .title-slide {
-  border-top: 50px solid #18453B;
-  background-color: #18453B;
+  border-top: 50px solid #56018D;
+  background-color: #56018D;
 }
 
 
@@ -125,7 +125,7 @@
 }
 
 .heading-slide {
-  background-color: #18453B;  /* blue background */
+  background-color: #56018D;  /* blue background */
   color: #fff;                /* white text*/
   text-shadow: 0 0 0;         /* no text shadow */
   border-bottom: 0;           /* no border */
@@ -135,7 +135,7 @@
 }
 
 .heading-slide h3 {
-  background-color: #18453B;  /* blue background */
+  background-color: #56018D;  /* blue background */
   color: #fff;                /* white text*/
   text-shadow: 0 0 0;         /* no text shadow */
   border-bottom: 0;           /* no border */
