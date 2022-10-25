@@ -24,7 +24,7 @@ class: center, middle, inverse, title-slide
 ### Bryan Bollinger (NYU), Ken Gillingham (Yale)<br>Justin Kirkpatrick (Michigan State)<br><br>Slides at: .orange[bit.ly/SEERE22]
 ]
 .date[
-### <br><br><br><br><br>.font50[Last updated October 11, 2022]
+### <br><br><br><br><br>.font50[Last updated October 25, 2022]
 ]
 
 ---
@@ -737,7 +737,7 @@ class: MSU
 name: backResults
 # Results
 
-### Main findings .font50[[full results](#fullResults)]
+### Main findings
 
 #### **Q1**: To what degree do households discount the flow...?
 
@@ -759,13 +759,41 @@ name: Q2res
 
 # Results
 
-### Main findings .font50[[full results](#fullResults)]
+### Main findings
 
 #### **Q2**: Do discount rates vary systematically...?
 
 &lt;img src="Images/rates_wealth_v3.png" width="500px" style="display: block; margin: auto;" /&gt;
 
 
+---
+class: MSU
+# Counterfactuals
+
+### Reduce up-front costs by 1%
+
+&lt;img src="Images/1pctUpFront_20221025_14_PredInstalls.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+class: MSU
+# Counterfactuals
+
+### Proposed NEM Rate of $.0625/kWh
+- From [CPUC-comissioned Avoided Cost Calculator](https://www.cpuc.ca.gov/-/media/cpuc-website/divisions/energy-division/documents/demand-side-management/acc-models-latest-version/2022-acc-documentation-v1a.pdf)
+- $.0625/kWh is average avoided cost for normalized load shape of solar
+
+&lt;img src="Images/0625NEM_20221025_15_PredInstalls.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+class: MSU
+# Counterfactuals
+
+### Proposed NEM Rate, but equivalent up-front subsidy 
+- Proposed NEM Rate of $.0625 reduces flow payoff
+- Subsidize by up-front value of net change in flow
+- Budget-neutral to gov't assuming 4% government discount rate
+
+&lt;img src="Images/0265_UpFront_20221025_15_PredInstalls.png" width="90%" style="display: block; margin: auto;" /&gt;
 
 ---
 class: MSU
@@ -782,27 +810,13 @@ class: MSU
 
 
 ---
-class: MSU
-# Conclusion
-
-### Counterfactuals
-- Structural parameters permit estimation under any flow and up-front subsidies
-- NEM 3.0 components
-  - Two-channel billing: Expected net export (by time)
-  - Per-kW capacity subsidies: Per `\(K^{*}\)` subsidies over time (additional flow)
-  
-In progress, but not complete
-
-  
-
----
 class: heading-slide
 count: false
 exclude: false
 
 Thanks!
 
-jkirk@msu.edu
+.font80[bbolling@stern.nyu.edu]
 
 
 
