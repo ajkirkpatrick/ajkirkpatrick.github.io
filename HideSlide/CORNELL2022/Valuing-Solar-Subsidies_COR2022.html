@@ -88,7 +88,7 @@ exclude: true
 ### Net metering has been controversial
 
 &lt;div class="figure" style="text-align: center"&gt;
-&lt;img src="./Images/Screenshot1.png" alt="Source: Foley and Lardner, LLP" width="80%" /&gt;
+&lt;img src="Images/Screenshot1.png" alt="Source: Foley and Lardner, LLP" width="80%" /&gt;
 &lt;p class="caption"&gt;Source: Foley and Lardner, LLP&lt;/p&gt;
 &lt;/div&gt;
 
@@ -228,7 +228,7 @@ name: backData
 # Identifying Variation
 
 
-&lt;img src="./Images/Climate_zones_CaEnergyComm.png" width="45%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Images/Climate_zones_CaEnergyComm.png" width="45%" style="display: block; margin: auto;" /&gt;
 
 **Climate zones** allow different thresholds for block pricing steps.
 &lt;!-- **Climate zones** allow different thresholds for block pricing steps. .font70[[Show boundaries](#Boundaries)] --&gt;
@@ -242,7 +242,7 @@ class: MSU
 # Identifying Variation
 
 Rate zone boundaries .font70[from Bollinger, Gillingham, Kirkpatrick, and Sexton (2017)]
-&lt;img src="./Images/bnames.png" width="65%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Images/bnames.png" width="65%" style="display: block; margin: auto;" /&gt;
 
 
 ---
@@ -251,7 +251,7 @@ class: MSU
 
 ### Rates: California has 4 (later 3) tiers of pricing during study window.
 
-&lt;img src="./Images/Rates_over_time.png" width="80%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Images/Rates_over_time.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 
 ---
@@ -260,10 +260,10 @@ class: MSU
 
 ### Variation in cost per kWh of solar generation using Google Project Sunroof
 
-&lt;img src="./Images/JustinHouse.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Images/JustinHouse.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 --
-&lt;img src="./Images/SorenHouse.png" width="100%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Images/SorenHouse.png" width="100%" style="display: block; margin: auto;" /&gt;
 
 ---
 class: MSU
@@ -282,6 +282,8 @@ name: backSize
 
 ---
 class: heading-slide
+count: false
+
 
 Optimal Sizing Model
 
@@ -351,6 +353,7 @@ class: MSU
 
 ---
 class: heading-slide
+count: false
 
 Data &amp; Model Inputs
 
@@ -694,43 +697,31 @@ class: MSU
   - .red[Enforcing the constraint makes] `\(w_{ibe}\)` .red[depend on] `\(w_{jbe}\)`
     - Rules out Arcidiacono and Miller (2011) method for unobserved consumption.
 
+
 ---
 class: MSU
 # Model
   
-###Integrating `\(L\)` over `\(b,e\)`
+###Integrating `\(L\)` over b, e.
 - Draw (once) `\(R = 1,000\)` random allocations of consumption `\(b\)`: `\(b^{(r)}\)`
 - For each evaluation of the likelihood function:
   1. Evaluate at the parameters to get conditional likelihood `\(L_{ibe}\)`
-  2. Calculate weights for type `\(e\)` conditional on `\(b\)`: `\(w_{ie|b}\)` = `\(\frac{L_{ieb}}{L_{ieb}+L_{ie'b}}\)` following Arcidiacono and Miller (2011).
-  2. For each allocation, sum the `\(w_{ie|b}\)`-weighted `\(L_{ibe}\)` for `\(b = b^{(r)}\)` into `\(L_{ib^{(r)}}\)`
+  1. Calculate weights for type `\(e\)` conditional on `\(b\)`: `\(w_{ie|b}\)` = `\(\frac{L_{ieb}}{L_{ieb}+L_{ie'b}}\)` following Arcidiacono and Miller (2011).
+  1. For each allocation, sum the `\(w_{ie|b}\)`-weighted `\(L_{ibe}\)` for `\(b = b^{(r)}\)` into `\(L_{ib^{(r)}}\)`
   1. Calculate probability of observing each allocation conditional on `\(L\)` as `\(w^{(r)}_z = \frac{\Pi_{i\in z} L_{ib^{(r)}}}{\sum_r \Pi_{i\in z} L_{ib^{(r)}}}\)`
   1. Calculate the log-likelihood `\(LL_i\)` by `\(LL_i = log\left(\sum_{(r)} w_z^{(r)} L_{ib^{(r)}}\right)\)`
   1. Sum `\(LL = \sum_i LL_i\)`
+  
 
 
-&lt;!-- --- --&gt;
-&lt;!-- class: MSU --&gt;
-&lt;!-- # Model --&gt;
-
-&lt;!-- ### MLE - Expectation Max. to estimate model in 3 stages --&gt;
-&lt;!-- - Estimate parameters `\(\{\alpha^{(1)}, \beta^{(1)}, \sigma^{(1)} \}\)` via MLE, integrating over unobserved heterogeneity using `\(w_{ibe}\)` --&gt;
-&lt;!-- - Update `\(w_{ibe}^{(1)}\)` s.t. constraint using AM2011, rescaling --&gt;
-&lt;!-- - Update `\(log(Pr_1')^{(1)}\)` with flexible logit using new `\(w_{ibe}^{(1)}\)` --&gt;
-&lt;!-- - Repeat until converged --&gt;
-
-&lt;!-- -- --&gt;
-
-&lt;!-- ### Update discount rate --&gt;
-&lt;!-- - `\(K^{*}\)` was function of discount rate (used to calculate marginal levelized cost of solar) --&gt;
-&lt;!-- - Return to optimal sizing model and update `\(K^{*}_i\)` --&gt;
-&lt;!-- - Repeat  --&gt;
 
 ---
 class: heading-slide
 count: false
 
+
 Results
+
 
 ---
 class: MSU
@@ -756,7 +747,6 @@ The average present value of average flow `\(q^{*}\bar{p}\)` is $10,841. The sam
 ---
 class: MSU
 name: Q2res
-
 # Results
 
 ### Main findings
@@ -764,6 +754,15 @@ name: Q2res
 #### **Q2**: Do discount rates vary systematically...?
 
 &lt;img src="Images/rates_wealth_v3.png" width="500px" style="display: block; margin: auto;" /&gt;
+
+
+
+---
+class: heading-slide
+count: false
+
+
+Counterfactuals
 
 
 ---
@@ -824,7 +823,7 @@ class: MSU
 ---
 class: heading-slide
 count: false
-exclude: false
+
 
 .font60[Thanks]
 
@@ -836,7 +835,7 @@ exclude: false
 class: MSU
 name: ConsBin
 count: false
-exclude: false
+
 # Data
 
 ### Zip-level annual consumption bins
@@ -844,12 +843,14 @@ exclude: false
 
 
 .font70[[Back](#backConsBin)]
----
 
+
+---
 class: MSU
 name: Boundaries
-count: false
 exclude: false
+count: false
+
 
 # Data
 
@@ -860,7 +861,7 @@ Rate zone boundaries .font70[from Bollinger, Gillingham, Kirkpatrick, and Sexton
 ---
 class: MSU
 name: RATES
-count:false
+count: false
 exclude: false
 
 # Data
@@ -941,7 +942,6 @@ And
 ---
 class: MSU
 count: false
-exclude: false
 
 # Model
 
