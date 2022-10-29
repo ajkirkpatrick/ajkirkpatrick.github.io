@@ -24,7 +24,7 @@ class: center, middle, inverse, title-slide
 ### Soren Anderson (Michigan State) <br>Justin Kirkpatrick (Michigan State)<br><br>
 ]
 .date[
-### <br><br><br>.font50[Last updated October 28, 2022]
+### <br><br><br>.font50[Last updated October 29, 2022]
 ]
 
 ---
@@ -84,10 +84,12 @@ class: inverseMSU
 - Most upgrades require ownership of the home
   - May need to move, cannot ensure that rent will not be increased (!)
   - Allcott, Knittel, and Taubinsky (2015) found reduced takeup of appliance credits by renters. .font60[also see Gillingham (2012), Davis (2012)]
-  - IRA has provisions for new rental housing EE credits and upgrades
+  
 
 ---
 class: inverseMSU
+exclude: true
+count: false
 # Context
 
 ## Other energy-efficiency options:
@@ -106,7 +108,7 @@ class: inverseMSU
 class: inverseMSU
 # Context
 
-### Not WAP, not Opower, but a secret third thing: .orange[Energy Audits]
+### Informational .orange[Energy Audits]
 - Voluntary program advertised in bills, community groups
 - Auditor comes to your house, inspects envelope, HVAC, usage, etc.
 - Writes out recommendations
@@ -114,17 +116,17 @@ class: inverseMSU
 - Doesn't touch anything. Leaves
 
 --
-- Precursor to WAP/LEEP, but often standalone
-
---
 
 ### Energy Audits under-studied in the literature
-- Related: Certification .font60[see Brounen and Kok (2011), Cassidy (2017), Walls et al (2017), Breshears (2022)]
+- Frondel and Vance (2012) find heterogeneity in consumption response, Considine and Sapci (2016) find 4 to 10.8% decrease
+  - Neither examines **renters**
+- Anderson and Newell (2004) on industrial audits and upgrades; Palmer, Walls and O'Keeffe (2015) for homeowners
+  - Examine follow-up actions taken, not consumption
 - Real-time Feedback .font60[Houde et al (2013), Jessoe and Rapson (2014), Prest (2020)]
-- Anderson and Newell (2004) on industrial upgrades
-- Frondel and Vance (2012) find heterogeneity in response, Considine and Sapci (2016) find 4.7 to 10.8% decrease in WY
-  - Neither examines renters
-- Palmer, Walls and O'Keeffe (2015) examine follow-up actions by homeowners
+- Related: Certification .font60[see Brounen and Kok (2011), Cassidy (2017), Walls et al (2017), Breshears (2022)]
+
+
+
 
 
 
@@ -143,6 +145,7 @@ class: MSU
 ### Implications
 - Important for policy (IRA subsidizes audits)
 - Welfare standpoint: purely informational audit `\(\rightarrow\)` decreases in consumption are welfare-improving.
+- Results can help bound the magnitude of the Principal-Agent problem
 
 
 ---
@@ -214,12 +217,16 @@ class: MSU
 
 .pull-left[
 ### Consumption in levels
+- Regress *consumption* on leads/lags of EAU
+- FE:
+  - **household x calendar month**
+  - **household x CDD** and **household x HDD**
+  - **month-of-sample**
 - Dropping 4 periods prior to calling for an EAU
+- Dropping any home for which a building permit was issued after the EAU
 - Treatment effect heterogeneity will be largely driven by *the month* in which the EAU occurs
   - Measure treatment effects not at monthly, but rather **yearly** lags
-- Examine (1) effect on consumption -4 to 4 years from EAU, and (2) interaction with renter status
-- FE at the **household x month-of-sample** level and **time** FE
-- Dropping any home for which a building permit was filed after the EAU
+- Examine (1) effect on consumption after EAU, and (2) interaction with renter status
 ]
 
 
@@ -233,9 +240,8 @@ class: MSU
 
 .pull-left[
 ### CDD and HDD effects
-- CDD consumption represents~31% of all consumption
-- HDD ~8%
-- We examine the change in the relationship between consumption and CDD/HDD before/after an EAU
+- Cooling and heating consumption represents ~31% and 8% of all consumption
+- We examine the **change in the relationship** between consumption and CDD/HDD before/after an EAU
   - "slope shifts"
   
 ### Plausibly exogenous variation
@@ -246,7 +252,7 @@ class: MSU
 
 
 .pull-right[
-&lt;img src="Images/EAUonConsNotLogged.png" width="110%" style="display: block; margin: auto;" /&gt;
+&lt;img src="Images/EAUonConsNotLogged.png" width="115%" style="display: block; margin: auto;" /&gt;
 ]
 
 ---
