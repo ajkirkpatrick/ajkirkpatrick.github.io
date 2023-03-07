@@ -891,6 +891,21 @@ knitr::include_graphics(file.path(imageFolder, 'cf.VC_20221229_12_PredInstalls1.
 knitr::include_graphics(file.path(imageFolder, 'cf.VC_20221229_12_PredInstalls2.png'))
 ```
 
+
+---
+class: MSU
+# Counterfactuals
+
+### Reduce up-front costs by 1%
+Increased installations reduce damages from criteria pollutants and reduce $CO_2$ emitted, but only slightly
+
+```{r, out.width = '80%'}
+# knitr::include_graphics(file.path(imageFolder, '1pctUpFront_20221026_08_PredInstalls1.png'))
+knitr::include_graphics(file.path(imageFolder, 'i3Titan-28Dec22-0934___cf.VC_20230307_11_Damages.png'))
+```
+
+
+
 ---
 class: MSU
 # Counterfactuals
@@ -1097,7 +1112,7 @@ $$\rho_i = \rho + \alpha_{low} 1(\text{wealth}_i<\tau^{wealth}_{33}) + \alpha_{m
 ```{r outputChromePrint, include=F, eval=F}
 
 currentfile = gsub(pattern='\\.Rmd', '', basename(rstudioapi::getSourceEditorContext()$path))
-inputpath = 'D:/Temporary Working/Solar NEM/SolarNEM/Presentations/CESifo/Valuing Solar Subsidies_CESifo2023.html'
+inputpath = 'D:/Temporary Working/Solar NEM/SolarNEM/Presentations/CESifo2023/Valuing-Solar-Subsidies_CESifo2023.html'
 # browseURL(inputpath)
 # pagedown::chrome_print(input = inputpath,
 #                    output = file.path(dirname(inputpath), paste0(currentfile, '_v1.pdf')),
