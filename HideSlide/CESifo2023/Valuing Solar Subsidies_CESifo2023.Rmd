@@ -140,7 +140,7 @@ count: true
 - Learn-by-doing: 
   - Only partly: Bollinger and Gillingham (2019)
 - Long-run innovation incentives:
-  - Some, but second-best approach Gerarden: (2017)
+  - Some, but second-best approach Gerarden (2017)
 - Nevertheless, it continues
 
 --
@@ -456,11 +456,8 @@ class: MSU
   - Square footage, stories, year built (CoreLogic)
   - Lat-lon (rooftop) from geocoding address
   - **Wealth** (from InfoUSA)
-  - Income (from InfoUSA)
   - Lines of credit (from InfoUSA, not used)
   - Owner or Renter (from InfoUSA)
-  - Age (from InfoUSA)
-  - Race (from InfoUSA)
   - Presence of children (from InfoUSA)
   - Length of residence (from InfoUSA)
   - Voter registration (CA Sec. of State)
@@ -478,7 +475,7 @@ class: MSU
 
 
 #### Solar adopters (LBNL Tracking the Sun)
-- 9k+ Solar Adopters
+- 7k+ Solar Adopters
   - **Address**, cost, size, date
   - Lease or purchase
   - Match Interconnection ID to PGE
@@ -645,10 +642,10 @@ v_1 &=& \delta_1 + \sigma \epsilon_1 \nonumber \\
 
 .pull-right[
 - $X\beta$ includes
-  - Age, race, children, voter reg
-  - Square footage of home
+  - Children, voter reg, sqft, stories
   - Wealth bins: low/med/high
-  - Quarter x Wealth x Lease FE
+  - Quarter x Wealth FE
+  - Lease x Wealth FE
   - Boundary zone FE]
   
   
@@ -717,7 +714,7 @@ class: MSU
 class: MSU
 # Model
 
-#### Flexible logit for $Pr'_1$ (Arcidiacono and Miller, 2011)
+### Flexible logit for $Pr'_1$ (Arcidiacono and Miller, 2011)
 - Estimate a logit with $X$'s, flexibly interacted, including a time trend and boundary zone FE
 - Predict $Pr'_1$ by advancing
   - Rate by $\zeta^{b}$
@@ -916,6 +913,7 @@ knitr::include_graphics(file.path(imageFolder, 'cf.NMR_20221229_12_PredInstalls2
 
 ---
 class: MSU
+exclude: true
 # Counterfactuals
 
 ### Proposed NEM Rate, but equivalent up-front subsidy 
@@ -923,16 +921,15 @@ class: MSU
 - Subsidize by up-front value of net change in flow
 - Budget-neutral to gov't assuming 4% government discount rate
 
-```{r, out.width = '80%'}
-# knitr::include_graphics(file.path(imageFolder, '0625_UpFront_20221026_08_PredInstalls1.png'))
-knitr::include_graphics(file.path(imageFolder, 'cf.UP_20221229_12_PredInstalls1.png'))
+```{r, out.width = '80%', eval = F, include = F}
+
+# knitr::include_graphics(file.path(imageFolder, 'cf.UP_20221229_12_PredInstalls1.png'))
 ```
 
---
 
-```{r, out.width = '95%'}
-# knitr::include_graphics(file.path(imageFolder, '0625_UpFront_20221026_08_PredInstalls2.png'))
-knitr::include_graphics(file.path(imageFolder, 'cf.UP_20221229_12_PredInstalls2.png'))
+
+```{r, out.width = '95%', eval=F, include=F}
+# knitr::include_graphics(file.path(imageFolder, 'cf.UP_20221229_12_PredInstalls2.png'))
 ```
 
 ---
@@ -954,9 +951,9 @@ class: heading-slide
 count: false
 
 
-.font60[Thanks]
+.font60[Thank you.]
 
-.font50[jkirk@msu.edu]
+<!-- .font50[jkirk@msu.edu] -->
 
 
 
@@ -1100,7 +1097,7 @@ $$\rho_i = \rho + \alpha_{low} 1(\text{wealth}_i<\tau^{wealth}_{33}) + \alpha_{m
 ```{r outputChromePrint, include=F, eval=F}
 
 currentfile = gsub(pattern='\\.Rmd', '', basename(rstudioapi::getSourceEditorContext()$path))
-inputpath = 'D:/Temporary Working/Solar NEM/SolarNEM/Presentations/CESifo/Valuing-Solar-Subsidies_CESifo2023.html'
+inputpath = 'D:/Temporary Working/Solar NEM/SolarNEM/Presentations/CESifo/Valuing Solar Subsidies_CESifo2023.html'
 # browseURL(inputpath)
 # pagedown::chrome_print(input = inputpath,
 #                    output = file.path(dirname(inputpath), paste0(currentfile, '_v1.pdf')),

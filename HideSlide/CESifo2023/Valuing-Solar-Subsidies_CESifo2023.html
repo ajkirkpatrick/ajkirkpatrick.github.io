@@ -24,7 +24,7 @@ class: center, middle, inverse, title-slide
 ### Bryan Bollinger (NYU), Ken Gillingham (Yale)<br>Justin Kirkpatrick (Michigan State)<br><br>
 ]
 .date[
-### <br><br><br><br><br>.font50[Last updated February 20, 2023]
+### <br><br><br><br><br>.font50[Last updated March 07, 2023]
 ]
 
 ---
@@ -116,7 +116,7 @@ count: true
 - Learn-by-doing: 
   - Only partly: Bollinger and Gillingham (2019)
 - Long-run innovation incentives:
-  - Some, but second-best approach Gerarden: (2017)
+  - Some, but second-best approach Gerarden (2017)
 - Nevertheless, it continues
 
 --
@@ -377,11 +377,8 @@ class: MSU
   - Square footage, stories, year built (CoreLogic)
   - Lat-lon (rooftop) from geocoding address
   - **Wealth** (from InfoUSA)
-  - Income (from InfoUSA)
   - Lines of credit (from InfoUSA, not used)
   - Owner or Renter (from InfoUSA)
-  - Age (from InfoUSA)
-  - Race (from InfoUSA)
   - Presence of children (from InfoUSA)
   - Length of residence (from InfoUSA)
   - Voter registration (CA Sec. of State)
@@ -399,7 +396,7 @@ class: MSU
 
 
 #### Solar adopters (LBNL Tracking the Sun)
-- 9k+ Solar Adopters
+- 7k+ Solar Adopters
   - **Address**, cost, size, date
   - Lease or purchase
   - Match Interconnection ID to PGE
@@ -563,10 +560,10 @@ v_1 &amp;=&amp; \delta_1 + \sigma \epsilon_1 \nonumber \\
 
 .pull-right[
 - `\(X\beta\)` includes
-  - Age, race, children, voter reg
-  - Square footage of home
+  - Children, voter reg, sqft, stories
   - Wealth bins: low/med/high
-  - Quarter x Wealth x Lease FE
+  - Quarter x Wealth FE
+  - Lease x Wealth FE
   - Boundary zone FE]
   
   
@@ -635,7 +632,7 @@ class: MSU
 class: MSU
 # Model
 
-#### Flexible logit for `\(Pr'_1\)` (Arcidiacono and Miller, 2011)
+### Flexible logit for `\(Pr'_1\)` (Arcidiacono and Miller, 2011)
 - Estimate a logit with `\(X\)`'s, flexibly interacted, including a time trend and boundary zone FE
 - Predict `\(Pr'_1\)` by advancing
   - Rate by `\(\zeta^{b}\)`
@@ -804,6 +801,7 @@ class: MSU
 
 ---
 class: MSU
+exclude: true
 # Counterfactuals
 
 ### Proposed NEM Rate, but equivalent up-front subsidy 
@@ -811,11 +809,11 @@ class: MSU
 - Subsidize by up-front value of net change in flow
 - Budget-neutral to gov't assuming 4% government discount rate
 
-&lt;img src="Images/cf.UP_20221229_12_PredInstalls1.png" width="80%" style="display: block; margin: auto;" /&gt;
 
---
 
-&lt;img src="Images/cf.UP_20221229_12_PredInstalls2.png" width="95%" style="display: block; margin: auto;" /&gt;
+
+
+
 
 ---
 class: MSU
@@ -836,9 +834,9 @@ class: heading-slide
 count: false
 
 
-.font60[Thanks]
+.font60[Thank you.]
 
-.font50[jkirk@msu.edu]
+&lt;!-- .font50[jkirk@msu.edu] --&gt;
 
 
 
