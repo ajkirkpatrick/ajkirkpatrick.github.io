@@ -1133,10 +1133,16 @@ renderthis::to_pdf(from = inputpath,
 
 
 
-hideslide<-function(copydir, destdir){
-  all.files = list.files(copydir)
-  
+hideslide.transfer<-function(copydir, destdir, eval){
+  if(eval==F) return('NO')
+  file.copy(list.files(copydir, full.names=T),
+            destdir,
+            recursive=T)
 }
+
+hideslide.transfer(copydir = dirname(rstudioapi::getSourceEditorContext()$path), 
+                   destdir = 'C:\\Users\\jkirk\\OneDrive - Michigan State University\\justinkirkpatrick\\ajkirkpatrick.github.io\\HideSlide\\CESifo2023',
+                   eval = F)
 
 ```
 
