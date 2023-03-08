@@ -1,6 +1,6 @@
 ---
 title: "Valuing Solar Subsidies"
-subtitle: "EEE - February 22, 2023"
+subtitle: "EEE - March 8th, 2023"
 author: "Bryan Bollinger (NYU), Ken Gillingham (Yale)<br>Justin Kirkpatrick (Michigan State)<br><br>"
 date: "<br><br><br><br><br>.font50[Last updated `r format(Sys.Date(), '%B %d, %Y')`]"
 output:
@@ -1113,25 +1113,11 @@ $$\rho_i = \rho + \alpha_{low} 1(\text{wealth}_i<\tau^{wealth}_{33}) + \alpha_{m
 
 currentfile = gsub(pattern='\\.Rmd', '', basename(rstudioapi::getSourceEditorContext()$path))
 inputpath = 'D:/Temporary Working/Solar NEM/SolarNEM/Presentations/CESifo2023/Valuing-Solar-Subsidies_CESifo2023.html'
-# browseURL(inputpath)
-# pagedown::chrome_print(input = inputpath,
-#                    output = file.path(dirname(inputpath), paste0(currentfile, '_v1.pdf')),
-#                    #wait = 3,
-#                    async = FALSE,
-#                    timeout = 600,
-#                    format = 'pdf')
 
 library(renderthis)
 renderthis::to_pdf(from = inputpath, 
                    to = file.path(dirname(inputpath), paste0(currentfile, '_v1.pdf')),
                    partial_slides = TRUE)
-
-# decktape(inputpath,   # Nope. Unless you don't want K's in your latex.
-#          file.path(paste0(currentfile, '_v5.pdf')),
-#          docker = FALSE) # using docker=TRUE on Mac works, but need to get html written to mac.
-#          
-
-
 
 hideslide.transfer<-function(copydir, destdir, eval){
   if(eval==F) return('NO')
@@ -1142,7 +1128,7 @@ hideslide.transfer<-function(copydir, destdir, eval){
 
 hideslide.transfer(copydir = dirname(rstudioapi::getSourceEditorContext()$path), 
                    destdir = 'C:\\Users\\jkirk\\OneDrive - Michigan State University\\justinkirkpatrick\\ajkirkpatrick.github.io\\HideSlide\\CESifo2023',
-                   eval = F)
+                   eval = T)
 
 ```
 
