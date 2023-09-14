@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>The (Dis)amenity of Visible Solar Panels</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Bryan Bollinger (NYU), Ken Gillingham (Yale) Justin Kirkpatrick (Michigan State)  " />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/ajk_css-Oct2022.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# The (Dis)amenity of Visible Solar Panels
+]
+.subtitle[
+## Empirical Micro Lunch - September 13, 2023
+]
+.author[
+### Bryan Bollinger (NYU), Ken Gillingham (Yale)<br>Justin Kirkpatrick (Michigan State)<br><br>
+]
+.date[
+### <br><br><br><br><br>.font50[Last updated September 14, 2023]
+]
+
+---
+
+
+
+
+
+layout: true
+
+
+&lt;div class="msu-header"&gt;&lt;/div&gt; 
+
+
+
+---
+class: inverseMSU
+# Household solar decisions
+
+&lt;img src="../Images/Home_from_street2.jpg" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+.pull-left[
+What do I think?
+- Offset electricity bill (irradiance)
+- Balanced against up-front cost
+- Aesthetics
+- "Warm glow"
+]
+
+.pull-right[
+What will the neighbors think?
+- Aesthetics
+- Signaling
+]
+
+
+
+
+---
+class: inverseMSU
+# Context
+
+
+### Economic case for solar
+- Internalizing an environmental externality
+  - Usually via subsidy (NEM, fed. tax credit)
+    - Inefficient subsidies: second (or third) best
+    - **But not always**, some are non-pecuniary
+  - Non-pecuniary influences are generally more efficient
+    - Internalizing your own externality is closer to a Pigouvian tax
+
+
+---
+class: inverseMSU
+# Context
+
+
+### Dynamic settings
+- S-shaped diffusion curve
+  - New technology diffuses throughout the public
+  - Interested in moving along the s-curve *faster*
+  - Pecuniary and **non-pecuniary** levers (low cost)
+  
+### What moves or compresses the diffusion curve?
+- Learn-by-doing (Bollinger and Gillingham, 2019)
+- Induced innovation (Gerarden, 2022)
+- Peer effects
+
+
+
+
+---
+class: inverseMSU
+# Context
+
+### Peer effects
+- Installed base has positive and significant effect on neighboring adoption .font60[(Bollinger and Gillingham, 2012)]
+- *Visible* installed base has positive and significant effect on neighboring adoption .font60[(Bollinger et al. 2022)]
+- **"Am I more likely to install solar if I see my neighbors have installed solar"**
+
+### What about own visibility?
+- **"Am I more/less likely to install solar if my neighbors will see my installation"**
+  - Sometimes, the sunny part of your roof isn't visible from the street
+  - Speaks to a non-pecuniary means of compressing the S-curve diffusion
+
+---
+class: inverseMSU
+# Context
+
+
+## Q1: Do households consider the visibility of their own potential solar panels when adopting?
+
+
+## Q2: What moderates that effect?
+
+
+
+---
+class: MSU
+# Literature and Theory
+
+
+### Private provision of a public good (clean air, `\(\downarrow CO_2\)`)
+- "Pro-social behavior"
+- "Warm glow" (Andreoni, 1990; Kotchen, 2006)
+
+
+### "Signaling"
+- Conspicuous conservation (Sexton and Sexton, 2014; Dastrup et al, 2011)
+  - Environmental bona fides
+- Identity + group norms (Akerlof and Kranton, 2000; Khan, 2007)
+  - Signaling, but only when consistent with group norms
+
+
+--
+
+### Notably
+- "Signaling" motivations rely on *visibility* of actions
+
+
+  
+---
+class: MSU
+# Literature and Theory
+
+#### How people respond when expected payoff (irradiance) is low relative to high tells us about the strength of the "warm glow"
+- People who are not sensitive to the (private) payoff but who adopt regardless are consistent with "warm glow"
+
+---
+class: MSU
+# Literature and Theory
+
+#### How people respond when the potential solar installation would be visible, relative to how people respond when the installation would be non-visible tells us about the strength of "signaling" influences relative to "warm glow" and private benefits.
+- People who are seeking to "signal" would have strong preference for visible panels
+
+---
+class: MSU
+# Literature and Theory
+
+#### How people respond to the potential solar installation's visibility when surrounded by similar group members vs. different group members tells us about the role of "signaling" environmental bona fides relative to "signaling" group membership
+- People who are surrounded by a group with preference against solar are less likely to use a visible installation to signal group identity.
+
+
+
+
+---
+class: MSU
+# Empirical Strategy
+
+### Individual household adoption decisions
+- Binary adoption variable, a function of:
+  - `\(EV\)`: Expected value (payoff) of adopting solar
+  - Household voter affiliation
+  - Visibility of the potential solar installation
+  - Household characteristics
+    - May be "mechanically" related to EV e.g. roof size
+
+--
+
+### Identification: Visibility is exogenous
+- Determined by "side of street" and house orientation
+- Endogeneity would require pro-solar-signal households select into north side of street
+  - Consumers choose neighborhood, home size, local amenities before choosing on solar vis potential
+- Use only &lt;2014 builds
+- Visibility, `\(EV\)`, and voter affiliation are conditionally exogenous
+  
+
+
+---
+class: MSU
+name: data
+# Data
+
+### Primary data sources
+- Home and property characteristics (CoreLogic)
+- Voter registration (Ca Sec. of State)
+- US Census TIGER/Line
+- Roof segments and irradiance  ([Google Project Sunroof](#sunroof))
+  - Includes `\(EV\)`, the expected payoff (net of up-front cost) of solar
+  
+
+&lt;img src="../Images/JustinHouse.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+class: MSU
+# Data
+
+### Sample construction
+- All single-family detached homes in 8 counties in CA
+- Year of construction &lt; 2014
+- Matched to Google Sunroof (97.8%)
+- Limit to census blocks with "suburban" densities (between 5 and 50 households)
+  - `\(N\)` = 994,000
+
+---
+class: MSU
+# Data
+
+
+## Measures of visibility
+
+### Location relative to street: for each home...
+1. From Google Sunroof, find the centroid of the sunniest roof segment
+2. Find the *nearest* point on the closest street
+3. Find the "compass" angle defined by the street point, north, and the roof point
+4. Define as decreasing (negative) when moving away from north
+  - North is 0
+  - South side is -180
+  - East and West are both -90
+5. Define "visible" as greater than -45
+
+
+---
+class: MSU
+# Data
+
+
+&lt;img src="../Images/vismap2.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+class: MSU
+# Empirical Specification
+
+### Potential threat to identification
+- Houses on the north side (visible) are more (or less) attractive to wealthier individuals who are already more likely to adopt
+  - Architectural feature, privacy and morning sunlight, etc.
+  
+### Empirical Check
+- Is visibility (north side) correlated with higher sale value (conditional on FE)
+
+---
+class: MSU
+# Empirical Specification
+
+### `\(\rightarrow\)` Visibility is not correlated with sale price
+
+
+&lt;img src="../Images/etable_tex_2023-09-14_1.18048688.png" width="65%" style="display: block; margin: auto;" /&gt;
+
+---
+class: MSU
+# Empirical Specification
+
+`$$\begin{align}
+adopt_{i} =&amp; \beta_0 + \beta_1 Visible_i + \beta_2 EV + \beta_3 Rep_i + \nonumber \\
+&amp; \beta_4 Visible_i \times Rep_i + \beta_5 EV_i \times Rep_i  + \mathbf{X_i} \Gamma + \theta_{c(i)} + \varepsilon_i \nonumber
+\end{align}$$`
+
+
+.pull-left[
+- `\(Visible\)` is binary visibility measure
+- `\(EV\)` is Google Sunroof expected value (in 1,000's)
+- `\(Rep\)` is indicator for Republican registration
+]
+
+.pull-right[
+- `\(\mathbf{X}_i\)` are home characteristics
+  - Home size (sqft)
+  - Number of stories
+  - Lot size
+  
+- `\(\theta_{c(i)}\)` are fixed effects at census block level x street name
+]
+
+--
+
+`\(\beta_1\)` and `\(\beta_4\)` tell us about value of signaling (and aesthetics) between political affiliations
+
+`\(\beta_2\)` and `\(\beta_5\)` tell us about value of solar payoff vs. "warm glow" between political affiliations: sensitivity to payoff indicates private benefits rather than "warm glow".
+
+
+
+---
+class: MSU
+# Results
+
+
+
+&lt;div class = "etable"&gt;&lt;img src = "../Images/etable_tex_2023-09-13_1643098738.png"&gt;&lt;/div&gt;
+
+---
+class: MSU
+# Empirical Specification
+
+### Include measure of the "Republican-ness" of the area
+
+
+`$$\begin{align*}
+adopt_{i} =&amp; \beta_0 + \beta_1 Visible_i + \beta_2 EV + \beta_3 Rep_i + \\
+&amp; \beta_4 Visible_i \times Rep_i + \beta_5 Rep_i \times EV_i + \\
+&amp; \beta_6 Visible_i \times AreaRep_i + \beta_7 AreaRep_i \times Rep_i + \\
+&amp; \mathbf{X_i} \Gamma + \theta_{c(i)} + \varepsilon_i
+\end{align*}$$`
+
+- `\(AreaRep_i\)` is the fraction of households registered Republican in `\(\{Block, Blockgroup\}\)` of `\(i\)`
+
+--
+
+`\(\beta_6\)` tells us about how people *signal* in relation to the "types" around them
+
+`\(\beta_7\)` tells us how people internalize the area around them
+
+
+
+
+---
+class: MSU
+# Results
+
+
+
+
+
+
+&lt;img src="../Images/etable/etable_tex_2023-05-31_9900525823.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+---
+class: MSU
+# Results
+
+### But triple-interaction is not significant
+
+
+&lt;img src="../Images/etable_tex_2023-09-14_3967867290.png" width="70%" style="display: block; margin: auto;" /&gt;
+
+
+---
+class: MSU
+# Results
+
+
+### Limitations
+- Cannot disentangle other-aesthetics from signaling
+--
+
+- Do not directly observe "type" or "identity" and proxy with voter affiliation
+--
+
+- Cannot distinguish between Conspicuous Conservation and Identity/group norms without assumptions on role of surrounding voter affiliation.
+  - Neighbors may not define group
+--
+
+- Voter affiliation captures unobserved demographics. This is not a causal interpretation of Republican/Non-Republicans.
+
+---
+class: MSU
+# Conclusion
+
+
+### Visibility is a disamenity
+- Visibility as a disamenity (signal or aesthetic)
+  - Stronger disamenity for registered Republicans
+  - Registered Republicans less likely to adopt overall
+  - Cannot disentangle aesthetic from signal, but can say weaker negative for non-Republicans
+- Expected value increases adoptions
+  - Registered republicans *more* sensitive to Expected Value
+  - Suggesting "warm glow" motive for non-Republicans
+  
+  
+--
+
+### The surrounding area moderates effects
+- Visibility disamenity increasing in Republican-ness of surrounding area
+  - Consistent with a "signaling to identity group" interpretation
+- "Home field" effect on being "Republican in a Republican area"
+
+
+---
+class: inverseMSU
+count: false
+# Thanks
+
+&lt;br&gt;&lt;br&gt;
+
+## jkirk@msu.edu
+
+
+---
+class: MSU
+count: false
+name: sunroof
+# Google Project Sunroof (#sunroof)
+
+
+&lt;img src="../Images/JustinHouse.png" width="90%" style="display: block; margin: auto;" /&gt;
+[back](#data)
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"self_contained": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

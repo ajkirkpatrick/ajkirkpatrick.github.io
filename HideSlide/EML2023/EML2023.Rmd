@@ -1,0 +1,586 @@
+---
+title: "The (Dis)amenity of Visible Solar Panels"
+subtitle: "Empirical Micro Lunch - September 13, 2023"
+author: "Bryan Bollinger (NYU), Ken Gillingham (Yale)<br>Justin Kirkpatrick (Michigan State)<br><br>"
+date: "<br><br><br><br><br>.font50[Last updated `r format(Sys.Date(), '%B %d, %Y')`]"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    yolo: false
+    css: [default, metropolis, metropolis-fonts, ajk_css-Oct2022]
+    nature: 
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false 
+      self_contained: true
+extract-media: "./images"
+
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+library(knitr)
+library(kableExtra)
+library(magick)
+library(webshot)
+opts_chunk$set(
+  fig.align="center",fig.height=4, #fig.width=7,# out.width="748px", #out.length="520.75px",
+  dpi=300, 
+  cache=T,
+  cache.lazy = F,
+  echo=F)
+
+
+require(data.table)
+require(rgdal)
+require(rgeos)
+require(sp)
+require(sf)
+require(tidyverse)
+
+require(raster)
+require(mapview)
+require(snow)
+require(doSNOW)
+require(parallel)
+require(foreach)
+require(iterators)
+require(tigris) #v2
+
+require(cowplot)
+require(ggpubr)
+require(haven)
+require(plot3D)
+require(stargazer)
+require(quantmod)
+require(wbstats)
+require(lubridate)
+require(gridExtra)
+require(scales)
+require(broom)
+require(gghighlight)
+require(xaringan)
+require(rmarkdown)
+require(pagedown)
+require(here)
+
+require(tidycensus)
+require(haven)
+require(modelsummary)
+require(fixest)
+require(beepr)
+options("getSymbols.warning4.0"=FALSE)
+
+knitr::opts_knit$set(root.dir = 'D:\\user\\ajk41\\Own Viz\\Scripts\\Presentations\\EML2023')
+
+imageFolder = here('Scripts','Presentations','Images')
+# browseURL(imageFolder)
+# print(here())
+```
+
+```{r analysisSetup1, eval=T, cache=T, include=F}
+dl = readRDS("D:/user/ajk41/Own Viz/Analysis/Analysis_2023-09-14/EML2023_Analysis.rds")
+cblu = dl$data1
+abslist41 = dl$abslist41
+abslistLAT = dl$abslistLAT
+VIS.ortho = dl$VIS.ortho 
+VALUE.ortho = dl$VALUE.ortho
+```
+layout: true
+
+
+<div class="msu-header"></div> 
+
+
+
+---
+class: inverseMSU
+# Household solar decisions
+
+```{r, out.width='70%'}
+
+knitr::include_graphics(here('Scripts','Presentations','Images','Home_from_street2.jpg'))
+# knitr::include_graphics("./Scripts/Presentations/Images/Home_from_street2.jpg") # using relative filepaths should trigger extract-media.
+```
+
+
+.pull-left[
+What do I think?
+- Offset electricity bill (irradiance)
+- Balanced against up-front cost
+- Aesthetics
+- "Warm glow"
+]
+
+.pull-right[
+What will the neighbors think?
+- Aesthetics
+- Signaling
+]
+
+
+
+
+---
+class: inverseMSU
+# Context
+
+
+### Economic case for solar
+- Internalizing an environmental externality
+  - Usually via subsidy (NEM, fed. tax credit)
+    - Inefficient subsidies: second (or third) best
+    - **But not always**, some are non-pecuniary
+  - Non-pecuniary influences are generally more efficient
+    - Internalizing your own externality is closer to a Pigouvian tax
+
+
+---
+class: inverseMSU
+# Context
+
+
+### Dynamic settings
+- S-shaped diffusion curve
+  - New technology diffuses throughout the public
+  - Interested in moving along the s-curve *faster*
+  - Pecuniary and **non-pecuniary** levers (low cost)
+  
+### What moves or compresses the diffusion curve?
+- Learn-by-doing (Bollinger and Gillingham, 2019)
+- Induced innovation (Gerarden, 2022)
+- Peer effects
+
+
+
+
+---
+class: inverseMSU
+# Context
+
+### Peer effects
+- Installed base has positive and significant effect on neighboring adoption .font60[(Bollinger and Gillingham, 2012)]
+- *Visible* installed base has positive and significant effect on neighboring adoption .font60[(Bollinger et al. 2022)]
+- **"Am I more likely to install solar if I see my neighbors have installed solar"**
+
+### What about own visibility?
+- **"Am I more/less likely to install solar if my neighbors will see my installation"**
+  - Sometimes, the sunny part of your roof isn't visible from the street
+  - Speaks to a non-pecuniary means of compressing the S-curve diffusion
+
+---
+class: inverseMSU
+# Context
+
+
+## Q1: Do households consider the visibility of their own potential solar panels when adopting?
+
+
+## Q2: What moderates that effect?
+
+
+
+---
+class: MSU
+# Literature and Theory
+
+
+### Private provision of a public good (clean air, $\downarrow CO_2$)
+- "Pro-social behavior"
+- "Warm glow" (Andreoni, 1990; Kotchen, 2006)
+
+
+### "Signaling"
+- Conspicuous conservation (Sexton and Sexton, 2014; Dastrup et al, 2011)
+  - Environmental bona fides
+- Identity + group norms (Akerlof and Kranton, 2000; Khan, 2007)
+  - Signaling, but only when consistent with group norms
+
+
+--
+
+### Notably
+- "Signaling" motivations rely on *visibility* of actions
+
+
+  
+---
+class: MSU
+# Literature and Theory
+
+#### How people respond when expected payoff (irradiance) is low relative to high tells us about the strength of the "warm glow"
+- People who are not sensitive to the (private) payoff but who adopt regardless are consistent with "warm glow"
+
+---
+class: MSU
+# Literature and Theory
+
+#### How people respond when the potential solar installation would be visible, relative to how people respond when the installation would be non-visible tells us about the strength of "signaling" influences relative to "warm glow" and private benefits.
+- People who are seeking to "signal" would have strong preference for visible panels
+
+---
+class: MSU
+# Literature and Theory
+
+#### How people respond to the potential solar installation's visibility when surrounded by similar group members vs. different group members tells us about the role of "signaling" environmental bona fides relative to "signaling" group membership
+- People who are surrounded by a group with preference against solar are less likely to use a visible installation to signal group identity.
+
+
+
+
+---
+class: MSU
+# Empirical Strategy
+
+### Individual household adoption decisions
+- Binary adoption variable, a function of:
+  - $EV$: Expected value (payoff) of adopting solar
+  - Household voter affiliation
+  - Visibility of the potential solar installation
+  - Household characteristics
+    - May be "mechanically" related to EV e.g. roof size
+
+--
+
+### Identification: Visibility is exogenous
+- Determined by "side of street" and house orientation
+- Endogeneity would require pro-solar-signal households select into north side of street
+  - Consumers choose neighborhood, home size, local amenities before choosing on solar vis potential
+- Use only <2014 builds
+- Visibility, $EV$, and voter affiliation are conditionally exogenous
+  
+
+
+---
+class: MSU
+name: data
+# Data
+
+### Primary data sources
+- Home and property characteristics (CoreLogic)
+- Voter registration (Ca Sec. of State)
+- US Census TIGER/Line
+- Roof segments and irradiance  ([Google Project Sunroof](#sunroof))
+  - Includes $EV$, the expected payoff (net of up-front cost) of solar
+  
+
+```{r, out.width='90%'}
+include_graphics(here('Scripts','Presentations','Images','JustinHouse.png'))
+```
+
+---
+class: MSU
+# Data
+
+### Sample construction
+- All single-family detached homes in 8 counties in CA
+- Year of construction < 2014
+- Matched to Google Sunroof (97.8%)
+- Limit to census blocks with "suburban" densities (between 5 and 50 households)
+  - $N$ = `r prettyNum(round(NROW(cblu), -3),',')`
+
+---
+class: MSU
+# Data
+
+
+## Measures of visibility
+
+### Location relative to street: for each home...
+1. From Google Sunroof, find the centroid of the sunniest roof segment
+2. Find the *nearest* point on the closest street
+3. Find the "compass" angle defined by the street point, north, and the roof point
+4. Define as decreasing (negative) when moving away from north
+  - North is 0
+  - South side is -180
+  - East and West are both -90
+5. Define "visible" as greater than -45
+
+
+---
+class: MSU
+# Data
+
+
+```{r makeVisEx, out.width='90%', warning=F, message=F, error=F}
+
+sst = cblu %>%
+  dplyr::filter(GEOID20 == GEOID20[291001]) %>%
+  st_as_sf(coords = c('glng','glat'), crs=4326) %>%
+  dplyr::mutate(Visible = north)
+
+sstx = mapview(sst, zcol = 'Visible') #155000; 28501
+
+
+mapview::mapshot2(sstx, zcol = 'Visible', #url = here('Scripts','Presentations','AERE2023','vismap.html'),
+        file = "D:/user/ajk41/Own Viz/Scripts/Presentations/Images/vismap2.png")
+
+knitr::include_graphics(here('Scripts','Presentations','Images','vismap2.png'))
+
+```
+
+---
+class: MSU
+# Empirical Specification
+
+### Potential threat to identification
+- Houses on the north side (visible) are more (or less) attractive to wealthier individuals who are already more likely to adopt
+  - Architectural feature, privacy and morning sunlight, etc.
+  
+### Empirical Check
+- Is visibility (north side) correlated with higher sale value (conditional on FE)
+
+---
+class: MSU
+# Empirical Specification
+
+### $\rightarrow$ Visibility is not correlated with sale price
+```{r threat, results = 'asis', include = F}
+setFixest_dict(c(northTRUE = "Visible (north)", EVk = "Expected Value",
+                 REP1TRUE = "Registered Rep",
+                 NREP1TRUE = "Registered Non-Rep",
+                 adopt = 'Adopt x 100',
+                 avgR = 'Block average Rep',
+                 avgBG = 'Block-group average Rep',
+                 NUMBER_OF_BEDROOMS = 'Bedrooms',
+                 NUMBER_OF_STORIESTRUE = 'Stories 2+',
+                 UNIVERSAL_BUILDING_SQUARE_FEET = 'Sq ft',
+                 LAND_SQUARE_FOOTAGE = 'Lot Size'))
+
+
+# modelsummary(abslist41[c(1,2,4)], drop = 'UNIVERSAL_BUILDING|LAND_SQUARE|NUMBER_OF|reg1')
+etable(VALUE.ortho[1], drop = 'UNIVERSAL_BUILDING|LAND_SQUARE|NUMBER_OF|reg1', markdown=imageFolder, digits = 3, order = 'Visible', highlight = list('Visible@1'))
+
+```
+
+```{r displayThreat, out.width = '65%'}
+include_graphics(file.path(imageFolder, 'etable_tex_2023-09-14_1.18048688.png'))
+```
+
+---
+class: MSU
+# Empirical Specification
+
+$$\begin{align}
+adopt_{i} =& \beta_0 + \beta_1 Visible_i + \beta_2 EV + \beta_3 Rep_i + \nonumber \\
+& \beta_4 Visible_i \times Rep_i + \beta_5 EV_i \times Rep_i  + \mathbf{X_i} \Gamma + \theta_{c(i)} + \varepsilon_i \nonumber
+\end{align}$$
+
+
+.pull-left[
+- $Visible$ is binary visibility measure
+- $EV$ is Google Sunroof expected value (in 1,000's)
+- $Rep$ is indicator for Republican registration
+]
+
+.pull-right[
+- $\mathbf{X}_i$ are home characteristics
+  - Home size (sqft)
+  - Number of stories
+  - Lot size
+  
+- $\theta_{c(i)}$ are fixed effects at census block level x street name
+]
+
+--
+
+$\beta_1$ and $\beta_4$ tell us about value of signaling (and aesthetics) between political affiliations
+
+$\beta_2$ and $\beta_5$ tell us about value of solar payoff vs. "warm glow" between political affiliations: sensitivity to payoff indicates private benefits rather than "warm glow".
+
+
+
+---
+class: MSU
+# Results
+
+```{r dict}
+setFixest_dict(c(northTRUE = "Visible", EVk = "Expected Value",
+                 REP1TRUE = "Registered Rep",
+                 NREP1TRUE = "Registered Non-Rep",
+                 adopt = 'Adopt x 100'))
+
+```
+
+```{r res1, results = 'asis'}
+setFixest_dict(c(northTRUE = "Visible", EVk = "Expected Value",
+                 REP1TRUE = "Registered Rep",
+                 NREP1TRUE = "Registered Non-Rep",
+                 adopt = 'Adopt x 100',
+                 avgR = 'Block average Rep',
+                 avgBG = 'Block-group average Rep'))
+
+
+# modelsummary(abslist41[c(1,2,4)], drop = 'UNIVERSAL_BUILDING|LAND_SQUARE|NUMBER_OF|reg1')
+etable(abslist41[c(1,2,4)], drop = 'UNIVERSAL_BUILDING|LAND_SQUARE|NUMBER_OF|reg1', markdown=imageFolder, digits = 3)
+
+```
+
+---
+class: MSU
+# Empirical Specification
+
+### Include measure of the "Republican-ness" of the area
+
+
+$$\begin{align*}
+adopt_{i} =& \beta_0 + \beta_1 Visible_i + \beta_2 EV + \beta_3 Rep_i + \\
+& \beta_4 Visible_i \times Rep_i + \beta_5 Rep_i \times EV_i + \\
+& \beta_6 Visible_i \times AreaRep_i + \beta_7 AreaRep_i \times Rep_i + \\
+& \mathbf{X_i} \Gamma + \theta_{c(i)} + \varepsilon_i
+\end{align*}$$
+
+- $AreaRep_i$ is the fraction of households registered Republican in $\{Block, Blockgroup\}$ of $i$
+
+--
+
+$\beta_6$ tells us about how people *signal* in relation to the "types" around them
+
+$\beta_7$ tells us how people internalize the area around them
+
+
+
+
+---
+class: MSU
+# Results
+
+
+```{r intx1, results = 'asis', error = F, message = F, warning = F, include = F}
+
+setFixest_dict(c(northTRUE = "Visible", EVk = "Expected Value",
+                 REP1TRUE = "Registered Rep",
+                 NREP1TRUE = "Registered Non-Rep",
+                 adopt = 'Adopt x 100',
+                 avgR = 'Block average Rep',
+                 avgNR = 'Block average Non-Rep',
+                 avgRBG = 'Block-group average Rep',
+                 avgNRBG = 'Block-group average Non-Rep'))
+
+
+
+etable(abslistLAT[c(1,2)], drop = 'UNIVERSAL_BUILDING|LAND_SQUARE|NUMBER_OF|reg1', order = '!Block', markdown=imageFolder, digits = 3)
+
+```
+
+
+
+```{r res1display, out.width='70%'}
+
+knitr::include_graphics(here('Scripts/Presentations/Images/etable','etable_tex_2023-05-31_9900525823.png'))
+```
+
+---
+class: MSU
+# Results
+
+### But triple-interaction is not significant
+```{r triple, results='asis', include=F}
+etable(abslistLAT[c(3)], drop = 'UNIVERSAL_BUILDING|LAND_SQUARE|NUMBER_OF|reg1', order = '!Block', markdown=imageFolder, digits = 3)
+```
+
+```{r tripleDisplay, out.width='70%'}
+include_graphics(file.path(imageFolder, 'etable_tex_2023-09-14_3967867290.png'))
+```
+
+
+---
+class: MSU
+# Results
+
+
+### Limitations
+- Cannot disentangle other-aesthetics from signaling
+--
+
+- Do not directly observe "type" or "identity" and proxy with voter affiliation
+--
+
+- Cannot distinguish between Conspicuous Conservation and Identity/group norms without assumptions on role of surrounding voter affiliation.
+  - Neighbors may not define group
+--
+
+- Voter affiliation captures unobserved demographics. This is not a causal interpretation of Republican/Non-Republicans.
+
+---
+class: MSU
+# Conclusion
+
+
+### Visibility is a disamenity
+- Visibility as a disamenity (signal or aesthetic)
+  - Stronger disamenity for registered Republicans
+  - Registered Republicans less likely to adopt overall
+  - Cannot disentangle aesthetic from signal, but can say weaker negative for non-Republicans
+- Expected value increases adoptions
+  - Registered epublicans *more* sensitive to Expected Value
+  - Suggesting "warm glow" motive for non-Republicans
+  
+  
+--
+
+### The surrounding area moderates effects
+- Visibility disamenity increasing in Republican-ness of surrounding area
+  - Consistent with a "signaling to identity group" interpretation
+- "Home field" effect on being "Republican in a Republican area"
+
+
+---
+class: inverseMSU
+count: false
+# Thanks
+
+<br><br>
+
+## jkirk@msu.edu
+
+
+---
+class: MSU
+count: false
+name: sunroof
+# Google Project Sunroof (#sunroof)
+
+
+```{r, out.width='90%'}
+include_graphics(here('Scripts','Presentations','Images','JustinHouse.png'))
+
+```
+[back](#data)
+
+
+```{r outputChromePrint, include=F, eval=F}
+
+currentfile = gsub(pattern='\\.Rmd', '', basename(rstudioapi::getSourceEditorContext()$path))
+inputpath = here('Scripts/Presentations/EML2023/EML2023.html')
+# browseURL(inputpath)
+# pagedown::chrome_print(input = inputpath,
+#                    output = file.path(dirname(inputpath), paste0(currentfile, '_v1.pdf')),
+#                    #wait = 3,
+#                    async = FALSE,
+#                    timeout = 600,
+#                    format = 'pdf')
+
+library(renderthis)
+renderthis::to_pdf(from = inputpath, 
+                   to = file.path(dirname(inputpath), paste0(currentfile, '_v1.pdf')))
+
+# decktape(inputpath,   # Nope. Unless you don't want K's in your latex.
+#          file.path(paste0(currentfile, '_v5.pdf')),
+#          docker = FALSE) # using docker=TRUE on Mac works, but need to get html written to mac.
+#          
+
+
+
+hideslide<-function(copydir, destdir){
+  all.files = list.files(copydir)
+  
+}
+
+```
+
+```{r copy-to-kirkpatrick-dot-com, eval = F}
+browseURL(dirname(rstudioapi::getSourceEditorContext()$path))
+browseURL('C:\\Users\\jkirk\\OneDrive - Michigan State University\\justinkirkpatrick\\ajkirkpatrick.github.io\\HideSlide')
+# copy then switch to justinkirkpatrick.com to push
+```
