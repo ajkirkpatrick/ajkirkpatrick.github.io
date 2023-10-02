@@ -12,20 +12,6 @@ title: "Justin Kirkpatrick: Research"
 
 ### Peer-reviewed Publications
 
-<br>
-
-#### [__Heterogeneous Solar Capacity Benefits, Appropriability, and the Costs of Suboptimal Siting__](https://www.journals.uchicago.edu/doi/10.1086/714970)
-
-Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __Journal of the Assoc. of Environmental and Resource Economists (September 2021)__
-
-Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
-
-Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.
-
-Available [here](https://www.journals.uchicago.edu/doi/10.1086/714970)
-
-Download [NBER working paper (2018) here.](http://www.justinkirkpatrick.com/Papers/kirkpatrickSolar_Siting_wp.pdf)
-
  
 <br>
 
@@ -41,17 +27,34 @@ Available [here](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2021.1306)
 Earlier ungated version [here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
 
 
+
 <br>
 
-#### [__Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy__](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
+#### [__Heterogeneous Solar Capacity Benefits, Appropriability, and the Costs of Suboptimal Siting__](https://www.journals.uchicago.edu/doi/10.1086/714970)
 
-Kirkpatrick, A. Justin, and Lori S. Bennear. __Journal of Environmental Economics and Management (2014)__
+Sexton, Steven E., A. Justin Kirkpatrick, Robert Harris, Nicholas Muller. __Journal of the Assoc. of Environmental and Resource Economists (September 2021)__
 
-Abstract: From 2008 to 2010 a handful of Property-Assessed Clean Energy (PACE) programs offered property-secured loans to homeowners for residential clean energy investments. This analysis uses difference-in-differences models and synthetic counterfactual models to estimate the effect of three California PACE programs on residential photovoltaic installations. We find that PACE financing increases solar installations by approximately 3.8 watts per owner-occupied household per quarter, a 108\% increase over the mean watts per owner-occupied household. Because PACE financing carries equal or higher interest rates relative to alternative financing mechanism, we argue that PACE programs can address market barriers and help address the clean energy investment gap.
+Formerly titled “Siting Solar PV Capacity to Maximize Environmental Benefits”
 
-Download [here.](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
+Abstract: Federal and state policies in the U.S. subsidize electricity generation from 1.4 million rooftop solar arrays because of pollution avoidance benefits and grid congestion relief. Yet because these benefits vary across the U.S. according to solar irradiance, technologies of electricity generators, and grid characteristics, the value of these benefits, and, consequently, the optimal subsidy, are largely unknown. Policy, therefore, is unlikely to have induced efficient solar investments. This paper (1) provides the first systematic, theoretically consistent, and empirically valid estimates of pollution damages avoidable by solar capacity in each U.S. zip code, (2) relates these external benefits to subsidy levels in each U.S. state, and (3) estimates the share of these benefits that spillover to other states. It also measures the energy value of capacity across the U.S. and the value of transmission congestion relief in California. Environmental benefits are shown to vary considerably across the U.S., and to largely spillover to neighboring states. Subsidy levels are essentially uncorrelated with environmental benefits contributing to installed capacity that sacrifices approximately $1 billion per year in environmental benefits. Energy value is estimated to vary less than environmental benefits, while California rooftop solar is shown to generate no congestion relief.
 
-This paper was featured in [Research Highlights in Nature Climate Change, August 2014.](https://www.nature.com/articles/nclimate2366)
+Available [here](https://www.journals.uchicago.edu/doi/10.1086/714970)
+
+Download [NBER working paper (2018) here.](http://www.justinkirkpatrick.com/Papers/kirkpatrickSolar_Siting_wp.pdf)
+
+
+ 
+<br>
+
+#### [__Investing in local capacity to respond to a federal environmental mandate: Forest & economic impacts of the Green Municipality Program in the Brazilian Amazon__](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
+
+Sills, Erin, Alexander Pfaff, Luiza Andrade, A. Justin Kirkpatrick, and Rebecca Dickson. __World Development (2020)__
+
+Abstract: For the past decade, the Brazilian federal government has offered a strong collective incentive for municipalities in the Amazon to reduce deforestation through its policy of ‘blacklisting’ municipalities where the most deforestation is occurring. We evaluate a state program to improve the capacity of local governments to respond to this incentive. The Green Municipality Program, or Programa Municípios Verdes (PMV), is voluntary: municipal governments in the state of Pará choose whether to participate in the program. To control for any differences in outcomes due solely to which municipal governments chose to participate, we employ two quasi-experimental methods: two-way fixed effects regression within a matched sample of municipalities; and the synthetic control method that compares each municipality to a synthetic match that followed a similar outcome trajectory prior to the program. We hypothesize that the PMV helped municipalities ameliorate the costs of complying with federal deforestation mandates, and we find that participation in the program increased total value added in blacklisted municipalities, with substantial heterogeneity as revealed through the synthetic control method. We show that this effect is not likely due to intensification in the agricultural sector, and we identify other possible mechanisms that would require additional data to test. By reducing the local costs of controlling deforestation, the PMV could make forest conservation more socially and politically sustainable in the long run.
+
+Download [here.](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
+
+
 
 <br>
 
@@ -76,18 +79,21 @@ Abstract: Quasi-experimental methods increasingly are used to evaluate the impac
 
 Download [here.](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0132590)
 
- 
+
 <br>
 
-#### [__Investing in local capacity to respond to a federal environmental mandate: Forest & economic impacts of the Green Municipality Program in the Brazilian Amazon__](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
+#### [__Promoting Clean Energy Investment: An Empirical Analysis of Property Assessed Clean Energy__](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
 
-Sills, Erin, Alexander Pfaff, Luiza Andrade, Justin Kirkpatrick, and Rebecca Dickson. __World Development (2020)__
+Kirkpatrick, A. Justin, and Lori S. Bennear. __Journal of Environmental Economics and Management (2014)__
 
-Abstract: For the past decade, the Brazilian federal government has offered a strong collective incentive for municipalities in the Amazon to reduce deforestation through its policy of ‘blacklisting’ municipalities where the most deforestation is occurring. We evaluate a state program to improve the capacity of local governments to respond to this incentive. The Green Municipality Program, or Programa Municípios Verdes (PMV), is voluntary: municipal governments in the state of Pará choose whether to participate in the program. To control for any differences in outcomes due solely to which municipal governments chose to participate, we employ two quasi-experimental methods: two-way fixed effects regression within a matched sample of municipalities; and the synthetic control method that compares each municipality to a synthetic match that followed a similar outcome trajectory prior to the program. We hypothesize that the PMV helped municipalities ameliorate the costs of complying with federal deforestation mandates, and we find that participation in the program increased total value added in blacklisted municipalities, with substantial heterogeneity as revealed through the synthetic control method. We show that this effect is not likely due to intensification in the agricultural sector, and we identify other possible mechanisms that would require additional data to test. By reducing the local costs of controlling deforestation, the PMV could make forest conservation more socially and politically sustainable in the long run.
+Abstract: From 2008 to 2010 a handful of Property-Assessed Clean Energy (PACE) programs offered property-secured loans to homeowners for residential clean energy investments. This analysis uses difference-in-differences models and synthetic counterfactual models to estimate the effect of three California PACE programs on residential photovoltaic installations. We find that PACE financing increases solar installations by approximately 3.8 watts per owner-occupied household per quarter, a 108\% increase over the mean watts per owner-occupied household. Because PACE financing carries equal or higher interest rates relative to alternative financing mechanism, we argue that PACE programs can address market barriers and help address the clean energy investment gap.
 
-Download [here.](https://www.sciencedirect.com/science/article/abs/pii/S0305750X20300176?via%3Dihub)
+Download [here.](https://www.sciencedirect.com/science/article/pii/S0095069614000370)
 
- 
+This paper was featured in [Research Highlights in Nature Climate Change, August 2014.](https://www.nature.com/articles/nclimate2366)
+
+
+
 ----
 
 <br> 
@@ -128,27 +134,48 @@ Download most recent version [here.](Papers/kirkpatrickEnergyStorageJan2020.pdf)
 <br>
 
 
+
+#### [__Valuing Solar Subsidies__]((Papers/Valuing_Solar_Subsidies_230315.pdf))
+
+Bryan Bollinger, Ken Gillingham, and A. Justin Kirkpatrick
+
+Abstract: Existing rooftop solar subsidy regimes have generated additional solar capacity and generation at relatively high cost partly due to take-up by infra-marginal adopters, i.e., free-riders who would have adopted solar in the absence of subsidies. We consider how households trade off upfront solar PV system costs and future savings on grid electricity by exploiting exogenous variation in upfront capacity rebates in California and discrete changes in future energy savings across administrative borders. We also incorporate a unique source of exogenous variation in household solar decisions by including data from Google Sunroof, which models the rooftops of over 50 million households across the U.S., providing household-level variation in expected payoffs from solar investment even within utility rate and state incentive boundaries. We evaluate the efficiency of upfront capacity incentives that include a federal investment tax credit and state and local rebates relative to NEM policies common to 43 U.S. states. NEM policies subsidize a future stream of electricity generated over the 20-25-year lifetimes of solar PV systems. The stream of subsidies may be highly discounted by impatient households who are observed to under-invest in energy-saving durables in a phenomenon termed the “Energy Paradox” that is believed to yield an “Energy Efficiency Gap.” If households exhibit discount rates higher than market rates, then policymakers interested in increasing solar electricity generation could redeploy public resources embodied in NEM policies in the form of upfront capacity rebates or expected generation rebates that effectively arbitrage household impatience.
+
+Presented at NBER Spring EEE 2023. Draft [here.](Papers/Valuing_Solar_Subsidies_230315.pdf)
+
+<br>
+
+
+#### [__Distributional Consequences of Policies for Electric Heat Conversion__](Papers/HeatPumps_AndersonKirkpatrick_062023.pdf)
+Soren Anderson and A. Justin Kirkpatrick
+
+Abstract: We study the adoption of air-source heat pumps for home heating. We estimate that 6%-8% ofalready-built homes converted to heat pumps during 2009-2020, while 25% of the new homes built during this period chose heat pumps. New adoptions concentrate among rural households in the South and West. Conversions are more diffuse, covering both urban and rural households in every region, and displacing whichever fuels are most prevalent in these places. Conversions and new adoptions are both sensitive to energy prices, accelerating when electricity prices fall or when natural gas, heating oil, or propane prices rise. In addition, we calculate the annual energy-cost savings from switching to a heat pump for a prototypical home in every U.S. census tract, based on local conditions, including current heating fuels, climate, and energy prices. We find massive variation, with low-income households in the Northeast and upper Midwest benefiting the most
+
+In submission. Presented at NBER Distributional Impacts of New Energy Policy. Draft [here.](Papers/HeatPumps_AndersonKirkpatrick_062023.pdf)
+
+<br>
+
+
 #### [__Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking__](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
 
-A. Justin Kirkpatrick, T. Robert Fetter (last updated July 2020)
+A. Justin Kirkpatrick, T. Robert Fetter (last updated July 2020; resting)
 
 Abstract: Environmental conditions such as new industrial activity or drinking water quality violations may affect perceived water quality and cause individuals to invest in averting or defensive expenditures. Some recent papers use household expenditures on bottled water to measure the welfare effect of changes in water quality, arguing that these averting expenditures are a lower bound on compensating variation. We offer a new perspective and argue that when consumers choose averting behaviors such as substituting bottled water for tap water, their willingness to pay incorporates other characteristics of the good. If consumers get positive utility from these characteristics, then expenditures on bottled water do not actually represent a lower bound on the compensating variation for a change in water quality. Rather, the observed expenditures should be adjusted downward to account for consumers’ increased utility due to other desirable characteristics. We develop a structural model of demand for bottled water and estimate it using fine-resolution supermarket scanner data, and compare the resulting estimates to averting expenditures from a reduced-form model. We use a horizontal discrete choice demand framework, drawing upon literature in empirical industrial organization and allowing for individual heterogeneity. Our structural results value the disamenity of fracking for groundwater-reliant homes at $4.14 per household per quarter, while our reduced form results estimate $3.24.
 
 Download [here.](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
 
- 
-<br>
 
 <br>
 
 #### __Household Discount Rates and Net Energy Metering Incentives for Rooftop Solar Adoption__
 
-Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. __For NBER Economics of Energy Markets 2017__ (last updated June 2017)
+Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. __For NBER Economics of Energy Markets 2017__ (last updated June 2017; resting)
 
 Abstract: Net Energy Metering policies common to 41 U.S. states and parts of Europe subsidize distributed solar electricity generation by affording the generator displacement of grid electricity and export sales at retail electricity rates that value the electricity at greater than wholesale prices. This subsidy has engendered criticism on equity grounds because it affects cost shifting from relatively wealthy households who adopt solar photovoltaic capacity to poor households who bear greater shares of electric grid supply costs. This paper explores the efficiency implications of NEM policies that subsidize a future stream of electricity generation that may be highly discounted by households relative to market rates. We estimate an implied discount rate of NEM subsidies equal to 10.9-13.7% in preferred specifications, far greater than prevailing market rates, suggesting that planners could arbitrage discount rates to achieve greater solar generation per public dollar expenditure.
 
 Working paper available on request.
 
+<br>
 
 ## Work-in-progress
 
@@ -188,18 +215,4 @@ Working abstract: Debate over the environmental impact of offshore wind relative
 
 <br>
 
-#### __Peer Effects and Conspicuous Conservation in Rooftop Solar Adoptions__
-With Ken Gillingham, Bryan Bollinger, Steven Sexton
-
-Working abstract: Efforts to reduce negative externalities from electricity generation have emphasized distributed clean energy for well over two decades, primarily in the form of subsidies to adopters. However, non-pecuniary incentives may play a significant role in driving household adoption of clean energy generation. Previous work has established that additional solar panel installations increase the probability of subsequent adoption within a zip code (Bollinger and Gillingham, 2012 in Marketing Science). This paper seeks to disentangle one of the mechanisms of diffusion of these peer effects by leveraging exogenous variation in the visibility of a solar panel. Furthermore, we also generate a LiDAR (satellite) based method for determining the visibility of an installed solar panel accounting for nearby road alignment and intervening vegetation. In our empirical application, we construct a household panel consisting of ~90% of all households in Connecticut and estimate a model of household adoption probabilities. Results will inform policymakers about the effects of non-pecuniary incentives for residential solar installations.
-
-<br>
-
-
-#### __Valuing Solar Subsidies__
-With Ken Gillingham, Bryan Bollinger, Steven Sexton
-
-Working abstract: Existing rooftop solar subsidy regimes have generated additional solar capacity and generation at relatively high cost partly due to take-up by infra-marginal adopters, i.e., free-riders who would have adopted solar in the absence of subsidies. We consider how households trade off upfront solar PV system costs and future savings on grid electricity by exploiting exogenous variation in upfront capacity rebates in California and discrete changes in future energy savings across administrative borders. We also incorporate a unique source of exogenous variation in household solar decisions by including data from Google Sunroof, which models the rooftops of over 50 million households across the U.S., providing household-level variation in expected payoffs from solar investment even within utility rate and state incentive boundaries. We evaluate the efficiency of upfront capacity incentives that include a federal investment tax credit and state and local rebates relative to NEM policies common to 43 U.S. states. NEM policies subsidize a future stream of electricity generated over the 20-25-year lifetimes of solar PV systems. The stream of subsidies may be highly discounted by impatient households who are observed to under-invest in energy-saving durables in a phenomenon termed the “Energy Paradox” that is believed to yield an “Energy Efficiency Gap.” If households exhibit discount rates higher than market rates, then policymakers interested in increasing solar electricity generation could redeploy public resources embodied in NEM policies in the form of upfront capacity rebates or expected generation rebates that effectively arbitrage household impatience.
-
-<br>
 
