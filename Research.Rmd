@@ -193,7 +193,7 @@ Presented at __AERE 2023__. Slides [here](HideSlide/AERE2023/OwnViz_Solar_AERE20
 <br>
 
 
-#### __Heterogeneous Effects of Informational Energy Audits and the SPlit Incentive for Renters and Owners__
+#### __Heterogeneous Effects of Informational Energy Audits and the Split Incentive for Renters and Owners__
 
 Soren Anderson and A. Justin Kirkpatrick
 
