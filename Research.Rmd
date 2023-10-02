@@ -18,7 +18,7 @@ title: "Justin Kirkpatrick: Research"
 
 #### [__Visibility and Peer Influence in Durable Good Adoption__](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2021.1306)
 
-Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. Forthcoming __Marketing Science (June 2022)__
+Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. __Marketing Science (June 2022)__
 
 Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers' solar installations increase a household's probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.
 
@@ -146,12 +146,12 @@ Presented at NBER Spring EEE 2023. Draft [here.](Papers/Valuing_Solar_Subsidies_
 <br>
 
 
-#### [__Distributional Consequences of Policies for Electric Heat Conversion__](Papers/HeatPumps_AndersonKirkpatrick_062023.pdf)
+#### __Distributional Consequences of Policies for Electric Heat Conversion__
 Soren Anderson and A. Justin Kirkpatrick
 
 Abstract: We study the adoption of air-source heat pumps for home heating. We estimate that 6%-8% ofalready-built homes converted to heat pumps during 2009-2020, while 25% of the new homes built during this period chose heat pumps. New adoptions concentrate among rural households in the South and West. Conversions are more diffuse, covering both urban and rural households in every region, and displacing whichever fuels are most prevalent in these places. Conversions and new adoptions are both sensitive to energy prices, accelerating when electricity prices fall or when natural gas, heating oil, or propane prices rise. In addition, we calculate the annual energy-cost savings from switching to a heat pump for a prototypical home in every U.S. census tract, based on local conditions, including current heating fuels, climate, and energy prices. We find massive variation, with low-income households in the Northeast and upper Midwest benefiting the most
 
-In submission. Presented at NBER Distributional Impacts of New Energy Policy. Draft [here.](Papers/HeatPumps_AndersonKirkpatrick_062023.pdf)
+In submission. Presented at NBER Distributional Impacts of New Energy Policy. Draft available on request.
 
 <br>
 
@@ -182,12 +182,33 @@ Working paper available on request.
 <br>
 
 
+#### __The (Dis)amenity of Visible Solar Panels__
+
+Bryan Bollinger, Ken Gillingham, and A. Justin Kirkpatrick
+
+Working abstract: As a strategy to reduce air pollution, rooftop solar is subsidized through a variety of public policies. However, little is known about the non-pecuinary incentives for adopting residential rooftop solar. We build on prior research examining the peer effects of solar and ask two questions: Do households consider the visibility of their own potential solar panels when adopting, and what moderates that effect. We show three stylized facts: First, registered Democrats are more likely to install solar, but registered Republicans are more responsive to the private payoffs of adopting solar. Second, while both registered Republicans and registered Democrats draw, on average, negative utility from having a *visible* solar panel, the effect is stronger amongst registered Republicans. Third, we find some evidence that this effect becomes stronger amongst registered Republicans when the focal household is located in an area that is predominantly Republican. We draw theoretical motivation from the literature on private provision of public goods, and highlight "warm glow", "signalling" and "identity" as potential theoretical mechnisms.
+
+Presented at __AERE 2023__. Slides [here](HideSlide/AERE2023/OwnViz_Solar_AERE2023.html#1)
+
+<br>
+
+
+#### __Heterogeneous Effects of Informational Energy Audits and the SPlit Incentive for Renters and Owners__
+
+Soren Anderson and A. Justin Kirkpatrick
+
+Abstract: We examine the effects of pure-information energy audits (EAU's) amongst homeowners and renters. We measure the effect of an EAU on per-heating degree day and per-cooling degree day relationships before and after an audit, employing rich controls and fixed effects in a difference-in-differences-in-slope specification. We find a significant negative effect of EAU's overall, but renters have an attenuated effect of nearly 50\%. We theorize that this is the result of the principal-agent problem in energy efficiency. Finally, we leverage plausibly exogenous variation in EAU assignment owing to water bill audits that also performed energy efficiency audits and find similar main effects. Our results from this specification are underpowered for identifying renter heterogeneity in EAU effects.
+
+Presented at __Heartland 2022__. Slides [here](Papers/SplitAgent_v3.pdf)
+
+<br>
+
 #### __Energy Insecurity and Redlined America__
 Solo-authored
 
 Working abstract: Low-income households frequently face excessive energy bills, despite their income limitations, that initially seem counter-intuitive. Some of this insecurity is attributable to the housing stock, which is less energy efficient in minority neighborhoods, even conditional on current income (Reames, 2016 in Energy Policy). I link this phenomenon to historic housing discrimination policy known as “redlining” which, in the 1930’s, designated tracts of urban areas as “minority appropriate” and subsequently limited lending to minorities outside of those areas. I control for endogenous selection of “redlined” areas by leveraging variation in the original survey data to identify redlined areas that originally had characteristics identical to nearby non-redlined areas, forming a quasi-experiment. Conditional on minority presence and income in both 1932 and 2010, current “redlined” areas have lower-efficiency housing stock and lower mobility of residents – a “hysteresis” effect from historic discrimination.
 
-Presented at __AERE 2021__. Slides available on request.
+Presented at __AERE 2021__. Slides [here](Papers/AERE 2021.pdf)
 
 <br>
  
@@ -197,7 +218,7 @@ Solo-authored
 
 Working Abstract: The environmental and health externalities of electricity demand vary through space and time as cost-minimizing dispatch varies the “marginal responding plant,’’ the plant that increases output to meet an increase in electricity demanded at some hour, in some location on the grid. Over the US and a typical year, the variation may be as much as a factor of 10, but no policy mechanism exists to price this externality into electricity rates. Energy storage allows for temporal shifting of electricity supply, charging when demand is low (overnight) and discharging when demand is high. Thus, energy storage use has important but ambiguous ramifications for externalities from local pollutants (NOx, SO2, PM2.5) and global pollutants like CO2. California, in particular, has wrestled with the net CO2 effect of energy storage, with some estimates suggesting storage increases CO2 output by drawing on high-emission sources to charge, then displacing lower-emission resources to discharge. This paper uses a highly detailed model of the marginal responding plant with increased spatial and temporal resolution relative to prior work, paired with a model of storage operation that accounts for local congestion costs to derive the net externality effects of energy storage. Preliminary results suggest that storage decreases net CO2 emissions, suggesting storage is an important part of reducing electricity-sector CO2 emissions.
 
-Presented at __AERE 2020__. Slides available on request.
+Presented at __AERE 2020__. Slides [here](Papers/Kirkpatrick_StorageEmissions_AERE2020.pdf)
 
 <br>
 
