@@ -144,7 +144,7 @@ Download most recent version [here.](Papers/kirkpatrickEnergyStorageJan2020.pdf)
 
 
 
-#### [__Valuing Solar Subsidies__]((Papers/Valuing_Solar_Subsidies_230315.pdf))
+#### [__Valuing Solar Subsidies__](Papers/Valuing_Solar_Subsidies_230315.pdf)
 
 Bryan Bollinger, Ken Gillingham, and A. Justin Kirkpatrick
 
@@ -165,13 +165,13 @@ In submission. Presented at NBER Distributional Impacts of New Energy Policy. Dr
 <br>
 
 
-#### [__Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking__](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
+#### [__Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking__](/Papers/Averting_expenditures_and_desirable_goods.pdf)
 
 A. Justin Kirkpatrick, T. Robert Fetter (last updated July 2020; resting)
 
 Abstract: Environmental conditions such as new industrial activity or drinking water quality violations may affect perceived water quality and cause individuals to invest in averting or defensive expenditures. Some recent papers use household expenditures on bottled water to measure the welfare effect of changes in water quality, arguing that these averting expenditures are a lower bound on compensating variation. We offer a new perspective and argue that when consumers choose averting behaviors such as substituting bottled water for tap water, their willingness to pay incorporates other characteristics of the good. If consumers get positive utility from these characteristics, then expenditures on bottled water do not actually represent a lower bound on the compensating variation for a change in water quality. Rather, the observed expenditures should be adjusted downward to account for consumers’ increased utility due to other desirable characteristics. We develop a structural model of demand for bottled water and estimate it using fine-resolution supermarket scanner data, and compare the resulting estimates to averting expenditures from a reduced-form model. We use a horizontal discrete choice demand framework, drawing upon literature in empirical industrial organization and allowing for individual heterogeneity. Our structural results value the disamenity of fracking for groundwater-reliant homes at $4.14 per household per quarter, while our reduced form results estimate $3.24.
 
-Download [here.](http://people.duke.edu/~ajk41/averting_expenditures.pdf)
+Download [here.](/Papers/Averting_expenditures_and_desirable_goods.pdf)
 
 
 <br>
