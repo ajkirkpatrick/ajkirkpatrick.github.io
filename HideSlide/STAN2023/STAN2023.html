@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Regulating Conglomerates: Evidence from an Energy Conservation Program in China .font70[Chen, Chen, Liu, Suárez Serrato, and Xu]</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="  Justin Kirkpatrick (Michigan State University)" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/ajk_css-Oct2022.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Regulating Conglomerates: Evidence from an Energy Conservation Program in China<br>.font70[Chen, Chen, Liu, Suárez Serrato, and Xu]
+]
+.subtitle[
+## Stanford Marketing for Environmental Sustainability - November 2023
+]
+.author[
+### <br><br>Justin Kirkpatrick (Michigan State University)
+]
+.date[
+### <br><br><br><br><br>.font50[Last updated November 29, 2023]
+]
+
+---
+
+
+
+
+
+
+layout: true
+
+
+&lt;div class="msu-header"&gt;&lt;/div&gt; 
+
+
+---
+class: inverseMSU
+# What does this paper do?
+
+
+### Quantifies reallocation within a conglomerate
+- Measures the effect of an energy reduction mandate on energy consumption, output, profits, and welfare
+- Looks across affiliates in a conglomerate where the largest affiliate is subject to regulation, but smaller affiliates are not
+  - Considers reallocation within-conglomerate, across affiliates
+  
+--
+
+### Quantifies reallocation within a market 
+- Looks across conglomerates in a market
+  - Prices change when top firms are regulated via reallocation to affiliates
+  - Prices also change as firms/conglomerates with no regulated affiliates adjust
+
+--
+
+### Implications for
+- Energy consumption (policy target)
+- Profits
+- Consumer welfare
+
+
+
+
+---
+class: inverseMSU
+# What does this paper do?
+
+### Firms are directly regulated, related to regulated, and unrelated
+
+--
+
+.pull-left[
+### Reduced Form Diff-in-Diff: directly regulated
+- Outcomes:
+  - Affiliate-level energy consumption (-\*\*)
+  - Revenue (output) (-\*\*)
+  - Energy efficiency (~0)
+
+### Reduced Form Diff-in-Diff: related firms regulated
+- Outcomes:
+  - Affiliate-level energy consumption (+\*\*)
+  - Revenue (output) (+\*\*)
+  - Energy efficiency (~0)
+  
+]
+
+--
+
+.pull-right[
+
+  
+### Reduced Form Diff-in-Diff: same industry, unregulated
+- Outcomes:
+  - Revenue (output) (+\*\*)
+
+### `\(\rightarrow\)` Untreated are not unaffected by treatment, a classic SUTVA violation
+- Put structure on the spillover(s)
+- Decompose DiD estimates
+]
+  
+---
+class: MSU
+# What does this paper do?
+
+### Disentangling reallocation of production within a conglomerate due to regulation
+.pull-left[
+![Firm size](STAN2023_insertimage_3.png)
+]
+
+.pull-right[
+- Size of affiliates must be efficient
+  - Conglomerate *can* reallocate capital
+- Lets authors infer costs of production at each affiliate
+- We don't usually see within-conglomerate, across-affiliate costs of production, but these will determine energy consumption, pollution, profit impacts of reallocation
+]
+
+---
+class: MSU
+# What does this paper do?
+
+.pull-left[
+
+.center[![Eq 5](STAN2023_insertimage_5.png)]
+
+- `\(\delta\)` is the decline in production knowledge 
+  - "span of control"
+- `\(\alpha\)` is the decreasing returns to scale
+  - Control the relationship between ranks
+  - Taken from literature `\(\alpha=.9\)`
+- `\(\phi\)` controls the conglomerate ( `\(j\)` ) efficiency
+  - If top firm in conglomerate `\(j\)` is in Top 1,000, `\(\phi_j &gt; \tilde{\phi}\)`
+  - Threshold `\(\phi_1\)` for entry ( `\(\pi(\phi_1)=0\)` )
+  - Shadow cost of regulation (cost of within- `\(i\)` reallocation) is decreasing in `\(\phi\)`
+]
+
+--
+
+.pull-right[
+
+### Shadow cost `\(\lambda(\phi)\)`
+&lt;br&gt;
+- Since number of affiliates in a conglomerate is lumpy, shadow costs `\(\lambda(\phi)\)` are a step function of `\(n\)`
+- So equilibrium is determined by a single shadow cost for each `\(n\)`
+- Key to welfare calculations
+]
+
+
+
+---
+class: MSU
+# What does this paper do?
+
+### Important questions
+- Theory of Incomplete Regulation / Leakage
+  - Literature has focused on trade (Fowlie (2009), Shapiro and Walker (2018))
+  - But what happens within a conglomerate?
+  
+--
+
+- Related: Theory of Second-Best Regulation
+  - Significant contribution in policy analysis section comparing to a energy tax
+  - Rules out fuel-switching as large channel, so energy tax is close to Pigouvian under some assumptions
+  
+  
+
+
+
+---
+class: inverseMSU
+# Discussion
+
+.pull-left[
+### Why I will assign this paper to my students
+- Reduced form estimates + theoretical model are very well linked
+  - Model helps decompose the reduced form estimates `\(\rightarrow\)` bias from spillovers
+- Assumptions are clear
+  - Strong assumptions are well-justified
+- Model is only what is necessary
+]
+
+--
+
+.pull-right[
+### What I dislike about discussing this paper
+- It's already 3rd round R&amp;R at *AER*
+
+![Plot title. ](STAN2023_insertimage_6.png)
+
+]
+
+--
+&lt;br&gt;
+### Looking forward: can this be done in the US?
+
+
+---
+class: MSU
+# Discussion
+
+### Framing/positioning in the literature
+
+- Two forms of spillovers: trade (external) and domestic reallocation
+  - A unifying framework?
+  - Market-level spillovers could be connected to trade "leakage" in a (possibly) straightforward manner
+  - Compare magnitudes?
+  
+  
+- Can you get all the way to Pigouvian (second-best)?
+  - Difference between "universal energy tax" (in paper) and pigouvian tax:
+    - Can switch to cleaner source
+    - Spatial variation in pollution 
+    
+
+---
+class:MSU
+# Discussion
+
+
+### A few suggestions going forward
+
+- Colmer (2020) finds the opposite results in France. 
+  - Typology of market structures?
+  - Policy differences (EU-ETS vs. Top 1,000 conservation mandate)
+  - Glean from variation across industry in China
+  
+--
+
+- Alternative explanation: conglomerates "spread" production (and jobs) spatially to gain favor with regional ministers.
+  - Larger firms have more to spread around (and are more likely to have a Top 1,000 firm)
+  - `\(\rightarrow\)` any change in industry that increases value of political capital will encourage the downward shift of production allocation, appearing equivalent to the Top 1,000 results.
+    - Parallel trends should look different (and within-conglomerate DiD results are the opposite, Fig 6A)
+  - Are there conglomerates with &gt;1 affiliate in the Top 1,000?
+  - What is the sign on a dummy for "2nd in Top 1,000"?
+
+---
+class: MSU
+# Discussion
+
+### US Clean Air Act (1970, 1990 am.)
+- "Attainment" and "nonattainment" areas
+  - "nonattainment" required state plan and regulation to improve criteria pollution levels
+  - Chay and Greenstone show large effect of CAA of 1970 on infant mortality (2003) and housing price (2005)
+  - But no controls for leakage of the sort measured here
+  
+  
+--
+
+### Holistic measure of effect of CAA
+- Decompose effects of CAA on pollution; include reallocation across conglomerates
+  - Emissions replace energy consumption
+  - Still consider output reallocation
+- But CAA "treatment" isn't as direct as in China
+  - Nonattainment designation led to varied plans for reducing emissions
+  - Most technology-based
+  - De facto tradable permits in that new sources could be allowed if offsets were made
+
+---
+class: MSU
+# Discussion
+
+### Location, location, location
+- Spillovers from CAA move towards unregulated areas
+- CAA 1970 **Prevention of Significant Deterioration** (PSD) sought to affect the exact sort of spatial spillover hypothesized here
+  - Clean areas could not get significantly worse
+  - Affects entry in unregulated ("attainment" areas) and expansions (reallocation of capital)
+- All this amgibuity is motivation for decomposing mechanisms
+
+--
+
+### Dose-response
+- Non-linear damage function from pollution
+  - Carbon probably linear
+- So there may be some welfare *increase* in pushing pollution out of nonattainment areas, even if the **total overall pollution levels** were the same
+- **Assuming some functional form of "curvature" of a dose-response curve, back out degree of curvature that would rationalize aspects of PSD**
+  
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"self_contained": true,
+"ratio": "16:9"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
