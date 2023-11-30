@@ -7,7 +7,7 @@ output:
   xaringan::moon_reader:
     lib_dir: libs
     yolo: false
-    css: [default, metropolis, metropolis-fonts, ajk_css-Oct2022]
+    css: [default, metropolis, metropolis-fonts, ajk_css-Nov2023]
     nature: 
       highlightStyle: github
       highlightLines: true
@@ -71,24 +71,21 @@ class: inverseMSU
 # What does this paper do?
 
 
+## Under incomplete regulation...
+
 ### Quantifies reallocation within a conglomerate
-- Measures the effect of an energy reduction mandate on energy consumption, output, profits, and welfare
-- Looks across affiliates in a conglomerate where the largest affiliate is subject to regulation, but smaller affiliates are not
-  - Considers reallocation within-conglomerate, across affiliates
+
   
 --
 
-### Quantifies reallocation within a market 
-- Looks across conglomerates in a market
-  - Prices change when top firms are regulated via reallocation to affiliates
-  - Prices also change as firms/conglomerates with no regulated affiliates adjust
+### Quantifies reallocation within a market via prices
 
 --
 
 ### Implications for
 - Energy consumption (policy target)
 - Profits
-- Consumer welfare
+- Welfare
 
 
 
@@ -97,18 +94,24 @@ class: inverseMSU
 class: inverseMSU
 # What does this paper do?
 
-### Firms are directly regulated, related to regulated, and unrelated
+### Firms are "directly regulated", "related to regulated", and "unrelated"
+
+### Diff-in-Diff on:
 
 --
 
-.pull-left[
-### Reduced Form Diff-in-Diff: directly regulated
+.pull3-left[
+### Directly regulated
 - Outcomes:
   - Affiliate-level energy consumption (-\*\*)
   - Revenue (output) (-\*\*)
   - Energy efficiency (~0)
+]
 
-### Reduced Form Diff-in-Diff: related firms regulated
+--
+
+.pull3-center[
+### Related to regulated
 - Outcomes:
   - Affiliate-level energy consumption (+\*\*)
   - Revenue (output) (+\*\*)
@@ -118,17 +121,32 @@ class: inverseMSU
 
 --
 
-.pull-right[
+.pull3-right[
 
-  
-### Reduced Form Diff-in-Diff: same industry, unregulated
+### Same industry as regulated but unregulated
 - Outcomes:
   - Revenue (output) (+\*\*)
 
-### $\rightarrow$ Untreated are not unaffected by treatment, a classic SUTVA violation
+]
+
+--
+
+.full-width[
+
+### $\rightarrow$ Untreated are affected by treatment, a classic SUTVA violation
 - Put structure on the spillover(s)
 - Decompose DiD estimates
 ]
+
+  
+  
+  
+  
+  
+  
+  
+  
+ 
   
 ---
 class: MSU
@@ -160,9 +178,7 @@ class: MSU
   - Control the relationship between ranks
   - Taken from literature $\alpha=.9$
 - $\phi$ controls the conglomerate ( $j$ ) efficiency
-  - If top firm in conglomerate $j$ is in Top 1,000, $\phi_j > \tilde{\phi}$
-  - Threshold $\phi_1$ for entry ( $\pi(\phi_1)=0$ )
-  - Shadow cost of regulation (cost of within- $i$ reallocation) is decreasing in $\phi$
+- Key to changes in energy, output, profit 
 ]
 
 --
@@ -171,8 +187,9 @@ class: MSU
 
 ### Shadow cost $\lambda(\phi)$
 <br>
+- Shadow cost of regulation (cost of within- $i$ reallocation) is decreasing in $\phi$
 - Since number of affiliates in a conglomerate is lumpy, shadow costs $\lambda(\phi)$ are a step function of $n$
-- So equilibrium is determined by a single shadow cost for each $n$
+  - Equilibrium is determined by a single shadow cost for each $n$
 - Key to welfare calculations
 ]
 
@@ -182,15 +199,17 @@ class: MSU
 class: MSU
 # What does this paper do?
 
-### Important questions
-- Theory of Incomplete Regulation / Leakage
+## Important questions + contributions
+
+### Theory of Incomplete Regulation / Leakage
   - Literature has focused on trade (Fowlie (2009), Shapiro and Walker (2018))
   - But what happens within a conglomerate?
   
 --
 
-- Related: Theory of Second-Best Regulation
+### Theory of Second-Best Regulation
   - Significant contribution in policy analysis section comparing to a energy tax
+    - This contribution is understated in the paper
   - Rules out fuel-switching as large channel, so energy tax is close to Pigouvian under some assumptions
   
   
@@ -206,7 +225,6 @@ class: inverseMSU
 - Reduced form estimates + theoretical model are very well linked
   - Model helps decompose the reduced form estimates $\rightarrow$ bias from spillovers
 - Assumptions are clear
-  - Strong assumptions are well-justified
 - Model is only what is necessary
 ]
 
@@ -222,7 +240,7 @@ class: inverseMSU
 
 --
 <br>
-### Looking forward: can this be done in the US?
+### Looking forward: Do this in US, evaluating Clean Air Act (CAA)
 
 
 ---
@@ -239,8 +257,8 @@ class: MSU
   
 - Can you get all the way to Pigouvian (second-best)?
   - Difference between "universal energy tax" (in paper) and pigouvian tax:
-    - Can switch to cleaner source
-    - Spatial variation in pollution 
+      - Can switch to cleaner source
+      - Spatial variation in pollution 
     
 
 ---
@@ -250,19 +268,33 @@ class:MSU
 
 ### A few suggestions going forward
 
-- Colmer (2020) finds the opposite results in France. 
-  - Typology of market structures?
-  - Policy differences (EU-ETS vs. Top 1,000 conservation mandate)
-  - Glean from variation across industry in China
-  
---
+## $\delta \rightarrow \delta_j$?
+- Where $j$ is industry 
+- Constant (across-industry) span of control argument
+  - Bakeries vs. manufacturing
 
-- Alternative explanation: conglomerates "spread" production (and jobs) spatially to gain favor with regional ministers.
-  - Larger firms have more to spread around (and are more likely to have a Top 1,000 firm)
-  - $\rightarrow$ any change in industry that increases value of political capital will encourage the downward shift of production allocation, appearing equivalent to the Top 1,000 results.
-    - Parallel trends should look different (and within-conglomerate DiD results are the opposite, Fig 6A)
-  - Are there conglomerates with >1 affiliate in the Top 1,000?
-  - What is the sign on a dummy for "2nd in Top 1,000"?
+
+<!-- --- -->
+<!-- class:MSU -->
+<!-- # Discussion -->
+
+
+<!-- ### A few suggestions going forward -->
+
+<!-- - Colmer (2020) finds the opposite results in France.  -->
+<!--   - Typology of market structures? -->
+<!--   - Policy differences (EU-ETS vs. Top 1,000 conservation mandate) -->
+<!--   - Glean from variation across industry in China -->
+
+
+<!-- -- -->
+
+<!-- - Alternative explanation: conglomerates "spread" production (and jobs) spatially to gain favor with regional ministers. -->
+<!--   - Larger firms have more to spread around (and are more likely to have a Top 1,000 firm) -->
+<!--   - $\rightarrow$ any change in industry that increases value of political capital will encourage the downward shift of production allocation, appearing equivalent to the Top 1,000 results. -->
+<!--     - Parallel trends should look different (and within-conglomerate DiD results are the opposite, Fig 6A) -->
+<!--   - Are there conglomerates with >1 affiliate in the Top 1,000? -->
+<!--   - What is the sign on a dummy for "2nd in Top 1,000"? -->
 
 ---
 class: MSU

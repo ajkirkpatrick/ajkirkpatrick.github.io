@@ -207,3 +207,21 @@ th,td{
      padding:15px 15px 15px 15px;
    }
 
+
+
+.pull3-left {
+  float: left;
+  width: 33%;
+}
+.pull3-center {
+  float: left;
+  width: 33%;
+}
+.pull3-right {
+  float: right;
+  width: 33%;
+}
+.full-width {
+  float: left;
+  width: 100%;
+}
