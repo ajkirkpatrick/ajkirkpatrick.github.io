@@ -114,7 +114,7 @@ Designing and framing a research agenda in economics
   
   - Energy/Environment, but also generalize
   
-  - Finding energy economics research questions
+  - Finding economics research questions within an agenda
   
   - Probably not much interface with this week's *theory* topic
 
@@ -356,6 +356,8 @@ class: inverseMSU
   - Talking about your agenda is drawing the map of roads and identifying potholes
   
     - Your short 3-sentence agenda
+    
+    - Why it's important
   
     - Your description of the components
   
@@ -363,7 +365,6 @@ class: inverseMSU
     
     - "Following a thread"
     
-  - Policy lever
     
 ---
 class: inverseMSU
@@ -401,9 +402,9 @@ class: inverseMSU
 
 ### Today
 
-- Estimating wealth-differentiated discount rates (*Valuing Solar Subsidies* with Bollinger and Gillingham)
+- Estimating wealth-differentiated discount rates (*Valuing Solar Subsidies* with Bollinger and Gillingham) (a "road")
 
-- Effect of "redlining" on energy efficiency
+- Effect of "redlining" on energy efficiency (a "pothole")
 
 
 ### Other components not discussed
@@ -424,7 +425,7 @@ Valuing Solar Subsidies <br> .font30[(w/ K. Gillingham, B. Bollinger)]
 
 
 ---
-class: inverseMSU
+class: MSU
 # Context
 
 ### Focus on Net metering incentive
