@@ -1,0 +1,55 @@
+\documentclass[border=1mm, preview]{standalone}
+\usepackage[active,tightpage]{preview}
+\usepackage{varwidth}
+\usepackage{amssymb, amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e}
+\usepackage{polyglossia}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage[utf8]{inputenc}
+\usepackage{makecell}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{xltxtra,xunicode}
+\usepackage{xcolor}
+\begin{document}
+\begin{table}
+
+\caption{Regression of heating-degree day electricity consumption response on HOLC grade and income\label{tab:responseelectric1}}
+\centering
+\begin{tabular}[t]{lcccc}
+\toprule
+\multicolumn{1}{c}{ } & \multicolumn{4}{c}{Dependent Variable: Coef. of HDD Response from Household Regression} \\
+\cmidrule(l{3pt}r{3pt}){2-5}
+  & Model 1 & Model 2 & Model 3 & Model 4\\
+\midrule
+Grade D (Red) & 1.156 & 1.116 & 0.833 & 0.222\\
+ & (1.006) & (0.942) & (0.739) & (0.795)\\
+\midrule
+Num.Obs. & 410 & 410 & 225 & 220\\
+R2 Adj. & 0.135 & 0.139 & 0.103 & 0.110\\
+FE: CZT24 & X & X & X & X\\
+FE: CZT24\textasciicircum{}wave & X & X & X & X\\
+FE: DAYSET & X & X & X & X\\
+County-specific slopes for Sq. feet & X & X & X & X\\
+Controls for Hh income, home age, kids &  & X & X & X\\
+Controls for Hh ethnicity &  &  &  & X\\
+\bottomrule
+\multicolumn{5}{l}{\textsuperscript{} + p $<$ 0.1, * p $<$ 0.05, ** p $<$ 0.01, *** p $<$ 0.001}\\
+\multicolumn{5}{l}{\textsuperscript{} Using only households with electricity as primary heating}\\
+\multicolumn{5}{l}{fuel}\\
+\multicolumn{5}{l}{\textsuperscript{} Omitted grade is "X" and no "C" has electric heating}\\
+\end{tabular}
+\end{table}
+\end{document}
