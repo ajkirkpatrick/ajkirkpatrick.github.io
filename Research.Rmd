@@ -12,9 +12,17 @@ title: "Justin Kirkpatrick: Research"
 
 ### Peer-reviewed Publications
 
- 
 <br>
 
+
+#### __Distributional Consequences of Policies for Electric Heat Conversion__
+Soren Anderson and A. Justin Kirkpatrick __Journal of the Assoc. of Environmental and Resource Economists (Forthcoming)__
+
+Abstract: We study the adoption of air-source heat pumps for home heating. We estimate that 6%-8% ofalready-built homes converted to heat pumps during 2009-2020, while 25% of the new homes built during this period chose heat pumps. New adoptions concentrate among rural households in the South and West. Conversions are more diffuse, covering both urban and rural households in every region, and displacing whichever fuels are most prevalent in these places. Conversions and new adoptions are both sensitive to energy prices, accelerating when electricity prices fall or when natural gas, heating oil, or propane prices rise. In addition, we calculate the annual energy-cost savings from switching to a heat pump for a prototypical home in every U.S. census tract, based on local conditions, including current heating fuels, climate, and energy prices. We find massive variation, with low-income households in the Northeast and upper Midwest benefiting the most
+
+Draft available upon request.
+
+<br>
 
 #### [__Visibility and Peer Influence in Durable Good Adoption__](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2021.1306)
 
@@ -155,14 +163,6 @@ Presented at NBER Spring EEE 2023. Draft [here.](Papers/Valuing_Solar_Subsidies_
 <br>
 
 
-#### __Distributional Consequences of Policies for Electric Heat Conversion__
-Soren Anderson and A. Justin Kirkpatrick
-
-Abstract: We study the adoption of air-source heat pumps for home heating. We estimate that 6%-8% ofalready-built homes converted to heat pumps during 2009-2020, while 25% of the new homes built during this period chose heat pumps. New adoptions concentrate among rural households in the South and West. Conversions are more diffuse, covering both urban and rural households in every region, and displacing whichever fuels are most prevalent in these places. Conversions and new adoptions are both sensitive to energy prices, accelerating when electricity prices fall or when natural gas, heating oil, or propane prices rise. In addition, we calculate the annual energy-cost savings from switching to a heat pump for a prototypical home in every U.S. census tract, based on local conditions, including current heating fuels, climate, and energy prices. We find massive variation, with low-income households in the Northeast and upper Midwest benefiting the most
-
-In submission. Presented at NBER Distributional Impacts of New Energy Policy. Draft available on request.
-
-<br>
 
 
 #### [__Averting Expenditures and Desirable Goods: Consumer Demand for Bottled Water in the Presence of Fracking__](/Papers/Averting_expenditures_and_desirable_goods.pdf)
