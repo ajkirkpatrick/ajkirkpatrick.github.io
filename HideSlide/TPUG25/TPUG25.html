@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Modeling Uncertainty in Climate Policy Bushnell and Smith</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="discussion by Justin Kirkpatrick (Michigan State University)" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/remark-css/default.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="libs/remark-css/metropolis-fonts.css" rel="stylesheet" />
+    <link href="libs/remark-css/ajk_css-Nov2023.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Modeling Uncertainty in Climate Policy<br>Bushnell and Smith
+]
+.subtitle[
+## An Application to the US IRA<br>TPUG-AEA 2025
+]
+.author[
+### discussion by Justin Kirkpatrick (Michigan State University)
+]
+.date[
+### <br><br><br><br>.font50[Last updated January 04, 2025]
+]
+
+---
+
+
+
+
+
+layout: true
+
+
+&lt;div class="msu-header"&gt;&lt;/div&gt; 
+
+
+&lt;style type="text/css"&gt;
+@media print {
+  .has-continuation {
+    display: block;
+  }
+}
+&lt;/style&gt;
+
+
+
+---
+class: inverseMSU
+# Overview
+
+### Tackles uncertainty in climate policy
+- ~~Climate Policy~~ Energy systems models
+  - Can't study climate policy without an energy system model
+  - Grid is 33% of US emissions
+    - Vastly more if transport is largely electrified
+  - Useful for understanding grid evolution, not just for climate policy
+  
+
+
+---
+class: inverseMSU
+# Overview
+
+### Big contribution here
+- Data uncertainty on the assumptions about future inputs
+  - Future electricity demand
+  - Future NG prices
+  - Future interest rates
+  - **joint** distributions
+- Data uncertainty is `\(Y = f(\tilde{X})\)`
+  - Model uncertainty `\(Y = \tilde{f}(X)\)`
+  - We can't know model inputs `\(X_t\)` perfectly, so draw from distribution and run simulation
+  - Joint distribution of many time series'
+- Allows for strikingly many more inputs to be forecast
+  - Regional detail (!!)
+  - Transmission constraints considered
+
+---
+class:inverseMSU
+exclude: true
+# Overview
+
+.pull-left[
+### True model
+`$$Y = f(X) + e$$`
+
+- `\(Y\)` is outcome (CO2)
+- `\(X\)` are variables (e.g. inputs)
+- `\(e\)` is irreducible error
+- Problem
+  - Don't know `\(f(\cdot)\)`
+  - Don't know `\(X\)` in future
+  - and don't observe `\(e\)`
+]
+
+
+
+.pull-right[
+### What we get
+
+`$$\hat{Y} = \hat{f}(\hat{X}) + \hat{e}$$`
+
+- What if `\(\hat{X} \neq X\)`
+  - *Data uncertainty*
+  - The focus of this paper
+  - We can't know model inputs `\(X_t\)` perfectly, so draw from distribution and run simulation
+  - Joint distribution of many time series'
+
+- Differs from `\(\tilde{f}(\cdot) \neq f(\cdot)\)`
+  - *Model uncertainty*
+  - Uses grid model from previous work, calibrated on 2019 data
+]
+
+
+---
+class: inverseMSU
+# Overview
+
+
+### Dynamic Factor Model
+- Many variables `\(\rightarrow\)` PCA `\(\rightarrow\)` small number of factors
+  - E.g. each region is projected back from factor
+- Small number of factors (9) is feasible for VAR
+- Draw factor from VAR results, draw input `\(X_t\)` from factor results, 
+  - Optimize operation and optimize investment for 2030
+
+### Data-driven parsimony
+- Elegant in construction
+
+
+---
+class: inverseMSU
+# Overview
+
+### Results
+.pull-left[
+![2030 grid results](TPUG25_insertimage_2.png)
+]
+
+.pull-right[
+![Impact of IRA](TPUG25_insertimage_3.png)
+]
+
+
+---
+class: MSU
+# Comment 1
+
+### Illustrate correlation between key inputs
+- Think: NG price and interest rate
+  - Macroeconomic conditions
+- Does the DFM predict correlations similar to observed?
+
+### **How often do grid simulation-based policy analyses use two highly correlated inputs in separate scenarios**?
+  - Table of scenarios from 5-6 published IRA papers
+  - Show any cases of scenarios that assume correlations (e.g. "high NG/high interest rate scenario")
+  - 🚌
+
+
+
+---
+class: MSU
+# Comment 2
+
+### VAR on factors assumes stable relationship
+- But does IRA potentially affect those relationships?
+- Major policy, major changes `\(\rightarrow\)` factors
+
+### For instance
+- PTC may drive lower battery costs `\(\rightarrow\)` co-adoption of battery + solar
+  - `\(\Rightarrow\)` Peak electricity demand relation to electricity sales in a state may be affected
+- Other IRA programs interact
+  - Temperature and electricity sales relationship may be affected by e.g. heat pumps and EVs
+
+
+### Even factor trends may be affected
+- Forecast energy demand factor trend estimated pre-2019 -- EVs?
+- 2018 CEC forecast for 2030 "low demand" scenario was 326 TWh
+  - DFM predicts 275-355 TWh
+
+
+---
+class: MSU
+# Comment 3
+
+### Overnight Capital Costs of new generation
+- Annualized cost per unit capacity `\(F_j = OCC \cdot \frac{r(1+r)^n}{(1+r)^n - 1}\)`
+- `\(r\)` forecast in VAR
+- Conservative estimates on `\(OCC\)` declines by 2030
+
+### Uncertainty on `\(OCC\)`
+- (admittedly ad hoc) distribution on `\(OCC\)` for 2030
+
+### "Dynamic" `\(OCC\)`
+- Scale effects, endogenous technlogical innovation (e.g. &lt;a name=cite-gerardenDemanding2023&gt;&lt;/a&gt;[Gerarden (2023)](#bib-gerardenDemanding2023))
+
+
+---
+class: MSU
+# Smaller comments
+
+### I: 2 characteristic days
+- 1 peak day, 1 off-peak day, weighted `\(\frac{1}{90},\frac{89}{90}\)`
+- 2 points does not capture "curvature" of dispatch and cost
+- 3 points? Bottom 50%, next 24%, then top 1%?
+
+
+
+### II: Transmission constraints as choice variable
+- Transmission constraints assumed to be static
+- Investments in interstate transmission &amp; improvements in siting/planning of transmission part of IRA
+- Can transmission upgrades be a choice variable?
+  - Are nomogram constraints binding at key hours/seasons?
+
+&lt;!-- --- --&gt;
+&lt;!-- class: MSU --&gt;
+&lt;!-- # Some points --&gt;
+
+&lt;!-- - Important to MEF papers --&gt;
+&lt;!-- - Dynamics / technology reducing cost in future (LBD at industrial scale)?? --&gt;
+&lt;!--   - Overnight capital costs (OCC) could be drawn from reasonable (orthogona) distribution? --&gt;
+&lt;!-- - Not just climate policy (Grid investment? then it's endogenous) --&gt;
+
+&lt;!-- - Nomogram over time --&gt;
+&lt;!--   - Esp. important as it's set up for one grid, but future grid is very different --&gt;
+&lt;!--   - Is there a simple way to endogenize changes to the nomogram?  --&gt;
+
+&lt;!-- - Peak / near-peak 25% / off-peak? Why only 2? Curvature? --&gt;
+
+&lt;!-- - Does policy choice (e.g. IRA) change how the factors move together? (Soren's idea) --&gt;
+&lt;!--   - Would a carbon price change how interest rate and NG move together? --&gt;
+
+
+---
+class: heading-slide
+count: false
+exclude: false
+
+Thanks to the authors (and organizers)!
+
+
+
+
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"ratio": "16:9",
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"self_contained": true
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
