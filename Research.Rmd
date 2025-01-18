@@ -16,11 +16,13 @@ title: "Justin Kirkpatrick: Research"
 
 
 #### __Distributional Consequences of Policies for Electric Heat Conversion__
-Soren Anderson and A. Justin Kirkpatrick __Journal of the Assoc. of Environmental and Resource Economists (Forthcoming)__
+Soren Anderson and A. Justin Kirkpatrick __Journal of the Assoc. of Environmental and Resource Economists (November 2024)__
 
 Abstract: We study the adoption of air-source heat pumps for home heating. We estimate that 6%-8% ofalready-built homes converted to heat pumps during 2009-2020, while 25% of the new homes built during this period chose heat pumps. New adoptions concentrate among rural households in the South and West. Conversions are more diffuse, covering both urban and rural households in every region, and displacing whichever fuels are most prevalent in these places. Conversions and new adoptions are both sensitive to energy prices, accelerating when electricity prices fall or when natural gas, heating oil, or propane prices rise. In addition, we calculate the annual energy-cost savings from switching to a heat pump for a prototypical home in every U.S. census tract, based on local conditions, including current heating fuels, climate, and energy prices. We find massive variation, with low-income households in the Northeast and upper Midwest benefiting the most
 
-Draft available upon request.
+Available [here.](https://www.journals.uchicago.edu/doi/full/10.1086/731147)
+
+Ungated version [here.](Papers/AndersonKirkpatrick_heatpumps.pdf)
 
 <br>
 
@@ -30,7 +32,7 @@ Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. __Marketi
 
 Abstract: The underlying mechanisms of peer influence in durable good adoption can lead to substantial heterogeneity in peer effects and the capacity of marketers to leverage them. In this paper, we exploit the plausibly exogenous orientation of solar panels sited to maximize power generation to determine whether geographically proximate peers' solar installations increase a household's probability of solar adoption more if they are visible from public roadways. We also examine heterogeneity in the effect of peer panel visibility due to the economic value of solar installations and the political orientations of potential adopters. Highly visible and proximal peer solar installations are shown to double the adoption probability relative to non-visible proximal installations. The effect of peer installation visibility is larger for households headed by voters registered as independents or Democrats, who are only influenced by the visible installations of their non-Republican peers.
 
-Available [here](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2021.1306)
+Available [here.](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2021.1306)
 
 Earlier ungated version [here.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3409420)
 
@@ -48,7 +50,7 @@ Abstract: Federal and state policies in the U.S. subsidize electricity generatio
 
 Available [here](https://www.journals.uchicago.edu/doi/10.1086/714970)
 
-Download [NBER working paper (2018) here.](http://www.justinkirkpatrick.com/Papers/kirkpatrickSolar_Siting_wp.pdf)
+Download [NBER working paper (2018) here.](Papers/kirkpatrickSolar_Siting_wp.pdf)
 
 
  
@@ -139,26 +141,32 @@ All papers are available in the most recent version below
 <br>
 
 
-#### [__Estimating Congestion Benefits of Batteries for Unobserved Networks: A Machine Learning Approach__](Papers/kirkpatrickEnergyStorageJan2020.pdf)
+#### [__Estimating Congestion Benefits of Batteries for Unobserved Networks: A Machine Learning Approach__](Papers/kirkpatrickEnergyStorageJan2025.pdf)
 
 Kirkpatrick, A. Justin
 
-Abstract: Energy storage investment in the U.S. is forecast to reach \$2.5B annually by 2020 largely due to state-level mandates and subsidies. The justification for these policies is that energy storage facilitates grid integration of renewable generation by smoothing out the frequency and severity of price spikes due to intermittent renewable supply. While operators of energy storage generate private returns through arbitrage of diurnal price differences, public benefits are derived from decreases in these price spikes. The result is a transfer from infra-marginal generators to retail utilities and consumers. This paper presents empirical estimates of energy storage price effects in California where the locations and hourly prices for 372MW of energy storage are observed. Results suggest that one megawatt of energy storage decreases afternoon peak prices by up to 2.2% at the pricing node where the storage is installed, a benefit to ratepayers of $62,467 per year. This effect coincides with the late-afternoon increase in electricity prices associated with intermittent solar generation. A double post-pooled LASSO-based estimator is used to uncover the unobserved network structure in order to estimate the cross-node price effects of storage. The results suggest that energy storage mandates in California are partially justified by public benefits.
+Abstract: I estimate the grid impacts of 180MW of battery storage capacity operating in California during 2009-2016. I find that one megawatt of energy storage decreases evening peak prices by up to \$1.87/MWh at the pricing node where the storage is installed. Off-peak prices increase only slightly, implying a benefit to ratepayers of \$79,942 per year. I use a Double Pooled LASSO-based estimator to uncover the unobserved network structure and thereby estimate the price effects at other locations across the grid. Overall, I find early energy storage mandates in California are only partially justified by ratepayer benefits. These patterns likely hold in any grid setting with inelastic peak supply relative to off-peak supply.
 
-Download most recent version [here.](Papers/kirkpatrickEnergyStorageJan2020.pdf)
+*Currently in submission*
+
+Download most recent version [here.](Papers/kirkpatrickEnergyStorageJan2025.pdf)
 
  
 <br>
 
 
 
-#### [__Valuing Solar Subsidies__](Papers/Valuing_Solar_Subsidies_230315.pdf)
+#### [__Valuing Solar Subsidies__](Papers/Valuing_Solar_Subsidies_250116.pdf)
 
 Bryan Bollinger, Ken Gillingham, and A. Justin Kirkpatrick
 
 Abstract: Existing rooftop solar subsidy regimes have generated additional solar capacity and generation at relatively high cost partly due to take-up by infra-marginal adopters, i.e., free-riders who would have adopted solar in the absence of subsidies. We consider how households trade off upfront solar PV system costs and future savings on grid electricity by exploiting exogenous variation in upfront capacity rebates in California and discrete changes in future energy savings across administrative borders. We also incorporate a unique source of exogenous variation in household solar decisions by including data from Google Sunroof, which models the rooftops of over 50 million households across the U.S., providing household-level variation in expected payoffs from solar investment even within utility rate and state incentive boundaries. We evaluate the efficiency of upfront capacity incentives that include a federal investment tax credit and state and local rebates relative to NEM policies common to 43 U.S. states. NEM policies subsidize a future stream of electricity generated over the 20-25-year lifetimes of solar PV systems. The stream of subsidies may be highly discounted by impatient households who are observed to under-invest in energy-saving durables in a phenomenon termed the “Energy Paradox” that is believed to yield an “Energy Efficiency Gap.” If households exhibit discount rates higher than market rates, then policymakers interested in increasing solar electricity generation could redeploy public resources embodied in NEM policies in the form of upfront capacity rebates or expected generation rebates that effectively arbitrage household impatience.
 
-Presented at NBER Spring EEE 2023. Draft [here.](Papers/Valuing_Solar_Subsidies_230315.pdf)
+*Currently in submission*
+
+Available [here.](Papers/Valuing_Solar_Subsidies_250116.pdf)
+
+Presented at NBER Spring EEE 2023. 
 
 <br>
 
@@ -169,22 +177,13 @@ Presented at NBER Spring EEE 2023. Draft [here.](Papers/Valuing_Solar_Subsidies_
 
 A. Justin Kirkpatrick, T. Robert Fetter (last updated July 2020; resting)
 
-Abstract: Environmental conditions such as new industrial activity or drinking water quality violations may affect perceived water quality and cause individuals to invest in averting or defensive expenditures. Some recent papers use household expenditures on bottled water to measure the welfare effect of changes in water quality, arguing that these averting expenditures are a lower bound on compensating variation. We offer a new perspective and argue that when consumers choose averting behaviors such as substituting bottled water for tap water, their willingness to pay incorporates other characteristics of the good. If consumers get positive utility from these characteristics, then expenditures on bottled water do not actually represent a lower bound on the compensating variation for a change in water quality. Rather, the observed expenditures should be adjusted downward to account for consumers’ increased utility due to other desirable characteristics. We develop a structural model of demand for bottled water and estimate it using fine-resolution supermarket scanner data, and compare the resulting estimates to averting expenditures from a reduced-form model. We use a horizontal discrete choice demand framework, drawing upon literature in empirical industrial organization and allowing for individual heterogeneity. Our structural results value the disamenity of fracking for groundwater-reliant homes at $4.14 per household per quarter, while our reduced form results estimate $3.24.
+Abstract: Environmental conditions such as new industrial activity or drinking water quality violations may affect perceived water quality and cause individuals to invest in averting or defensive expenditures. Some recent papers use household expenditures on bottled water to measure the welfare effect of changes in water quality, arguing that these averting expenditures are a lower bound on compensating variation. We offer a new perspective and argue that when consumers choose averting behaviors such as substituting bottled water for tap water, their willingness to pay incorporates other characteristics of the good. If consumers get positive utility from these characteristics, then expenditures on bottled water do not actually represent a lower bound on the compensating variation for a change in water quality. Rather, the observed expenditures should be adjusted downward to account for consumers’ increased utility due to other desirable characteristics. We develop a structural model of demand for bottled water and estimate it using fine-resolution supermarket scanner data, and compare the resulting estimates to averting expenditures from a reduced-form model. We use a horizontal discrete choice demand framework, drawing upon literature in empirical industrial organization and allowing for individual heterogeneity. Our structural results value the disamenity of fracking for groundwater-reliant homes at \$4.14 per household per quarter, while our reduced form results estimate \$3.24.
 
-Download [here.](/Papers/Averting_expenditures_and_desirable_goods.pdf)
+Download [here.](Papers/Averting_expenditures_and_desirable_goods.pdf)
 
-
-<br>
-
-#### __Household Discount Rates and Net Energy Metering Incentives for Rooftop Solar Adoption__
-
-Bryan Bollinger, Ken Gillingham, A. Justin Kirkpatrick, Steven Sexton. __For NBER Economics of Energy Markets 2017__ (last updated June 2017; resting)
-
-Abstract: Net Energy Metering policies common to 41 U.S. states and parts of Europe subsidize distributed solar electricity generation by affording the generator displacement of grid electricity and export sales at retail electricity rates that value the electricity at greater than wholesale prices. This subsidy has engendered criticism on equity grounds because it affects cost shifting from relatively wealthy households who adopt solar photovoltaic capacity to poor households who bear greater shares of electric grid supply costs. This paper explores the efficiency implications of NEM policies that subsidize a future stream of electricity generation that may be highly discounted by households relative to market rates. We estimate an implied discount rate of NEM subsidies equal to 10.9-13.7% in preferred specifications, far greater than prevailing market rates, suggesting that planners could arbitrage discount rates to achieve greater solar generation per public dollar expenditure.
-
-Working paper available on request.
 
 <br>
+
 
 ## Work-in-progress
 
