@@ -158,9 +158,9 @@ Download most recent version [here.](Papers/kirkpatrickEnergyStorageJan2025.pdf)
 
 #### [__Valuing Solar Subsidies__](Papers/Valuing_Solar_Subsidies-GKB-20250713.pdf)
 
-Ken Gillingham, A. Justin Kirkpatrick, and Bryan Bollinger 
+Ken Gillingham, A. Justin Kirkpatrick, and Bryan Bollinger  
 
-Abstract: Individuals trade present for future consumption across a range of economic behaviors, and this tradeoff may differ across socioeconomic groups. To assess these tradeoffs, we estimate a dynamic model of residential solar adoption and system sizing using household-level data that offer plausibly exogenous variation in the future benefits from adopting relative to upfront costs. We find implicit discount rates of 15.3%, 13.9%, and 10.0% for low-, medium-, and high-wealth households. This heterogeneity remarkably persists after accounting for credit scores. Counterfactual simulations demonstrate opportunities to reduce the regressivity of solar adoption, increase policy cost-effectiveness, and improve welfare for low-wealth households.
+Abstract: Individuals trade present for future consumption across a range of economic behaviors, and this tradeoff may differ across socioeconomic groups. To assess these tradeoffs, we estimate a dynamic model of residential solar adoption and system sizing using household-level data that offer plausibly exogenous variation in the future benefits from adopting relative to upfront costs. We find implicit discount rates of 15.3\\%, 13.9\\%, and 10.0\\% for low-, medium-, and high-wealth households. This heterogeneity remarkably persists after accounting for credit scores. Counterfactual simulations demonstrate opportunities to reduce the regressivity of solar adoption, increase policy cost-effectiveness, and improve welfare for low-wealth households.
 
 Note: Author order is randomized using AEA Author Randomization Tool
 
